@@ -16,3 +16,6 @@ desktop.ini
 *.tmp
 ~$*
 *.log
+
+# 本地工作目录（不纳入公开仓库）
+.workbuddy/
