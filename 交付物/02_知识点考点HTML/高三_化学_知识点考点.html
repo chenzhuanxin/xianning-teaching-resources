@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高三化学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高三<span class="em">化学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>高考总复习</span><span>必修+必修</span><span>化工流程</span><span>实验探究</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>化学基本概念与基本理论</h2><span class="tag">高考必考 · 约30分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>物质的量</div><ul><li><strong>物质的量</strong>：<em>n = m/M = N/N_A = V/Vm（气体）= c·V（溶液）</em>。</li><li><strong>阿伏加德罗常数</strong>：<em>N_A = 6.02×10²³ mol⁻¹</em>。</li><li><strong>气体摩尔体积</strong>：<em>标准状况下 Vm = 22.4 L/mol（仅适用于气体，且必须强调标准状况）</em>。</li><li><strong>物质的量浓度</strong>：<em>c = n/V</em>。稀释公式：<em>c₁V₁ = c₂V₂</em>。</li><li><strong>阿伏加德罗定律</strong>：<em>同温同压下，体积之比 = 物质的量之比 = 分子数之比</em>。</li><li><strong>配制一定浓度溶液</strong>：<em>计算 → 称量/量取 → 溶解/稀释 → 冷却 → 转移 → 洗涤 → 定容 → 摇匀 → 装瓶</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>N_A 判断题的<strong>七大陷阱</strong>：<em>①标准状况下非气体（如 H₂O、CCl₄、SO₃）；②是否标准状况（如常温常压）；③是否水解/电离（如氯化铁溶液）；④氧化还原中电子转移数；⑤化学键数目（如 1 mol 金刚石含 2 mol C-C 键）；⑥溶液体积是否已知；⑦是否可逆反应</em>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>离子反应与氧化还原</div><ul><li><strong>离子方程式</strong>书写：<em>①写（正确书写化学方程式）；②拆（强酸、强碱、可溶盐拆；单质、氧化物、难溶物、弱电解质、气体不拆）；③删（删去不参与反应的离子）；④查（原子守恒、电荷守恒）</em>。</li><li><strong>离子共存</strong>判断：<em>①是否生成沉淀；②是否生成气体；③是否生成弱电解质（水、弱酸、弱碱）；④是否发生氧化还原；⑤溶液颜色与酸碱性条件（隐含条件如「无色」「pH=1」）</em>。</li><li><strong>氧化还原</strong>：<em>①化合价升高——失电子——被氧化——作还原剂；②化合价降低——得电子——被还原——作氧化剂</em>。</li><li><strong>口诀</strong>：<em>「升失氧、降得还，剂性相反」</em>。</li><li><strong>配平方法</strong>：<em>电子守恒法（标价态 → 列变化 → 定系数 → 配平其他）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>氧化还原<strong>口诀「升失氧、降得还，剂性相反」</strong>：<em>化合价升高→失电子→被氧化→是还原剂（具有还原性）</em>。这 12 个字能解决 80% 的氧化还原基础题，务必背熟。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>化学平衡与反应速率</div><ul><li><strong>反应速率</strong>：<em>v = Δc/Δt</em>。影响因素：<em>浓度、温度、压强（有气体参与）、催化剂、表面积</em>。</li><li><strong>化学平衡状态</strong>判断标志：<em>①v正 = v逆 ≠ 0；②各组分的浓度、百分含量保持不变；③有颜色变化的体系颜色不变</em>。</li><li><strong>勒夏特列原理</strong>：<em>改变影响平衡的一个条件，平衡向减弱这种改变的方向移动</em>。</li><li><strong>平衡常数</strong>：<em>K = 生成物浓度幂之积 / 反应物浓度幂之积（纯固体液体不写入）</em>。</li><li><strong>转化率</strong>：<em>α = 已转化量 / 起始量 × 100%</em>。</li><li><strong>等效平衡</strong>：<em>①恒温恒容——按化学计量数换算到同一边，量相同则等效；②恒温恒压——换算到同一边，量成比例则等效</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>判断一个可逆反应是否达到平衡，看的是<strong>「变量不变」</strong>：<em>若某物理量在反应过程中会变（如颜色、密度、平均相对分子质量、压强），它不变时即达到平衡；若恒为定值（如恒容容器中密度始终不变），则不能作为判断依据</em>。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>元素化学与无机综合</h2><span class="tag">高考必考 · 约25分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>金属元素及其化合物</div><ul><li><strong>钠</strong>：<em>①Na₂O₂（淡黄色，与水/CO₂反应放出 O₂）；②Na₂CO₃（纯碱）与 NaHCO₃（小苏打）的鉴别与转化；③Na 与水反应「浮、熔、游、响、红」</em>。</li><li><strong>铝</strong>：<em>①Al 与 Al₂O₃、Al(OH)₃ 都既能与强酸又能与强碱反应（两性）；②铝热反应；③Al³⁺ 与 AlO₂⁻ 双水解</em>。</li><li><strong>铁</strong>：<em>①Fe²⁺（浅绿色）与 Fe³⁺（棕黄色）的检验与转化；②KSCN 检验 Fe³⁺（变血红色）；③铁三角转化关系</em>。</li><li><strong>铜</strong>：<em>①Cu 与浓硝酸、稀硝酸的反应（浓硝酸放 NO₂，稀硝酸放 NO）；②CuSO₄·5H₂O（蓝色晶体）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「铁三角」转化必背：<em>Fe →（弱氧化剂如 HCl）→ Fe²⁺ →（强氧化剂如 Cl₂）→ Fe³⁺ →（还原剂如 Fe、Cu）→ Fe²⁺</em>。检验 Fe³⁺ 用 <strong>KSCN 变血红</strong>，检验 Fe²⁺ 先加 KSCN 不变色、再加氯水变血红。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>非金属元素及其化合物</div><ul><li><strong>氯</strong>：<em>①Cl₂ 与 NaOH 反应制漂白液、与 Ca(OH)₂ 制漂白粉；②Cl₂ 的实验室制法（MnO₂ + 浓盐酸加热）；③Cl⁻ 检验用 AgNO₃ 与稀硝酸</em>。</li><li><strong>硫</strong>：<em>①SO₂（刺激性气味，漂白性——与品红结合生成不稳定无色物质、加热复原）；②浓硫酸的三大特性（吸水性、脱水性、强氧化性）；③SO₄²⁻ 检验</em>。</li><li><strong>氮</strong>：<em>①NH₃（碱性气体，能使湿润红色石蕊试纸变蓝；喷泉实验）；②HNO₃ 的强氧化性（与 Cu 反应）；③NO 与 NO₂ 的性质与转化；④铵盐受热分解</em>。</li><li><strong>硅</strong>：<em>①SiO₂（酸性氧化物，与 HF 反应；与 NaOH 反应）；②硅酸盐；③硅酸的制备</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>SO₂ 的漂白性<strong>与 Cl₂、HClO 的漂白性有本质区别</strong>：<em>SO₂ 是与有色物质结合生成不稳定的无色物质（加热可复原）；Cl₂/HClO 是把有色物质氧化破坏（不可复原）</em>。两者同时使用时，漂白性会因氧化还原反应而相互减弱。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>有机化学基础（选择性必修3）</h2><span class="tag">高考必考 · 约25分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>有机物的结构与命名</div><ul><li><strong>官能团</strong>：<em>①碳碳双键 C=C；②碳碳三键 C≡C；③羟基 -OH；④醛基 -CHO；⑤羧基 -COOH；⑥酯基 -COO-；⑦氨基 -NH₂；⑧卤素原子 -X</em>。</li><li><strong>同系物</strong>：<em>结构相似、分子组成相差一个或多个 CH₂ 原子团</em>。</li><li><strong>同分异构体</strong>：<em>①碳链异构；②位置异构；③官能团异构（类别异构）</em>。</li><li><strong>系统命名</strong>：<em>①选最长碳链为主链；②编号从离支链最近的一端开始；③支链位次最小、名称最简</em>。</li><li><strong>共线共面判断</strong>：<em>①甲烷中最多3原子共面；②乙烯6原子共面；③乙炔4原子共线；④苯12原子共面</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>共线共面<strong>四大母体</strong>必背：<em>甲烷（正四面体，最多3原子共面）、乙烯（平面，6原子共面）、乙炔（直线，4原子共线）、苯（平面正六边形，12原子共面）</em>。以此为骨架拼接，就能判断复杂分子的共面原子数。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>烃及烃的衍生物</div><ul><li><strong>烷烃</strong>：<em>取代反应（光照下与 Cl₂）</em>。<strong>烯烃</strong>：<em>①加成（与 H₂、X₂、HX、H₂O）；②加聚；③氧化（酸性 KMnO₄ 褪色）</em>。</li><li><strong>芳香烃</strong>：<em>①苯——取代（卤代、硝化、磺化）、加成（与 H₂）；②甲苯——苯环侧链氧化使酸性 KMnO₄ 褪色</em>。</li><li><strong>醇</strong>：<em>①与 Na 反应放 H₂；②消去反应（浓硫酸加热，β-H 消除）；③氧化（催化氧化成醛/酮）；④酯化</em>。</li><li><strong>醛</strong>：<em>①银镜反应（与银氨溶液，水浴加热）；②与新制 Cu(OH)₂ 反应（加热生成砖红色沉淀）</em>。</li><li><strong>羧酸</strong>：<em>①酸性；②酯化反应（酸脱羟基醇脱氢）</em>。<strong>酯</strong>：<em>水解（酸性水解可逆、碱性水解完全）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>酯化反应<strong>「酸脱羟基、醇脱氢」</strong>是必考机理，可用同位素 ¹⁸O 标记法验证：<em>用 CH₃CO¹⁸OH 与乙醇反应，¹⁸O 进入酯中</em>。这个细节常出现在有机推断题中。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>有机推断与合成</div><ul><li><strong>推断突破口</strong>：<em>①特征反应（银镜反应、KMnO₄ 褪色、Br₂ 水褪色、FeCl₃ 显紫色）；②分子式与不饱和度（Ω = C + 1 − H/2 + N/2）；③转化关系图</em>。</li><li><strong>常见转化链</strong>：<em>醇 → 醛 → 酸 → 酯；卤代烃 → 醇；烯烃 → 卤代烃/醇</em>。</li><li><strong>合成路线设计</strong>：<em>①正向（原料→目标）；②逆向（目标→原料）；③双向结合</em>。</li><li><strong>保护官能团</strong>：<em>如合成中先保护羟基再氧化，避免羟基被氧化</em>。</li><li><strong>同分异构体书写</strong>：<em>①按类别异构分（酯、酸、羟基醛等）；②按碳链分；③按位置分；④逐一检验（不重不漏）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>同分异构体书写<strong>「不重不漏」是评分关键</strong>。推荐顺序：<em>先判断是否含苯环/是否含多个官能团 → 按官能团类别分类 → 每类内按碳链骨架变化 → 最后核对总数</em>。数量题几乎每年必考，写少一个就丢一半分。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>实验化学与化工流程</h2><span class="tag">高考必考 · 约35分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>化学实验基础</div><ul><li><strong>常用仪器</strong>：<em>①计量仪器（量筒、容量瓶、滴定管、天平）；②加热仪器（酒精灯、酒精喷灯）；③分离仪器（漏斗、分液漏斗、蒸馏装置）</em>。</li><li><strong>分离提纯</strong>：<em>①过滤（固液分离）；②蒸发结晶（溶解度随温度变化小）；③冷却结晶（溶解度随温度变化大）；④蒸馏（沸点差异大）；⑤萃取分液（溶解度差异）；⑥洗气（气体除杂）</em>。</li><li><strong>气体制备</strong>：<em>①发生装置（固液不加热、固固加热等）；②净化（除杂）；③干燥；④收集（向上排空气、向下排空气、排水法）；⑤尾气处理</em>。</li><li><strong>实验安全</strong>：<em>①浓硫酸稀释——酸入水，沿器壁缓缓加入并搅拌；②闻气体气味——手扇动；③点燃可燃性气体前验纯</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>选择结晶方式的口诀：<em>「溶解度受温度影响大 → 冷却结晶（如 KNO₃）；影响小 → 蒸发结晶（如 NaCl）」</em>。若两种溶质共存，还要考虑「趁热过滤」避免目标物析出。这是化工流程题的必考点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>化工流程题解题模型</div><ul><li><strong>三大主线</strong>：<em>①原料预处理（粉碎、焙烧、酸浸、碱浸）；②核心反应与分离提纯；③产品获得（蒸发浓缩、冷却结晶、过滤、洗涤、干燥）</em>。</li><li><strong>常见设问</strong>：<em>①提高浸出率的措施（粉碎、升温、搅拌、增大浓度）；②为什么要加某试剂（除杂、调 pH、防止水解）；③为什么要控制温度（防止分解/挥发/副反应）；④洗涤方式（冷水洗、乙醇洗、热水洗）；⑤产率计算</em>。</li><li><strong>调 pH 的作用</strong>：<em>使某些金属离子水解生成氢氧化物沉淀而除去（如除去 Fe³⁺、Al³⁺）</em>。</li><li><strong>绿色化学</strong>：<em>①原子经济性；②循环利用（母液回收）；③减少三废</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>流程题中<strong>「用乙醇洗涤」的原因须背三条</strong>：<em>①减少晶体溶解损失（乙醇中溶解度小）；②乙醇易挥发，便于干燥；③防止晶体结晶水合物脱水或水解</em>。这是每年都会出现的标准答案。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>电化学与溶液中的平衡</div><ul><li><strong>原电池</strong>：<em>①负极（较活泼金属）失电子氧化；②正极得电子还原；③电子由负极经外电路流向正极；④离子移动——阳离子向正极、阴离子向负极</em>。</li><li><strong>电解池</strong>：<em>①阴极（接电源负极）得电子还原；②阳极（接电源正极）失电子氧化；③阳极若为活性电极（如 Cu），则电极本身溶解</em>。</li><li><strong>水的电离与 pH</strong>：<em>①Kw = c(H⁺)·c(OH⁻) = 1×10⁻¹⁴（25℃）；②pH = −lg c(H⁺)；③酸性越强 pH 越小</em>。</li><li><strong>盐类水解</strong>：<em>①规律——「谁弱谁水解，谁强显谁性」；②升温促进水解；③浓度稀释促进水解；④加酸抑制阳离子水解</em>。</li><li><strong>沉淀溶解平衡</strong>：<em>①Ksp = c(M^n+)·c(A^m−)；②Q > Ksp 生成沉淀；③沉淀转化（Ksp 大的转化为 Ksp 小的）</em>。</li><li><strong>中和滴定</strong>：<em>①关键——锥形瓶中待测液，滴定管中标准液；②终点判断（半分钟内不褪色）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>盐类水解<strong>「越稀越水解、越热越水解」</strong>，但水解程度通常很小。<em>比较离子浓度大小时，先看电离（主要），再看水解（次要）</em>。如 Na₂CO₃ 溶液中 c(Na⁺) > c(CO₃²⁻) > c(OH⁻) > c(HCO₃⁻)。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">化学基本概念与基本理论</a><a href="#sec2">元素化学与无机综合</a><a href="#sec3">有机化学基础（选择性必修3）</a><a href="#sec4">实验化学与化工流程</a></div>
+<div class="foot">高三化学 · 高考总复习知识点考点总览</div></div></body></html>

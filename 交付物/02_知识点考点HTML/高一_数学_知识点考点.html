@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高一数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高一<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>必修第一册</span><span>必修第二册</span><span>人教A版</span><span>8 大模块</span><span>高考基础</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>集合与常用逻辑用语</h2><span class="tag">基础 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>集合的概念与运算</div><ul><li>元素与集合的关系：<strong>属于（∈）与不属于（∉）</strong>。集合三特性：<em>确定性、互异性、无序性</em>。</li><li>常用数集符号：<strong>N（自然数集）、N*或N₊（正整数集）、Z（整数集）、Q（有理数集）、R（实数集）</strong>。</li><li>集合间关系：<em>子集（A⊆B）、真子集（A⊊B）、相等（A=B）、空集（∅）</em>。</li><li><strong>空集是任何集合的子集，是任何非空集合的真子集</strong>——这是最容易漏解的地方。</li><li>集合运算：<em>交集（A∩B）、并集（A∪B）、补集（∁ᵤA）</em>。</li><li>含参集合问题务必<strong>分类讨论</strong>：先讨论集合是否为空集，再讨论元素关系。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>已知 A⊆B 求参数范围时，<strong>必须单独讨论 A=∅ 的情形</strong>。这是高一数学最容易丢分的第一坑。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>常用逻辑用语</div><ul><li>充分条件与必要条件：<strong>p⇒q 则 p 是 q 的充分条件，q 是 p 的必要条件</strong>。</li><li>充要条件：p⇔q，即<em>p 既是 q 的充分条件，也是 q 的必要条件</em>。</li><li>判断技巧：<em>小范围能推出大范围（小⇒大），大范围不能推出小范围</em>。集合视角：A⊆B 则 A 是 B 的充分条件。</li><li>全称量词与存在量词：<strong>∀（任意）、∃（存在）</strong>。</li><li>量词否定：<strong>∀x∈M, p(x) 的否定是 ∃x∈M, ¬p(x)；∃x∈M, p(x) 的否定是 ∀x∈M, ¬p(x)</strong>（量词互换，结论取反）。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>记忆口诀：<strong>「任意」的否定是「存在」，「存在」的否定是「任意」，同时把结论否定掉</strong>。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>一元二次函数、方程和不等式</h2><span class="tag">重点 · 高频</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>不等式性质与基本不等式</div><ul><li>不等式基本性质：<em>a&gt;b ⇔ a+c&gt;b+c；a&gt;b, c&gt;0 ⇒ ac&gt;bc；a&gt;b, c&lt;0 ⇒ ac&lt;bc</em>。</li><li><strong>基本不等式：a+b ≥ 2√(ab)（a&gt;0, b&gt;0）</strong>，当且仅当 a=b 时取等号。</li><li>常用变形：<em>ab ≤ ((a+b)/2)²；a²+b² ≥ 2ab</em>。</li><li>「一正二定三相等」：<strong>一正</strong>——各项为正；<strong>二定</strong>——和或积为定值；<strong>三相等</strong>——验证等号能否取到。</li><li>常见配凑技巧：<em>配系数、拆项、乘1法（已知 ax+by=1 求 1/x+1/y 最小值）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>用基本不等式求最值，<strong>三步缺一不可</strong>。尤其第三步「验证等号成立条件」常常被忽略，导致答案错误。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>一元二次不等式</div><ul><li>解法核心：<strong>「三个二次」的关系</strong>——二次函数图像、二次方程根、二次不等式解集。</li><li>标准步骤：①二次项系数化为正；②求判别式 Δ=b²-4ac；③求根；④<strong>画图像写解集</strong>。</li><li>口诀记忆：<em>「大于取两边，小于取中间」（a&gt;0 时）</em>。</li><li>Δ&lt;0 时：若 a&gt;0，则不等式 &gt;0 的解集为 <strong>R</strong>，&lt;0 的解集为 <strong>∅</strong>。</li><li>分式不等式：移项通分化为整式，注意<strong>分母不为零</strong>（解集端点取不取要判断）。</li><li>含参二次不等式必须<strong>讨论开口方向、判别式、根的大小</strong>三个层次。</li></ul></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>函数概念与性质</h2><span class="tag">核心 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>函数三要素与表示</div><ul><li>函数三要素：<strong>定义域、值域、对应关系</strong>。</li><li>求定义域常见限制：<em>分式分母≠0；偶次根式被开方数≥0；对数真数&gt;0；零指数幂底数≠0；tanx 中 x≠π/2+kπ</em>。</li><li>求值域常用方法：<strong>配方法、分离常数法、换元法、单调性法、判别式法、基本不等式法</strong>。</li><li>分段函数：<em>不同区间对应不同解析式，求值时要先判断自变量落在哪个区间</em>。</li><li>抽象函数定义域：已知 f(x) 定义域为 [a,b]，求 f(g(x)) 定义域即解 <strong>a ≤ g(x) ≤ b</strong>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>抽象函数定义域是「<strong>括号内整体范围一致</strong>」——这是解题的唯一依据，抓住这一点就不会乱。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>函数的单调性与奇偶性</div><ul><li>单调性定义：<em>x₁&lt;x₂ 时 f(x₁)&lt;f(x₂) 为增函数；f(x₁)&gt;f(x₂) 为减函数</em>。</li><li>判断方法：<strong>定义法（作差/作商）、图像法、复合函数同增异减、导数法</strong>。</li><li>复合函数单调性口诀：<strong>「同增异减」</strong>——内外层单调性相同则复合后为增，相反则为减。</li><li>奇偶性定义：<strong>f(-x)=-f(x) 为奇函数（图像关于原点对称）；f(-x)=f(x) 为偶函数（图像关于 y 轴对称）</strong>。</li><li>前提条件：<em>定义域必须关于原点对称</em>，否则既非奇也非偶。</li><li>奇函数若在 x=0 处有定义，则 <strong>f(0)=0</strong>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">3</span>幂函数与函数图像</div><ul><li>五个常见幂函数：<strong>y=x、y=x²、y=x³、y=x^(1/2)、y=x⁻¹</strong>。</li><li>幂函数性质：<em>所有幂函数图像都过点 (1,1)；在 (0,+∞) 上，α&gt;0 时递增，α&lt;0 时递减</em>。</li><li>图像变换：<strong>平移（左加右减、上加下减）、对称（关于x轴/y轴/原点）、翻折（|f(x)| 与 f(|x|)）、伸缩</strong>。</li><li>y=|f(x)| 的图像：<em>把 x 轴下方的部分翻折到上方</em>。</li><li>y=f(|x|) 的图像：<em>保留 y 轴右侧，左侧与右侧关于 y 轴对称</em>。</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>指数函数与对数函数</h2><span class="tag">重点 · 高频</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>指数运算与指数函数</div><ul><li>指数运算法则：<strong>aᵐ·aⁿ=aᵐ⁺ⁿ；(aᵐ)ⁿ=aᵐⁿ；(ab)ⁿ=aⁿbⁿ；a^(-n)=1/aⁿ；a^(m/n)=ⁿ√(aᵐ)</strong>。</li><li>指数函数 y=aˣ（a&gt;0 且 a≠1）：<em>定义域 R，值域 (0,+∞)，恒过定点 (0,1)</em>。</li><li>单调性：<strong>a&gt;1 时单调递增；0&lt;a&lt;1 时单调递减</strong>。</li><li>图像特征：<em>x 轴是渐近线，图像永远在 x 轴上方</em>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">2</span>对数运算与对数函数</div><ul><li>对数定义：<strong>aᵇ=N ⇔ b=logₐN（a&gt;0, a≠1, N&gt;0）</strong>。</li><li>对数运算法则：<em>logₐ(MN)=logₐM+logₐN；logₐ(M/N)=logₐM-logₐN；logₐMⁿ=nlogₐM</em>。</li><li>两个重要恒等式：<strong>logₐ1=0；logₐa=1；a^(logₐN)=N</strong>。</li><li>换底公式：<strong>logₐb = log_c b / log_c a</strong>。常用推论：<em>logₐb·log_b a=1</em>。</li><li>对数函数 y=logₐx：<em>定义域 (0,+∞)，值域 R，恒过定点 (1,0)</em>。</li><li>单调性：<strong>a&gt;1 递增；0&lt;a&lt;1 递减</strong>。y 轴是渐近线。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>对数运算三大易错点：①<strong>真数必须大于0</strong>；②logₐ(M+N) ≠ logₐM + logₐN（不能拆）；③底数范围限制 a&gt;0 且 a≠1。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>函数零点与二分法</div><ul><li>零点定义：<strong>使 f(x)=0 的实数 x</strong>，即函数图像与 x 轴交点的横坐标。</li><li>零点存在定理：<em>若 f(x) 在 [a,b] 上连续，且 f(a)·f(b)&lt;0，则 (a,b) 内至少存在一个零点</em>。</li><li>注意：该定理<strong>只能判断存在，不能确定个数</strong>；反之 f(a)·f(b)&gt;0 也不能说明没有零点。</li><li>二分法求近似解：<em>不断取中点缩小区间，直到满足精度要求</em>。适用于<strong>连续且单调</strong>的函数。</li><li>零点个数问题转化为：<strong>两个函数图像交点个数</strong>。</li></ul></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>三角函数</h2><span class="tag">核心 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>任意角与弧度制</div><ul><li>任意角：<em>按逆时针旋转为正角，顺时针为负角，不旋转为零角</em>。</li><li>终边相同的角：<strong>S={β | β=α+k·360°, k∈Z}</strong>。</li><li>弧度制：<strong>1 rad = (180/π)° ≈ 57.3°；π rad = 180°</strong>。</li><li>弧长公式：<strong>l = |α|·r</strong>；扇形面积公式：<strong>S = ½lr = ½|α|r²</strong>。</li><li>象限角符号口诀：<strong>「一全正，二正弦，三正切，四余弦」</strong>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>用弧度制时<strong>角度符号 ° 必须省略</strong>。写 sin30° 正确，写 sin30 就是错的（那是 sin(30 rad)）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>三角函数定义与诱导公式</div><ul><li>任意角三角函数定义：<em>设终边上一点 P(x,y)，r=√(x²+y²)，则 sinα=y/r，cosα=x/r，tanα=y/x</em>。</li><li>同角三角函数基本关系：<strong>sin²α+cos²α=1；tanα=sinα/cosα</strong>。</li><li>诱导公式口诀：<strong>「奇变偶不变，符号看象限」</strong>。</li><li>「奇变偶不变」：<em>看 k·(π/2)±α 中的 k，k 为奇数则函数名改变（sin↔cos），k 为偶数则不变</em>。</li><li>「符号看象限」：<em>把 α 视为锐角，判断原角所在象限的原函数符号</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>诱导公式的关键是<strong>把「α」永远当锐角</strong>来定符号，不要纠结 α 的真实大小。这是口诀能生效的前提。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>三角函数图像与性质</div><ul><li>y=sinx：<em>定义域 R，值域 [-1,1]，周期 2π，奇函数，在 [-π/2+2kπ, π/2+2kπ] 递增</em>。</li><li>y=cosx：<em>定义域 R，值域 [-1,1]，周期 2π，偶函数，在 [-π+2kπ, 2kπ] 递增</em>。</li><li>y=tanx：<em>定义域 x≠π/2+kπ，值域 R，周期 π，奇函数，在 (-π/2+kπ, π/2+kπ) 递增</em>。</li><li>y=Asin(ωx+φ) 的图像：<strong>A 决定振幅，ω 决定周期 T=2π/ω，φ 决定左右平移</strong>。</li><li>图像变换顺序：<em>先平移后伸缩，或先伸缩后平移（平移量不同，需除以 ω）</em>。</li><li>y=Asin(ωx+φ)+B 的最值：<strong>最大值 A+B，最小值 -A+B</strong>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">4</span>三角恒等变换</div><ul><li>两角和差公式：<strong>sin(α±β)=sinαcosβ±cosαsinβ；cos(α±β)=cosαcosβ∓sinαsinβ</strong>。</li><li>正切和差公式：<em>tan(α±β)=(tanα±tanβ)/(1∓tanαtanβ)</em>。</li><li>二倍角公式：<strong>sin2α=2sinαcosα；cos2α=cos²α-sin²α=2cos²α-1=1-2sin²α；tan2α=2tanα/(1-tan²α)</strong>。</li><li>降幂公式：<em>sin²α=(1-cos2α)/2；cos²α=(1+cos2α)/2</em>。</li><li>辅助角公式：<strong>asinx+bcosx = √(a²+b²)sin(x+φ)</strong>，其中 tanφ=b/a。</li><li>解题策略：<em>化异为同（统一角、统一函数名）、降幂扩角、辅助角合一</em>。</li></ul></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>平面向量与复数</h2><span class="tag">重点 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>平面向量线性运算</div><ul><li>向量三要素：<strong>大小、方向、起点无关（自由向量）</strong>。</li><li>线性运算：<em>加法（首尾相接/平行四边形）、减法（共起点，指向被减）、数乘（λa，λ&gt;0 同向，λ&lt;0 反向）</em>。</li><li>共线定理：<strong>a∥b（b≠0）⇔ 存在唯一实数 λ 使 a=λb</strong>。</li><li>坐标运算：<em>若 a=(x₁,y₁)，b=(x₂,y₂)，则 a±b=(x₁±x₂, y₁±y₂)，λa=(λx₁, λy₁)</em>。</li><li>共线坐标条件：<strong>x₁y₂ - x₂y₁ = 0</strong>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">2</span>平面向量数量积</div><ul><li>数量积定义：<strong>a·b = |a||b|cosθ</strong>（θ 为两向量夹角，范围 [0,π]）。</li><li>坐标公式：<em>a·b = x₁x₂ + y₁y₂</em>。</li><li>模的公式：<strong>|a| = √(a·a) = √(x₁²+y₁²)</strong>。</li><li>夹角公式：<em>cosθ = (a·b)/(|a||b|)</em>。</li><li>垂直条件：<strong>a⊥b ⇔ a·b=0 ⇔ x₁x₂+y₁y₂=0</strong>。</li><li>投影：<em>a 在 b 方向上的投影为 |a|cosθ = (a·b)/|b|</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>数量积<strong>不满足结合律</strong>：(a·b)·c ≠ a·(b·c)。因为左边是数与向量的乘积，方向与 c 同向；右边方向与 a 同向。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>复数</div><ul><li>复数代数形式：<strong>z = a + bi（a,b∈R）</strong>，a 为实部，b 为虚部。</li><li>i 的幂周期：<em>i¹=i，i²=-1，i³=-i，i⁴=1（周期 4）</em>。</li><li>共轭复数：<strong>z̄ = a - bi</strong>。</li><li>复数相等：<em>a+bi = c+di ⇔ a=c 且 b=d</em>。</li><li>复数模：<strong>|z| = √(a²+b²)</strong>。</li><li>复平面：<em>z=a+bi 对应点 (a,b)，实轴 x 轴，虚轴 y 轴（原点除外）</em>。</li><li>复数除法：<em>分子分母同乘分母的共轭复数，实现分母实数化</em>。</li></ul></div></div></div><div class="section" id="sec7">
+<div class="sec-head"><div class="sec-no">7</div><h2>立体几何初步</h2><span class="tag">重点 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>空间几何体</div><ul><li>柱体：<strong>V = S底·h</strong>（棱柱、圆柱）；S侧(圆柱) = 2πrh。</li><li>锥体：<strong>V = ⅓S底·h</strong>（棱锥、圆锥）；S侧(圆锥) = πrl。</li><li>台体：<em>V = ⅓h(S + √(SS&#39;) + S&#39;)</em>。</li><li>球体：<strong>V = 4/3πR³；S表 = 4πR²</strong>。</li><li>三视图：<em>正视图、侧视图、俯视图，遵循「长对正、高平齐、宽相等」</em>。</li><li>直观图斜二测画法：<em>水平方向不变，竖直方向减半，夹角 45°</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>球的表面积和体积公式是必考内容，且常与内切球、外接球结合。牢记 <strong>S=4πR²、V=4/3πR³</strong>，并掌握「补形法」求外接球半径。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>点线面位置关系</div><ul><li>基本事实：<em>①过不在一条直线上的三点，有且只有一个平面；②如果一条直线上的两点在一个平面内，那么这条直线在此平面内；③如果两个不重合的平面有一个公共点，那么它们有且只有一条过该点的公共直线</em>。</li><li>线面平行判定：<strong>平面外一条直线与此平面内的一条直线平行，则该直线与此平面平行</strong>。</li><li>线面平行性质：<em>一条直线与一个平面平行，则过这条直线的任一平面与此平面的交线与该直线平行</em>。</li><li>面面平行判定：<strong>一个平面内的两条相交直线与另一个平面平行，则这两个平面平行</strong>。</li><li>线面垂直判定：<em>一条直线与平面内的两条相交直线都垂直，则该直线与此平面垂直</em>。</li><li>面面垂直判定：<strong>一个平面过另一个平面的垂线，则这两个平面垂直</strong>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>证明题写步骤要<strong>严格引用定理原文</strong>。平行、垂直的判定与性质共 8 个定理，必须逐一记准条件与结论。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>空间角与距离</div><ul><li>异面直线所成角：<em>范围 (0°, 90°]，通过平移法构造</em>。</li><li>线面角：<strong>范围 [0°, 90°]，是斜线与它在平面内射影所成的角</strong>。</li><li>二面角：<em>范围 [0°, 180°]，需作出平面角</em>。</li><li>空间距离：<em>点到平面的距离常用等体积法求解</em>。</li></ul></div></div></div><div class="section" id="sec8">
+<div class="sec-head"><div class="sec-no">8</div><h2>统计与概率</h2><span class="tag">重点 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>统计</div><ul><li>抽样方法：<strong>简单随机抽样（抽签法、随机数法）、分层随机抽样</strong>。</li><li>分层抽样比例：<em>各层抽取数 : 各层总数 = 样本容量 : 总体容量</em>。</li><li>集中趋势：<strong>平均数、中位数、众数</strong>。</li><li>离散程度：<em>极差、方差、标准差。方差 s² = (1/n)Σ(xᵢ-x̄)²</em>。</li><li>百分位数：<em>第 p 百分位数是将数据从小到大排列后，处于 p% 位置的数</em>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">2</span>概率</div><ul><li>古典概型：<strong>P(A) = A包含的基本事件数 / 基本事件总数</strong>，要求有限性和等可能性。</li><li>对立事件：<em>P(A) + P(Ā) = 1</em>。</li><li>互斥事件：<strong>若 A、B 互斥，则 P(A∪B)=P(A)+P(B)</strong>。</li><li>相互独立事件：<em>P(AB) = P(A)·P(B)</em>。</li><li>条件概率：<strong>P(B|A) = P(AB)/P(A)</strong>。</li><li>全概率公式：<em>P(B) = ΣP(Aᵢ)P(B|Aᵢ)</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>区分「<strong>互斥</strong>」与「<strong>独立</strong>」：互斥是两个事件不能同时发生，独立是一个事件发生不影响另一个的概率。互斥一般<strong>不独立</strong>（除非概率为0）。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">集合与常用逻辑用语</a><a href="#sec2">一元二次函数、方程和不等式</a><a href="#sec3">函数概念与性质</a><a href="#sec4">指数函数与对数函数</a><a href="#sec5">三角函数</a><a href="#sec6">平面向量与复数</a><a href="#sec7">立体几何初步</a><a href="#sec8">统计与概率</a></div>
+<div class="foot">本资料依据《普通高中数学课程标准（2017年版2020年修订）》与人教A版必修教材编写 · 高一上下学期适用</div></div></body></html>

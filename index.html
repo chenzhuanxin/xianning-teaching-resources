@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>湖北省咸宁市中小学教学资源库（1–9 年级）</title>
+<title>湖北省咸宁市中小学教学资源库（小学—高中）</title>
 <style>
   :root {
     --blue: #1a4b8c; --blue-lt: #2f6fb8; --gold: #c9a227;
@@ -97,6 +97,25 @@
   ul.papers a.dl { color: var(--txt2); }
   ul.papers a.dl:hover { background: #fdf6ec; border-color: #f0dcc0; color: #a05a12; }
   .empty { color: #9aa8b8; font-size: 13px; }
+  .stage-title {
+    display: flex; align-items: center; justify-content: space-between;
+    margin: 34px 0 16px; padding: 0 4px 10px; flex-wrap: wrap; gap: 10px;
+    border-bottom: 2px solid var(--line);
+  }
+  .stage-title:first-child { margin-top: 8px; }
+  .stage-title h2 {
+    margin: 0; font-size: 18px; color: var(--blue); letter-spacing: 1px;
+  }
+  .stage-title h2::before {
+    content: ""; display: inline-block; width: 5px; height: 20px;
+    background: var(--blue); margin-right: 10px; vertical-align: -4px;
+    border-radius: 2px;
+  }
+  .stage-counts { display: flex; gap: 10px; }
+  .stage-counts span {
+    background: #f0f4fa; color: var(--txt2); font-size: 12.5px;
+    padding: 3px 12px; border-radius: 20px;
+  }
   footer {
     text-align: center; color: var(--txt2); font-size: 13px;
     padding: 26px 20px 40px; line-height: 2;
@@ -113,12 +132,12 @@
 <body>
 <header>
   <h1>湖北省咸宁市中小学教学资源库</h1>
-  <p>小学一年级 ~ 初中九年级 · 教材版本总表 · 知识点考点 · 期末真题试卷</p>
+  <p>小学一年级 ~ 高中三年级 · 教材版本总表 · 知识点考点 · 期末真题试卷</p>
   <div class="stats">
-    <div><b>9</b><span>年级</span></div>
-    <div><b>52</b><span>份知识点考点</span></div>
-    <div><b>250</b><span>套期末真题试卷</span></div>
-    <div><b>10</b><span>门学科</span></div>
+    <div><b>12</b><span>年级</span></div>
+    <div><b>79</b><span>份知识点考点</span></div>
+    <div><b>385</b><span>套期末真题试卷</span></div>
+    <div><b>11</b><span>门学科</span></div>
   </div>
 </header>
 
@@ -126,10 +145,12 @@
   <div class="version-note">
     <b>教材版本（咸宁本地）</b>　小学：语文/道法统编版、数学人教版、英语人教版PEP、科学人教·鄂教版；
     初中：语文/道法/历史统编版，数学/地理/生物/化学人教版，
-    <b>英语仁爱版（科普版）</b>、<b>物理北师大版</b>。
+    <b>英语仁爱版（科普版）</b>、<b>物理北师大版</b>；
+    高中：语文/数学（人教A版）/英语/物理/化学/生物/思想政治/历史为人教·统编版，
+    <b>地理为中国地图出版社版</b>。
     官方电子教材见页面底部链接。
   </div>
-
+<div class="stage-title"><h2>小学（1–6 年级）</h2><div class="stage-counts"><span>30 份知识点</span><span>0 套试卷</span></div></div>
     <section class="grade-card">
       <div class="grade-head">
         <h2>一年级</h2>
@@ -225,7 +246,7 @@
           <div class="paper-wrap"><div class="empty">暂无</div></div>
         </div>
       </div>
-    </section>
+    </section><div class="stage-title"><h2>初中（7–9 年级）</h2><div class="stage-counts"><span>22 份知识点</span><span>0 套试卷</span></div></div>
     <section class="grade-card">
       <div class="grade-head">
         <h2>七年级</h2>
@@ -267,6 +288,54 @@
         <div class="col">
           <h3>知识点 / 考点讲解</h3>
           <ul class="kp-list"><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E8%AF%AD%E6%96%87_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>语文</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E6%95%B0%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>数学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E8%8B%B1%E8%AF%AD_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>英语</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>道德与法治</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E5%8E%86%E5%8F%B2_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>历史</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E7%89%A9%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>物理</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E4%B9%9D%E5%B9%B4%E7%BA%A7_%E5%8C%96%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>化学</a></li></ul>
+        </div>
+        <div class="col">
+          <h3>期末真题试卷</h3>
+          <div class="paper-wrap"><div class="empty">暂无</div></div>
+        </div>
+      </div>
+    </section><div class="stage-title"><h2>高中（高一–高三）</h2><div class="stage-counts"><span>27 份知识点</span><span>0 套试卷</span></div></div>
+    <section class="grade-card">
+      <div class="grade-head">
+        <h2>高一</h2>
+        <div class="counts"><span>9 份知识点</span><span>0 套试卷</span></div>
+      </div>
+      <div class="grade-body">
+        <div class="col">
+          <h3>知识点 / 考点讲解</h3>
+          <ul class="kp-list"><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E8%AF%AD%E6%96%87_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>语文</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E6%95%B0%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>数学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E8%8B%B1%E8%AF%AD_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>英语</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E7%89%A9%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>物理</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E5%8C%96%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>化学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E7%94%9F%E7%89%A9_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>生物</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E6%80%9D%E6%83%B3%E6%94%BF%E6%B2%BB_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>思想政治</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E5%8E%86%E5%8F%B2_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>历史</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%80_%E5%9C%B0%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>地理</a></li></ul>
+        </div>
+        <div class="col">
+          <h3>期末真题试卷</h3>
+          <div class="paper-wrap"><div class="empty">暂无</div></div>
+        </div>
+      </div>
+    </section>
+    <section class="grade-card">
+      <div class="grade-head">
+        <h2>高二</h2>
+        <div class="counts"><span>9 份知识点</span><span>0 套试卷</span></div>
+      </div>
+      <div class="grade-body">
+        <div class="col">
+          <h3>知识点 / 考点讲解</h3>
+          <ul class="kp-list"><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E8%AF%AD%E6%96%87_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>语文</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E6%95%B0%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>数学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E8%8B%B1%E8%AF%AD_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>英语</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E7%89%A9%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>物理</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E5%8C%96%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>化学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E7%94%9F%E7%89%A9_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>生物</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E6%80%9D%E6%83%B3%E6%94%BF%E6%B2%BB_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>思想政治</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E5%8E%86%E5%8F%B2_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>历史</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%BA%8C_%E5%9C%B0%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>地理</a></li></ul>
+        </div>
+        <div class="col">
+          <h3>期末真题试卷</h3>
+          <div class="paper-wrap"><div class="empty">暂无</div></div>
+        </div>
+      </div>
+    </section>
+    <section class="grade-card">
+      <div class="grade-head">
+        <h2>高三</h2>
+        <div class="counts"><span>9 份知识点</span><span>0 套试卷</span></div>
+      </div>
+      <div class="grade-body">
+        <div class="col">
+          <h3>知识点 / 考点讲解</h3>
+          <ul class="kp-list"><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E8%AF%AD%E6%96%87_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>语文</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E6%95%B0%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>数学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E8%8B%B1%E8%AF%AD_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>英语</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E7%89%A9%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>物理</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E5%8C%96%E5%AD%A6_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>化学</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E7%94%9F%E7%89%A9_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>生物</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E6%80%9D%E6%83%B3%E6%94%BF%E6%B2%BB_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>思想政治</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E5%8E%86%E5%8F%B2_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>历史</a></li><li><a href="%E4%BA%A4%E4%BB%98%E7%89%A9/02_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9HTML/%E9%AB%98%E4%B8%89_%E5%9C%B0%E7%90%86_%E7%9F%A5%E8%AF%86%E7%82%B9%E8%80%83%E7%82%B9.html" target="_blank"><span class="tag kp">知识点</span>地理</a></li></ul>
         </div>
         <div class="col">
           <h3>期末真题试卷</h3>

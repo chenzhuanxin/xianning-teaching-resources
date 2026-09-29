@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高三英语 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高三<span class="em">英语</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>高考总复习</span><span>新高考Ⅰ卷</span><span>续写专项</span><span>高分冲刺</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>阅读理解与七选五</h2><span class="tag">高考必考 · 50分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>阅读理解四大题型</div><ul><li><strong>细节理解题</strong>：<em>①题干定位关键词 → 回原文找同义替换；②注意「同义转换」是命题核心（近义替换、词性转换、句式转换）；③警惕「张冠李戴」与「范围扩大」</em>。</li><li><strong>推理判断题</strong>：<em>①不能选原文原句（那是细节题）；②答案必须「源于原文、高于原文」；③常见问法 infer / imply / suggest / conclude</em>。</li><li><strong>主旨大意题</strong>：<em>①看首尾段、每段首句；②高频词即主题词；③常见问法 main idea / best title / purpose</em>。</li><li><strong>词义猜测题</strong>：<em>①上下文线索（定义、举例、对比、因果）；②构词法（前缀后缀）；③代入检验</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>阅读理解<strong>「同义替换」是唯一命题逻辑</strong>：<em>正确选项几乎从不照抄原文，而是用不同的词表达同一意思；而照抄原文的选项往往是陷阱</em>。训练时要刻意积累同义词群。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>七选五解题技巧</div><ul><li><strong>做题步骤</strong>：<em>①通读全文，把握主旨与结构；②分析空格位置（段首主题句、段中过渡句、段尾总结句）；③找线索（代词、连词、关键词复现、逻辑关系）；④代入验证</em>。</li><li><strong>线索类型</strong>：<em>①代词线索（this/these/it/they 指代前文）；②逻辑线索（however/therefore/besides/for example）；③词汇复现（同词、近义词、反义词）；④句式一致（并列结构）</em>。</li><li><strong>常见干扰项</strong>：<em>①看似相关但话题偏离；②代词指代不明；③逻辑关系颠倒</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>七选五<strong>「代词 + 连词」双线定位法</strong>最有效：<em>先看空格后一句的代词指代什么，再看空格前一句的连词逻辑</em>，两条线索交叉，答案基本唯一。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>语言知识与写作</h2><span class="tag">高考必考 · 50分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>完形填空</div><ul><li><strong>考查本质</strong>：<em>在语篇中综合考查词汇、语法与逻辑</em>。</li><li><strong>做题步骤</strong>：<em>①先通读全文（不看选项），把握大意与情感基调；②再逐空选择，注意上下文线索；③最后复读检查，看逻辑是否通顺</em>。</li><li><strong>线索类型</strong>：<em>①词汇复现（原词、同义词、反义词）；②逻辑关系（转折、因果、递进）；③常识与语境；④情感色彩（褒贬一致）</em>。</li><li><strong>高频考点</strong>：<em>①动词辨析（看搭配与语境）；②名词辨析（看搭配与逻辑）；③形容词副词（看情感色彩）；④固定搭配（动词短语、介词短语）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>完形填空<strong>「先通读、后填空」是铁律</strong>：<em>很多空的答案在文章后半段才揭晓（如作者态度转折）。先看一遍全文再看选项，正确率能提升 20% 以上</em>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>语法填空与短文改错</div><ul><li><strong>语法填空（10空）</strong>：<em>①有提示词（约7个）：动词（时态、语态、非谓语、主谓一致）、名词（单复数、词性转换）、形容词副词（比较级、词性转换）；②无提示词（约3个）：冠词、介词、连词、代词</em>。</li><li><strong>非谓语动词</strong>：<em>①doing（主动、进行）；②done（被动、完成）；③to do（目的、将来）；④判断口诀——先看逻辑主语与动词的关系（主动/被动），再看时间（进行/完成）</em>。</li><li><strong>短文改错（10处）</strong>：<em>常见错误类型——①冠词（a/an/the 误用）；②介词（搭配错误）；③时态（前后不一致）；④主谓一致；⑤名词单复数；⑥形容词副词混用；⑦代词指代；⑧连词（and/but/or）；⑨非谓语动词；⑩固定搭配</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>语法填空的<strong>非谓语动词是最大失分点</strong>。判断三步：<em>①句中是否已有谓语动词？有则用非谓语；②逻辑主语与非谓语是主动还是被动？③动作是先发生还是后发生？</em>三步走完，答案基本确定。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>应用文写作与读后续写</div><ul><li><strong>应用文（15分）</strong>：<em>①类型——书信、通知、演讲稿、倡议书、邮件；②结构——称呼 + 开头（写作目的）+ 主体（2-3个要点）+ 结尾（期待/祝愿）+ 落款</em>。</li><li><strong>应用文亮点</strong>：<em>①三段式结构清晰；②要点齐全；③使用高级句式（非谓语、定语从句、倒装、强调句）；④连接词平滑过渡</em>。</li><li><strong>读后续写（25分）</strong>：<em>①读懂原文（人物、情节、情感、伏笔）；②承接两段首句，确定情节走向；③每段 150 词左右，以描写为主（动作、心理、环境）；④结尾升华主题</em>。</li><li><strong>读后续写高分要素</strong>：<em>①与原文风格一致；②情节合理（不过分夸张）；③细节描写丰富（show, don't tell）；④句式多样；⑤语法准确</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>读后续写<strong>「五感描写法」</strong>能快速提升分数：<em>视觉（what I saw）、听觉（what I heard）、触觉（what I felt）、心理（what I thought）、动作（what I did）</em>。每段至少覆盖 3 种，画面感立刻出来。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">阅读理解与七选五</a><a href="#sec2">语言知识与写作</a></div>
+<div class="foot">高三英语 · 高考总复习知识点考点总览</div></div></body></html>

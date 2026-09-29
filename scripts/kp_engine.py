@@ -133,3 +133,14 @@ def TABLE(headers, rows):
     th = "".join(f"<th>{h}</th>" for h in headers)
     trs = "".join("<tr>" + "".join(f'<td class="c">{c}</td>' for c in r) + "</tr>" for r in rows)
     return f'<table><thead><tr>{th}</tr></thead><tbody>{trs}</tbody></table>'
+
+
+# ============ 安全辅助（新版脚本推荐使用，避免括号嵌套错误） ============
+def SEC(title, kps, tag=None):
+    """构造一个 section：kps 为 KP() 返回值组成的列表，自动拼接"""
+    return {"title": title, "tag": tag, "body": "".join(kps)}
+
+
+def KPS(title, n, items, box=None):
+    """同 KP，但语义更清晰（保留兼容）"""
+    return KP(title, n, items, box)

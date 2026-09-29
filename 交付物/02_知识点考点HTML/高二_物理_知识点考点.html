@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高二物理 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高二<span class="em">物理</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>选择性必修1</span><span>选择性必修2</span><span>人教版</span><span>4 大模块</span><span>电磁学核心</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>静电场</h2><span class="tag">选择性必修1 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>库仑定律与电场强度</div><ul><li><strong>库仑定律</strong>：<strong>F = kQ₁Q₂/r²</strong>（k = 9.0×10⁹ N·m²/C²），适用于<em>真空中的点电荷</em>。</li><li><strong>电场强度</strong>：<strong>E = F/q</strong>，是矢量，方向与正电荷受力方向相同。<em>E 由电场本身决定，与试探电荷无关</em>。</li><li><strong>点电荷场强</strong>：<strong>E = kQ/r²</strong>。</li><li><strong>电场线</strong>：<em>①起于正电荷（或无穷远）止于负电荷；②不闭合、不相交；③密处场强大；④切线方向为该点场强方向</em>。</li><li><strong>匀强电场</strong>：电场线是等间距的平行直线。<em>E = U/d</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>E = F/q 是<strong>定义式</strong>（对任何电场都适用）；E = kQ/r² 是<strong>点电荷的场强公式</strong>（只适用于点电荷）。二者的适用条件是高考常见陷阱。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>电势能与电势</div><ul><li><strong>电势能</strong>：电荷在电场中具有的势能。<em>电场力做正功，电势能减小；做负功，电势能增大</em>。</li><li><strong>电势</strong>：<strong>φ = Eₚ/q</strong>，是标量，有正负。<em>沿电场线方向电势降低</em>。</li><li><strong>电势差</strong>：<strong>U(AB) = φ(A) - φ(B) = W(AB)/q</strong>。</li><li><strong>等势面</strong>：<em>①等势面与电场线处处垂直；②沿等势面移动电荷电场力不做功；③等势面密处场强大</em>。</li><li>判断电势高低的技巧：<strong>顺着电场线方向，电势一定降低</strong>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>电势能的正负判断口诀：<strong>「正电荷顺着电场线移动，电势能减小」</strong>。与重力做功类比：电场力做正功就像重力做正功，势能减小。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>电容器与带电粒子在电场中的运动</div><ul><li><strong>电容</strong>：<strong>C = Q/U</strong>，单位法拉（F）。<em>由电容器本身决定，与 Q、U 无关</em>。</li><li><strong>平行板电容器</strong>：<strong>C = εS/(4πkd)</strong>（ε 为介电常数，S 为正对面积，d 为板间距）。</li><li>动态分析两类问题：<em>①保持接电源（U 不变）；②断开电源（Q 不变）</em>。</li><li><strong>带电粒子在匀强电场中的加速</strong>：<em>qU = ½mv² - ½mv₀²</em>（动能定理）。</li><li><strong>带电粒子在匀强电场中的偏转</strong>（初速度垂直于电场）：<em>类平抛运动。a = qE/m = qU/(md)；侧移 y = ½at² = qUL²/(2mdv₀²)</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>电容器动态分析的<strong>「谁不变」是解题关键</strong>：接电源则 U 不变，断电源则 Q 不变。判断错这一点，整道题就全错了。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>恒定电流</h2><span class="tag">选择性必修1 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>电流、电阻与欧姆定律</div><ul><li><strong>电流</strong>：<strong>I = q/t = nqSv</strong>（微观表达式），单位安培（A）。</li><li><strong>电阻定律</strong>：<strong>R = ρL/S</strong>（ρ 为电阻率，L 为长度，S 为横截面积）。</li><li><strong>欧姆定律</strong>：<strong>I = U/R</strong>，适用于<em>纯电阻电路</em>。</li><li><strong>电阻率</strong>：<em>与材料种类和温度有关，与 L、S 无关</em>。金属的电阻率随温度升高而增大。</li><li><strong>半导体</strong>：电阻率随温度升高而<em>减小</em>。<strong>超导现象</strong>：温度降到某一临界值时电阻突然变为零。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>注意区分：<strong>R = U/I 是定义式（电阻由本身决定，不由 U、I 决定）；R = ρL/S 是决定式</strong>。这是最基础的易错点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>闭合电路欧姆定律</div><ul><li><strong>闭合电路欧姆定律</strong>：<strong>I = E/(R+r)</strong>，或 <em>E = U外 + U内 = IR + Ir</em>。</li><li><strong>路端电压</strong>：U = E - Ir。<em>R 增大，I 减小，U 增大；R 减小，I 增大，U 减小</em>。</li><li><strong>电源的效率</strong>：<em>η = UI/(EI) = U/E = R/(R+r)</em>。</li><li><strong>电源输出功率最大条件</strong>：<strong>R = r 时输出功率最大，Pmax = E²/(4r)</strong>。</li><li><strong>电功与电热</strong>：<em>纯电阻电路 W = Q；非纯电阻电路 W &gt; Q（W = UIt，Q = I²Rt）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>非纯电阻电路（如电动机、电解槽）用能量守恒分析：<strong>UIt = I²Rt + E其他</strong>。输入的电动能一部分转化为热，一部分转化为机械能或化学能。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>磁场</h2><span class="tag">选择性必修2 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>磁场与安培力</div><ul><li><strong>磁感应强度</strong>：<strong>B = F/(IL)</strong>（L 垂直于 B 时），是矢量，单位特斯拉（T）。</li><li><strong>安培力</strong>：<strong>F = BIL</strong>（要求 L 与 B 垂直）；<em>当 L∥B 时 F = 0</em>。</li><li><strong>安培力方向</strong>：由<em>左手定则</em>判定（伸开左手，让磁感线穿入手心，四指指向电流方向，大拇指指向安培力方向）。</li><li><strong>磁通量</strong>：<strong>Φ = BS</strong>（S 为垂直于 B 的有效面积）。</li><li>常见磁场：<em>①条形磁铁（外部由 N 到 S）；②直线电流（安培定则：右手握导线，拇指指向电流，四指弯曲方向为磁场方向）；③环形电流与通电螺线管</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>左手定则判<strong>力</strong>，右手定则判<strong>电</strong>（感应电流），安培定则（右手螺旋）判<strong>磁场</strong>。三个定则容易混淆，建议用「<strong>左力右电</strong>」四个字牢固记忆。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>洛伦兹力与带电粒子在磁场中的运动</div><ul><li><strong>洛伦兹力</strong>：<strong>f = qvB</strong>（v 垂直于 B 时），方向由<em>左手定则</em>判定（<strong>注意：负电荷四指指向与运动方向相反</strong>）。</li><li>洛伦兹力的特点：<em>①方向始终与速度垂直；②不做功，不改变速度大小，只改变速度方向</em>。</li><li><strong>带电粒子在匀强磁场中的圆周运动</strong>：<strong>qvB = mv²/r ⇒ r = mv/(qB)；T = 2πm/(qB)</strong>。</li><li>重要结论：<strong>周期 T 与速度 v 无关</strong>（同种粒子在同一磁场中周期相同）。</li><li><strong>质谱仪</strong>：用于测定带电粒子的质量和分析同位素。</li><li><strong>回旋加速器</strong>：利用电场加速、磁场偏转，<em>最大动能由磁感应强度和 D 形盒半径决定</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>带电粒子在磁场中运动的解题三步：<strong>①定圆心（由速度垂直半径确定）；②求半径（用几何关系或 r = mv/qB）；③算时间（用圆心角和周期）</strong>。几何关系是难点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>电磁感应</div><ul><li><strong>法拉第电磁感应定律</strong>：<strong>E = nΔΦ/Δt</strong>（n 为线圈匝数）。</li><li><strong>导体棒切割磁感线</strong>：<strong>E = BLv</strong>（B、L、v 两两垂直）。</li><li><strong>楞次定律</strong>：<em>感应电流的磁场总要阻碍引起感应电流的磁通量的变化</em>。口诀：<strong>「增反减同」</strong>。</li><li><strong>右手定则</strong>：判定导体切割磁感线产生的感应电流方向（伸开右手，让磁感线穿入手心，拇指指向导体运动方向，四指指向感应电流方向）。</li><li><strong>自感现象</strong>：<em>通电自感（灯泡逐渐变亮）、断电自感（灯泡闪亮后熄灭）</em>。</li><li><strong>涡流</strong>：块状金属在变化磁场中产生的感应电流。<em>应用：电磁炉、金属探测器；防止：变压器铁芯用硅钢片叠压</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>楞次定律的本质是<strong>能量守恒</strong>——感应电流的磁场阻碍磁通量变化，实质是阻碍相对运动，这个过程必然要克服安培力做功，把机械能转化为电能。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>交变电流与电磁波</h2><span class="tag">选择性必修2</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>交变电流</div><ul><li><strong>正弦式交变电流的产生</strong>：线圈在匀强磁场中绕垂直于磁场的轴匀速转动。</li><li><strong>瞬时值</strong>：<em>e = E₀sinωt</em>；<strong>峰值</strong>：<strong>E₀ = nBAω</strong>。</li><li><strong>有效值</strong>：<em>正弦式交流电的有效值 = 峰值/√2，即 U = U₀/√2</em>。<strong>有效值是根据电流热效应定义的</strong>。</li><li><strong>理想变压器</strong>：<strong>U₁/U₂ = n₁/n₂；I₁/I₂ = n₂/n₁（只有一个副线圈时）；P₁ = P₂</strong>。</li><li>变压器规律：<em>电压由匝数比决定，电流由电压和功率决定，功率不变</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>交流电「四值」的用途：<strong>①瞬时值——求某一时刻的值；②峰值——判断电容器是否击穿；③有效值——求电功、电热、电表读数；④平均值——求通过导线的电荷量</strong>。用途混淆是常见失分点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>电磁振荡与电磁波</div><ul><li><strong>LC 振荡电路</strong>：<em>电容器放电时电场能转化为磁场能；充电时磁场能转化为电场能</em>。</li><li><strong>电磁波</strong>：变化的电场产生磁场，变化的磁场产生电场，交替产生形成电磁波。</li><li><strong>麦克斯韦</strong>预言电磁波的存在，<strong>赫兹</strong>用实验证实。</li><li>电磁波的特点：<em>①可在真空中传播；②是横波；③传播速度等于光速 c = 3×10⁸ m/s（真空中）</em>。</li><li><strong>电磁波谱</strong>（波长由长到短）：<em>无线电波、红外线、可见光、紫外线、X射线、γ射线</em>。</li></ul></div></div></div>
+<div class="nav"><a href="#sec1">静电场</a><a href="#sec2">恒定电流</a><a href="#sec3">磁场</a><a href="#sec4">交变电流与电磁波</a></div>
+<div class="foot">本资料依据《普通高中物理课程标准（2017年版2020年修订）》与人教版选择性必修教材编写 · 高二上下学期适用</div></div></body></html>

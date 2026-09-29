@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高三数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高三<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>高考总复习</span><span>新高考Ⅰ卷</span><span>压轴专题</span><span>满分冲刺</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>函数与导数</h2><span class="tag">高考必考 · 约22分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>函数性质综合</div><ul><li><strong>单调性</strong>：<em>①定义法（取值—作差—变形—定号）；②导数法（f′(x)>0 递增，f′(x)<0 递减）；③复合函数「同增异减」</em>。</li><li><strong>奇偶性</strong>：<em>①奇函数 f(−x)=−f(x)，图像关于原点对称；②偶函数 f(−x)=f(x)，图像关于y轴对称；③奇函数若在 x=0 处有定义，则 f(0)=0</em>。</li><li><strong>周期性</strong>：<em>①f(x+T)=f(x)；②若 f(x+a)=−f(x)，则 T=2a；③若 f(x+a)=1/f(x)，则 T=2a</em>。</li><li><strong>对称性</strong>：<em>①f(a+x)=f(a−x) ⟺ 关于 x=a 对称；②f(a+x)+f(a−x)=2b ⟺ 关于点(a,b)中心对称</em>。</li><li><strong>零点</strong>：<em>①零点存在定理（连续函数 f(a)·f(b)<0 则 (a,b) 内有零点）；②数形结合求零点个数</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>函数性质<strong>「对称 + 周期」联动的黄金结论</strong>：<em>若函数有两条对称轴 x=a、x=b（a≠b），则 T=2|b−a|；若有一条对称轴 x=a 和一个对称中心 (b,0)，则 T=4|b−a|</em>。这是压轴题的常用突破口。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>基本初等函数与图像变换</div><ul><li><strong>指对幂</strong>：<em>①指数 a^x（a>0,a≠1）：a>1 增，0<a<1 减；②对数 log_a(x)：与指数互为反函数，图像关于 y=x 对称；③幂函数 y=x^α 的性质由 α 决定</em>。</li><li><strong>对数运算</strong>：<em>①log_a(MN)=log_a M + log_a N；②log_a(M/N)=log_a M − log_a N；③log_a M^n = n·log_a M；④换底公式 log_a b = log_c b / log_c a</em>。</li><li><strong>图像变换</strong>：<em>①平移（左加右减、上加下减）；②伸缩（横向 1/ω，纵向 A）；③对称（关于x轴、y轴、原点、y=x）；④翻折（|f(x)| 下翻上、f(|x|) 右翻左）</em>。</li><li><strong>比大小</strong>：<em>①同底用单调性；②同指用图像；③引入中间量（0、1）；④构造函数用导数</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>指对数比大小<strong>「三个中间量」</strong>：<em>0、1、以及题目中的特殊值</em>。先把每个数定位在哪两个整数之间，往往就能排除大半选项。近几年新高考偏爱「构造函数 + 导数」的比大小题。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>导数及其应用</div><ul><li><strong>导数公式</strong>：<em>①(x^n)′=nx^(n−1)；②(e^x)′=e^x；③(a^x)′=a^x·ln a；④(ln x)′=1/x；⑤(log_a x)′=1/(x ln a)；⑥(sin x)′=cos x；⑦(cos x)′=−sin x</em>。</li><li><strong>运算法则</strong>：<em>①(uv)′=u′v+uv′；②(u/v)′=(u′v−uv′)/v²；③复合函数 y=f(g(x)) 的导数 y′=f′(g(x))·g′(x)</em>。</li><li><strong>切线方程</strong>：<em>①「在点 P 处」→ P 是切点，k=f′(x₀)；②「过点 P」→ P 不一定是切点，需设切点 (t, f(t)) 求解</em>。</li><li><strong>单调性与极值</strong>：<em>①f′(x)>0 递增，f′(x)<0 递减；②极值点处 f′(x)=0（且左右变号）；③最值需比较极值与端点值</em>。</li><li><strong>恒成立问题</strong>：<em>①f(x)≥a 恒成立 ⟺ f(x)min ≥ a；②f(x)≤a 恒成立 ⟺ f(x)max ≤ a；③分离参数法（首选）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>「在点处」与「过点」的切线问题<strong>是最高频陷阱</strong>：<em>「在点 P 处」P 一定是切点；「过点 P」P 可能在曲线上也可能不在，必须设切点坐标 t 联立求解</em>。这一步错了，整题零分。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>三角、数列与立体几何</h2><span class="tag">高考必考 · 约27分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>三角函数与解三角形</div><ul><li><strong>诱导公式</strong>：<em>「奇变偶不变，符号看象限」</em>。</li><li><strong>同角关系</strong>：<em>sin²α + cos²α = 1；tan α = sin α / cos α</em>。</li><li><strong>和差倍角</strong>：<em>①sin(α±β)=sinαcosβ ± cosαsinβ；②cos(α±β)=cosαcosβ ∓ sinαsinβ；③sin2α=2sinαcosα；④cos2α=cos²α−sin²α=2cos²α−1=1−2sin²α</em>。</li><li><strong>辅助角公式</strong>：<em>a sin x + b cos x = √(a²+b²)·sin(x+φ)</em>。</li><li><strong>正弦定理</strong>：<em>a/sin A = b/sin B = c/sin C = 2R</em>。</li><li><strong>余弦定理</strong>：<em>a² = b² + c² − 2bc·cos A</em>。</li><li><strong>面积公式</strong>：<em>S = ½ab·sin C</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>解三角形<strong>「边角互化」</strong>是核心思路：<em>①求角优先用余弦定理；②已知两边及对角（SSA）优先用正弦定理；③注意「大边对大角」判定解的个数</em>。SSA 情形可能有两解，必须检验。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>数列</div><ul><li><strong>等差</strong>：<em>①aₙ = a₁ + (n−1)d；②Sₙ = n(a₁+aₙ)/2 = na₁ + n(n−1)d/2；③中项 2aₙ = aₙ₋₁ + aₙ₊₁</em>。</li><li><strong>等比</strong>：<em>①aₙ = a₁q^(n−1)；②Sₙ = a₁(1−q^n)/(1−q)（q≠1）；③中项 aₙ² = aₙ₋₁·aₙ₊₁</em>。</li><li><strong>求通项方法</strong>：<em>①公式法；②累加法（aₙ₊₁−aₙ=f(n)）；③累乘法（aₙ₊₁/aₙ=f(n)）；④构造法（aₙ₊₁=paₙ+q 型构造等比）；⑤已知 Sₙ 求 aₙ（aₙ=Sₙ−Sₙ₋₁，n≥2）</em>。</li><li><strong>求和方法</strong>：<em>①公式法；②错位相减（等差×等比型）；③裂项相消（1/[n(n+1)] 型）；④分组求和；⑤倒序相加</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>错位相减与裂项相消是<strong>数列大题的「两大得分引擎」</strong>。识别口诀：<em>看到「等差×等比」就错位相减；看到「分式且分母是乘积」就裂项相消</em>。用错方法，整题全废。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>立体几何</div><ul><li><strong>平行判定</strong>：<em>①线面平行（平面外一条直线与平面内一条直线平行 ⟹ 线面平行）；②面面平行（一个平面内两条相交直线分别平行于另一平面 ⟹ 面面平行）</em>。</li><li><strong>垂直判定</strong>：<em>①线面垂直（一条直线垂直于平面内两条相交直线 ⟹ 线面垂直）；②面面垂直（一个平面过另一个平面的垂线 ⟹ 面面垂直）</em>。</li><li><strong>空间向量法</strong>：<em>①建系（找三条两两垂直的直线）；②求法向量 n；③线面角 sinθ=|cos⟨a,n⟩|；④面面角 |cos⟨n₁,n₂⟩|；⑤点到面距离 d=|AP·n|/|n|</em>。</li><li><strong>外接球常见模型</strong>：<em>①长方体（正方体）型 → 2R=√(a²+b²+c²)；②正三棱柱型；③对棱相等型；④侧棱垂直底面型</em>。</li><li><strong>体积公式</strong>：<em>V(柱)=Sh；V(锥)=⅓Sh；V(球)=4/3πR³；S(球)=4πR²</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>立体几何大题<strong>「几何法」与「向量法」要会选</strong>：<em>证明平行垂直用几何定理（简洁、得分快）；求角度和距离用空间向量（不用找辅助线，稳妥）</em>。新高考更推荐向量法求角。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>解析几何、概率统计与压轴专题</h2><span class="tag">高考必考 · 约41分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>平面解析几何</div><ul><li><strong>直线</strong>：<em>①斜率 k=(y₂−y₁)/(x₂−x₁)；②点斜式 y−y₁=k(x−x₁)；③点到直线距离 d=|Ax₀+By₀+C|/√(A²+B²)；④平行 k₁=k₂，垂直 k₁k₂=−1</em>。</li><li><strong>圆</strong>：<em>①标准方程 (x−a)²+(y−b)²=r²；②一般方程 x²+y²+Dx+Ey+F=0（D²+E²−4F>0）；③直线与圆位置关系用圆心到直线距离 d 与 r 比较</em>。</li><li><strong>椭圆</strong>：<em>①x²/a²+y²/b²=1（a>b>0）；②c²=a²−b²；③e=c/a∈(0,1)；④焦点弦、通径 2b²/a</em>。</li><li><strong>双曲线</strong>：<em>①x²/a²−y²/b²=1；②c²=a²+b²；③e=c/a>1；④渐近线 y=±(b/a)x</em>。</li><li><strong>抛物线</strong>：<em>①y²=2px（焦点(p/2,0)，准线 x=−p/2）；②焦半径 |PF|=x₀+p/2</em>。</li><li><strong>弦长公式</strong>：<em>|AB|=√(1+k²)·|x₁−x₂| = √(1+k²)·√[(x₁+x₂)²−4x₁x₂]</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>圆锥曲线大题<strong>标准套路</strong>：<em>①设直线方程（注意讨论斜率不存在的情况！）；②联立曲线方程得二次方程；③用韦达定理求 x₁+x₂、x₁x₂；④代入目标式化简</em>。<strong>「联立 + 韦达」是永恒不变的第一步</strong>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>概率与统计</div><ul><li><strong>排列组合</strong>：<em>①A(n,m)=n!/(n−m)!（排列，有顺序）；②C(n,m)=n!/[m!(n−m)!]（组合，无顺序）；③二项式定理 (a+b)^n 展开式的通项 T(r+1)=C(n,r)a^(n−r)b^r</em>。</li><li><strong>古典概型</strong>：<em>P(A)=A包含的基本事件数 / 基本事件总数</em>。</li><li><strong>条件概率</strong>：<em>P(B|A)=P(AB)/P(A)</em>。<strong>全概率公式</strong>：<em>P(B)=ΣP(Aᵢ)P(B|Aᵢ)</em>。</li><li><strong>独立性</strong>：<em>P(AB)=P(A)P(B) ⟺ A、B 相互独立</em>。</li><li><strong>分布列</strong>：<em>①二项分布 X~B(n,p)：E(X)=np，D(X)=np(1−p)；②超几何分布；③正态分布 X~N(μ,σ²)：关于 x=μ 对称</em>。</li><li><strong>期望方差</strong>：<em>E(aX+b)=aE(X)+b；D(aX+b)=a²D(X)</em>。</li><li><strong>统计</strong>：<em>①平均数、方差、中位数、众数；②线性回归方程 ŷ=b̂x+â；③独立性检验 χ²；④相关系数 r</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>条件概率 vs 独立性的区分是<strong>选择题高频坑</strong>：<em>P(B|A) 是「在 A 已发生的前提下 B 发生」；A、B 独立是 P(B|A)=P(B)</em>。<strong>独立是条件概率的特殊情况</strong>，不要把两者混为一谈。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>高考压轴专题</div><ul><li><strong>导数压轴</strong>：<em>①含参讨论（分界点由 f′(x)=0 的根决定）；②零点的存在性与个数（构造 + 数形结合 + 零点定理）；③不等式证明（构造辅助函数求最值）；④双变量问题（极值点偏移、对数平均不等式）</em>。</li><li><strong>解析几何压轴</strong>：<em>①定点问题（设参数，证结果与参数无关）；②定值问题；③最值范围（判别式 + 韦达 + 基本不等式）；④存在性问题</em>。</li><li><strong>数列压轴</strong>：<em>①数列不等式（放缩法、数学归纳法）；②新定义数列；③数列与函数综合</em>。</li><li><strong>新定义题型</strong>：<em>①读懂定义（新概念、新运算）；②转化为已知模型；③验证边界情形</em>。</li><li><strong>解题策略</strong>：<em>①分步得分（第一问必拿，第二问尽量写步骤）；②特殊值探路；③数形结合；④时间分配（压轴题留 20 分钟）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>压轴题<strong>「分步得分」是铁律</strong>：<em>即使最后一问完全不会，也要把「设点、联立、韦达」这些固定步骤写出来——每一步都有分</em>。空着不写是最大的浪费。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">函数与导数</a><a href="#sec2">三角、数列与立体几何</a><a href="#sec3">解析几何、概率统计与压轴专题</a></div>
+<div class="foot">高三数学 · 高考总复习知识点考点总览</div></div></body></html>

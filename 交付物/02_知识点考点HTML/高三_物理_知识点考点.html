@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高三物理 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高三<span class="em">物理</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>高考总复习</span><span>必修+选修</span><span>力学电磁学</span><span>压轴突破</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>力学主干</h2><span class="tag">高考必考 · 约40分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>运动学与牛顿运动定律</div><ul><li><strong>匀变速直线运动</strong>：<em>①v = v₀ + at；②x = v₀t + ½at²；③v² − v₀² = 2ax；④x = (v₀+v)/2 · t</em>。</li><li><strong>重要推论</strong>：<em>①中间时刻速度 v(t/2) = (v₀+v)/2 = 平均速度；②连续相等时间间隔位移差 Δx = aT²（逐差法求加速度）</em>。</li><li><strong>自由落体</strong>：<em>v = gt，h = ½gt²，v² = 2gh</em>。</li><li><strong>牛顿三定律</strong>：<em>①惯性定律；②F = ma（核心）；③作用力与反作用力</em>。</li><li><strong>超重与失重</strong>：<em>①加速度向上（或有向上分量）→ 超重，N > mg；②加速度向下 → 失重，N < mg；③完全失重 a = g，N = 0</em>。</li><li><strong>连接体</strong>：<em>①整体法求加速度（外力/总质量）；②隔离法求内力</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「整体法 + 隔离法」是<strong>连接体问题的黄金组合</strong>：<em>先用整体法求系统加速度（前提是各物体加速度相同），再用隔离法对单个物体受力分析求内力</em>。反用也行：已知内力求外力。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>曲线运动、万有引力与机械能</div><ul><li><strong>运动的合成与分解</strong>：<em>①小船渡河（最短时间：船头垂直河岸；最短位移：合速度垂直河岸）；②绳（杆）末端速度分解（沿绳方向速度相等）</em>。</li><li><strong>平抛运动</strong>：<em>水平匀速 x=v₀t；竖直自由落体 y=½gt²；合速度 v=√(v₀²+vy²)；tan θ = vy/v₀ = gt/v₀</em>。</li><li><strong>圆周运动</strong>：<em>①v=ωr；②a=v²/r=ω²r；③向心力 F=mv²/r=mω²r；④竖直平面内圆周运动临界条件——最高点 v ≥ √(gr)（绳模型）或 v ≥ 0（杆模型）</em>。</li><li><strong>万有引力</strong>：<em>①F = GMm/r²；②GMm/r² = mv²/r = mω²r = m(4π²/T²)r；③黄金代换 GM = gR²</em>。</li><li><strong>三个宇宙速度</strong>：<em>v₁=7.9 km/s（第一，最小发射速度、最大环绕速度）；v₂=11.2 km/s；v₃=16.7 km/s</em>。</li><li><strong>机械能守恒</strong>：<em>条件——只有重力（或弹力）做功。E₁ = E₂（动能+势能守恒）</em>。</li><li><strong>动能定理</strong>：<em>W合 = ΔEk = ½mv² − ½mv₀²</em>（适用于任何过程，是解题首选）。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>动能定理与机械能守恒的<strong>选择原则</strong>：<em>有摩擦力、有外力做功 → 用动能定理（万能）；只有重力/弹力做功 → 用机械能守恒（简便）</em>。搞错适用条件会得出错误结论。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>动量与碰撞</div><ul><li><strong>冲量</strong>：<em>I = Ft</em>，矢量。<strong>动量</strong>：<em>p = mv</em>，矢量。</li><li><strong>动量定理</strong>：<em>I合 = Δp = mv₂ − mv₁</em>（可求平均力、求时间、求冲量）。</li><li><strong>动量守恒定律</strong>：<em>条件——系统不受外力或所受外力之和为零（或内力远大于外力，如碰撞、爆炸）</em>。</li><li><strong>碰撞类型</strong>：<em>①弹性碰撞（动量守恒 + 动能守恒）；②非弹性碰撞（动量守恒，动能减少）；③完全非弹性碰撞（碰后共速，动能损失最大）</em>。</li><li><strong>弹性碰撞结论</strong>（一动碰一静）：<em>v₁′ = (m₁−m₂)v₀/(m₁+m₂)；v₂′ = 2m₁v₀/(m₁+m₂)</em>。</li><li><strong>反冲与爆炸</strong>：<em>①人船模型（m₁x₁ = m₂x₂）；②爆炸过程动量守恒、动能增加</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>「人船模型」结论必背：<em>系统初动量为零，则 m₁x₁ = m₂x₂</em>（位移与质量成反比）。这个结论在<strong>滑块-滑板、人走船退、气球上升</strong>等题型中反复出现，是压轴常客。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>电磁学主干</h2><span class="tag">高考必考 · 约45分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>电场与电路</div><ul><li><strong>电场强度</strong>：<em>①定义式 E = F/q（普适）；②点电荷 E = kQ/r²（只适用点电荷）；③匀强电场 E = U/d</em>。</li><li><strong>电势与电势差</strong>：<em>φ = Ep/q；U(AB) = φA − φB = W(AB)/q</em>。<em>沿电场线方向电势降低</em>。</li><li><strong>带电粒子在电场中运动</strong>：<em>①加速——qU = ½mv²；②偏转（类平抛）——侧移 y = qUL²/(2mdv₀²)，偏转角 tan θ = qUL/(mdv₀²)</em>。</li><li><strong>闭合电路欧姆定律</strong>：<em>E = U外 + U内 = I(R+r)</em>。</li><li><strong>路端电压</strong>：<em>U = E − Ir</em>，随外电阻 R 增大而增大。</li><li><strong>电功率</strong>：<em>①P总 = EI；②P出 = UI = I²R；③P内 = I²r；④输出功率最大条件 R = r</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「R = r 时电源输出功率最大」是<strong>电路动态分析的核心结论</strong>，此时 η = 50%。注意区分：<em>「输出功率最大」和「效率最高」（η 随 R 增大而升高）是两个不同的追求</em>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>磁场、电磁感应与交流电</div><ul><li><strong>安培力</strong>：<em>F = BIL（L 垂直于 B）。方向用左手定则（磁感线穿手心，四指指向电流，拇指指向安培力）</em>。</li><li><strong>洛伦兹力</strong>：<em>f = qvB（v 垂直于 B）。方向用左手定则。洛伦兹力<strong>永远不做功</strong></em>。</li><li><strong>带电粒子在磁场中运动</strong>：<em>①半径 r = mv/(qB)；②周期 T = 2πm/(qB)（与速度无关）；③几何关系——弦的中垂线过圆心</em>。</li><li><strong>法拉第电磁感应定律</strong>：<em>E = nΔΦ/Δt</em>。</li><li><strong>导体切割磁感线</strong>：<em>E = BLv（B、L、v 两两垂直）</em>。</li><li><strong>楞次定律</strong>：<em>感应电流的磁场总要阻碍引起感应电流的磁通量的变化（「增反减同」）</em>。</li><li><strong>自感现象</strong>：<em>①通电自感——灯泡逐渐变亮；②断电自感——灯泡闪亮后熄灭</em>。</li><li><strong>交变电流</strong>：<em>①e = Em·sin ωt（Em = NBAω）；②有效值 E = Em/√2；③变压器 U₁/U₂ = n₁/n₂，I₁/I₂ = n₂/n₁（理想变压器功率不变）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>有效值不是峰值的一半，也不是平均值。<strong>正弦交流电的有效值 = 峰值 / √2 ≈ 0.707 × 峰值</strong>。而<em>非正弦（如方波、半波）的有效值必须用「有效值定义」——热效应等效法求解</em>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>电磁学压轴专题</div><ul><li><strong>组合场问题</strong>：<em>①粒子依次经过电场、磁场；②在电场中做类平抛/匀变速直线；③在磁场中做匀速圆周；④抓「衔接点」的速度大小与方向</em>。</li><li><strong>叠加场问题</strong>：<em>①速度选择器（qE = qvB ⟹ v = E/B，与电荷量、质量无关）；②磁流体发电机；③电磁流量计；④霍尔效应</em>。</li><li><strong>电磁感应中的动力学</strong>：<em>①单杆切割——F − B²L²v/R = ma（加速度随速度增大而减小）；②最终做匀速运动（a=0），最大速度 vmax = FR/(B²L²)</em>。</li><li><strong>电磁感应中的能量</strong>：<em>W克服安培力 = 产生的电能 = 焦耳热（能量守恒）</em>。</li><li><strong>电磁感应中的图像</strong>：<em>①i-t、U-t、F-t 图像；②注意转折点（进出磁场）与斜率变化</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>「单杆切割」的<strong>终极结论</strong>：<em>加速度随速度增大而减小，最终 a=0 时速度最大 vmax = FR/(B²L²)；若为电源驱动，则最终电流为零、杆匀速</em>。理解这个「动态收敛」过程，所有变式都能推出来。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>选修模块（热学、机械波、光学、近代物理）</h2><span class="tag">高考必考 · 约15分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>热学</div><ul><li><strong>分子动理论</strong>：<em>①物体由大量分子组成；②分子永不停息做无规则热运动；③分子间存在引力和斥力</em>。</li><li><strong>分子力</strong>：<em>r = r₀ 时分子力为零（此时分子势能最小）；r < r₀ 表现为斥力；r > r₀ 表现为引力</em>。</li><li><strong>温度</strong>：<em>是分子平均动能的标志。T = t + 273.15 K</em>。</li><li><strong>气体实验定律</strong>：<em>①玻意耳定律（等温）p₁V₁=p₂V₂；②查理定律（等容）p₁/T₁=p₂/T₂；③盖-吕萨克定律（等压）V₁/T₁=V₂/T₂</em>。</li><li><strong>理想气体状态方程</strong>：<em>pV/T = 恒量（p₁V₁/T₁ = p₂V₂/T₂）</em>。</li><li><strong>热力学定律</strong>：<em>①第一定律 ΔU = Q + W（吸热 Q>0、外界做功 W>0）；②第二定律——热现象有方向性，效率不可能达 100%</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>热力学第一定律的<strong>符号规则</strong>最容易错：<em>「系统吸热 Q>0、放热 Q<0；外界对系统做功 W>0、系统对外做功 W<0」</em>。判断ΔU 时先看 Q，再看 W，最后相加减。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>机械振动与机械波</div><ul><li><strong>简谐运动</strong>：<em>①回复力 F = −kx；②位移 x = A sin(ωt+φ)；③周期 T = 2π√(m/k)（弹簧振子）、T = 2π√(L/g)（单摆）</em>。</li><li><strong>振动图像</strong>：<em>横轴为时间。注意振幅、周期、某时刻的速度与加速度方向</em>。</li><li><strong>机械波</strong>：<em>①波速 v = λf = λ/T；②波传播的是振动形式和能量，质点不随波迁移；③各质点起振方向与波源相同</em>。</li><li><strong>波动图像</strong>：<em>横轴为位置。注意波长、振幅、传播方向</em>。</li><li><strong>波的干涉</strong>：<em>①条件——频率相同；②加强点（路程差 = nλ）；③减弱点（路程差 = (n+½)λ）</em>。</li><li><strong>波的衍射</strong>：<em>障碍物或孔的尺寸比波长小或与波长差不多时，波明显绕射</em>。</li><li><strong>多普勒效应</strong>：<em>波源与观察者相互接近，接收频率变高；相互远离，接收频率变低</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>「振动图像」与「波动图像」<strong>极易混淆</strong>：<em>振动图像描述一个质点随时间的变化（横轴 t）；波动图像描述某一时刻各质点的位移（横轴 x）</em>。看图先确认横轴是什么。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>光学与近代物理</div><ul><li><strong>光的折射</strong>：<em>①n = sin i / sin r；②n = c/v；③光在介质中的速度 v = c/n</em>。</li><li><strong>全反射</strong>：<em>①条件——光从光密介质射向光疏介质，且入射角大于等于临界角；②临界角 sin C = 1/n</em>。</li><li><strong>光的干涉</strong>：<em>双缝干涉——Δy = Lλ/d（条纹间距）</em>。</li><li><strong>光的衍射</strong>：<em>单缝衍射——中央条纹最亮最宽</em>。</li><li><strong>光电效应</strong>：<em>①Ek(max) = hν − W₀（爱因斯坦光电方程）；②截止频率 ν₀ = W₀/h；③光电子最大初动能与光强无关，只与频率有关</em>。</li><li><strong>光子说</strong>：<em>E = hν（h = 6.63×10⁻³⁴ J·s）</em>。</li><li><strong>原子结构</strong>：<em>①玻尔模型——轨道量子化、能量量子化；②能级跃迁 hν = Eₘ − Eₙ；③氢原子能级 Eₙ = −13.6/n² eV</em>。</li><li><strong>原子核</strong>：<em>①衰变（α衰变、β衰变）；②半衰期；③核反应方程质量数与电荷数守恒；④质能方程 E = mc²</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>光电效应的<strong>「两个无关」</strong>必须牢记：<em>①光电子最大初动能与光强无关（只与频率有关）；②能否发生光电效应取决于频率是否达到截止频率（与光强、光照时间无关）</em>。这是选择题的经典陷阱。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">力学主干</a><a href="#sec2">电磁学主干</a><a href="#sec3">选修模块（热学、机械波、光学、近代物理）</a></div>
+<div class="foot">高三物理 · 高考总复习知识点考点总览</div></div></body></html>

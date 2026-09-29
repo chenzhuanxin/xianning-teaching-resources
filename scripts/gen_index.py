@@ -8,7 +8,8 @@ PH_DIR = os.path.join(BASE, "交付物", "03_期末真题试卷", "HTML")
 PW_DIR = os.path.join(BASE, "交付物", "03_期末真题试卷", "Word_PDF")
 
 GRADES = ["一年级", "二年级", "三年级", "四年级", "五年级",
-          "六年级", "七年级", "八年级", "九年级"]
+          "六年级", "七年级", "八年级", "九年级",
+          "高一", "高二", "高三"]
 
 # 各年级学科顺序
 SUBJECT_ORDER = {
@@ -21,7 +22,20 @@ SUBJECT_ORDER = {
     "七年级": ["语文", "数学", "英语", "道德与法治", "历史", "地理", "生物"],
     "八年级": ["语文", "数学", "英语", "道德与法治", "历史", "地理", "生物", "物理"],
     "九年级": ["语文", "数学", "英语", "道德与法治", "历史", "物理", "化学"],
+    "高一": ["语文", "数学", "英语", "物理", "化学", "生物",
+             "思想政治", "历史", "地理"],
+    "高二": ["语文", "数学", "英语", "物理", "化学", "生物",
+             "思想政治", "历史", "地理"],
+    "高三": ["语文", "数学", "英语", "物理", "化学", "生物",
+             "思想政治", "历史", "地理"],
 }
+
+# 学段分组（用于分区展示）
+STAGES = [
+    ("小学（1–6 年级）", ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"]),
+    ("初中（7–9 年级）", ["七年级", "八年级", "九年级"]),
+    ("高中（高一–高三）", ["高一", "高二", "高三"]),
+]
 
 # 试卷类型 -> 显示顺序
 PAPER_LABELS = ["第一学期期末质量检测", "第二学期期末教学质量监测",
@@ -29,6 +43,8 @@ PAPER_LABELS = ["第一学期期末质量检测", "第二学期期末教学质�
                 "期末复习质量检测", "期末学业质量监测",
                 "第一学期期末学业质量综合评价", "第二学期期末学业水平测试",
                 "期末综合能力提升测试", "第二学期中考模拟测试",
+                "第一学期期末教学质量监测", "第二学期期末质量检测",
+                "第二学期期末综合能力测试", "学年度期末学业水平测试",
                 "中考", "综合能力"]
 
 
@@ -96,8 +112,7 @@ def build():
     total_kp = sum(len(v) for g in kp.values() for v in g.values())
     total_ph = sum(len(v) for g in ph.values() for v in g.values())
 
-    cards = []
-    for grade in GRADES:
+    def make_card(grade):
         subjects = SUBJECT_ORDER.get(grade, [])
         # ---- 知识点 ----
         kp_items = ""
@@ -132,7 +147,7 @@ def build():
         n_kp = sum(len(v) for v in kp.get(grade, {}).values())
         n_ph = sum(len(v) for v in ph.get(grade, {}).values())
 
-        cards.append(f"""
+        return f"""
     <section class="grade-card">
       <div class="grade-head">
         <h2>{grade}</h2>
@@ -148,14 +163,25 @@ def build():
           <div class="paper-wrap">{ph_items or '<div class="empty">暂无</div>'}</div>
         </div>
       </div>
-    </section>""")
+    </section>"""
+
+    # 按学段分组
+    stage_blocks = []
+    for stage_name, gs in STAGES:
+        n_kp = sum(len(v) for g in gs for v in kp.get(g, {}).values())
+        n_ph = sum(len(v) for g in gs for v in ph.get(g, {}).values())
+        stage_blocks.append(
+            f'<div class="stage-title"><h2>{stage_name}</h2>'
+            f'<div class="stage-counts"><span>{n_kp} 份知识点</span>'
+            f'<span>{n_ph} 套试卷</span></div></div>')
+        stage_blocks.extend(make_card(g) for g in gs)
 
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>湖北省咸宁市中小学教学资源库（1–9 年级）</title>
+<title>湖北省咸宁市中小学教学资源库（小学—高中）</title>
 <style>
   :root {{
     --blue: #1a4b8c; --blue-lt: #2f6fb8; --gold: #c9a227;
@@ -249,6 +275,25 @@ def build():
   ul.papers a.dl {{ color: var(--txt2); }}
   ul.papers a.dl:hover {{ background: #fdf6ec; border-color: #f0dcc0; color: #a05a12; }}
   .empty {{ color: #9aa8b8; font-size: 13px; }}
+  .stage-title {{
+    display: flex; align-items: center; justify-content: space-between;
+    margin: 34px 0 16px; padding: 0 4px 10px; flex-wrap: wrap; gap: 10px;
+    border-bottom: 2px solid var(--line);
+  }}
+  .stage-title:first-child {{ margin-top: 8px; }}
+  .stage-title h2 {{
+    margin: 0; font-size: 18px; color: var(--blue); letter-spacing: 1px;
+  }}
+  .stage-title h2::before {{
+    content: ""; display: inline-block; width: 5px; height: 20px;
+    background: var(--blue); margin-right: 10px; vertical-align: -4px;
+    border-radius: 2px;
+  }}
+  .stage-counts {{ display: flex; gap: 10px; }}
+  .stage-counts span {{
+    background: #f0f4fa; color: var(--txt2); font-size: 12.5px;
+    padding: 3px 12px; border-radius: 20px;
+  }}
   footer {{
     text-align: center; color: var(--txt2); font-size: 13px;
     padding: 26px 20px 40px; line-height: 2;
@@ -265,12 +310,12 @@ def build():
 <body>
 <header>
   <h1>湖北省咸宁市中小学教学资源库</h1>
-  <p>小学一年级 ~ 初中九年级 · 教材版本总表 · 知识点考点 · 期末真题试卷</p>
+  <p>小学一年级 ~ 高中三年级 · 教材版本总表 · 知识点考点 · 期末真题试卷</p>
   <div class="stats">
-    <div><b>9</b><span>年级</span></div>
+    <div><b>12</b><span>年级</span></div>
     <div><b>{total_kp}</b><span>份知识点考点</span></div>
     <div><b>{total_ph}</b><span>套期末真题试卷</span></div>
-    <div><b>10</b><span>门学科</span></div>
+    <div><b>11</b><span>门学科</span></div>
   </div>
 </header>
 
@@ -278,10 +323,12 @@ def build():
   <div class="version-note">
     <b>教材版本（咸宁本地）</b>　小学：语文/道法统编版、数学人教版、英语人教版PEP、科学人教·鄂教版；
     初中：语文/道法/历史统编版，数学/地理/生物/化学人教版，
-    <b>英语仁爱版（科普版）</b>、<b>物理北师大版</b>。
+    <b>英语仁爱版（科普版）</b>、<b>物理北师大版</b>；
+    高中：语文/数学（人教A版）/英语/物理/化学/生物/思想政治/历史为人教·统编版，
+    <b>地理为中国地图出版社版</b>。
     官方电子教材见页面底部链接。
   </div>
-{''.join(cards)}
+{''.join(stage_blocks)}
 </div>
 
 <footer>

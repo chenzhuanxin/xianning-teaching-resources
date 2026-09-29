@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高三语文 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高三<span class="em">语文</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>高考总复习</span><span>全国卷题型</span><span>新高考Ⅰ卷</span><span>高分必备</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>现代文阅读Ⅰ · 信息类文本</h2><span class="tag">高考必考 · 18分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>论述类文本阅读</div><ul><li><strong>考查能力</strong>：<em>理解文中重要概念和句子的含义、筛选并整合文中信息、分析文章结构和论点论据、概括中心意思</em>。</li><li><strong>设错陷阱</strong>（九大高频）：<em>①偷换概念；②张冠李戴（主体错位）；③以偏概全（部分→整体）；④混淆时态（未然→已然）；⑤无中生有；⑥因果混乱（强加因果、因果倒置）；⑦曲解文意；⑧混淆条件关系（充分↔必要）；⑨范围失当</em>。</li><li><strong>解题三步法</strong>：<em>①读题干，圈定关键词与检索区间；②回原文，逐字比对（比范围、比程度、比时态、比关系）；③定判断，排除绝对化与无依据选项</em>。</li><li><strong>绝对化词语警惕</strong>：<em>「都、所有、一定、必然、完全、唯一、必须、只要……就」</em>，出现即为重点核查对象。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>论述类文本的核心是<strong>「比对」</strong>，不是「理解」。绝大多数错项都能在原文找到与之对应的句子，差异往往只有一两个字的范围或程度差别。<em>逐字比对，胜过反复通读</em>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>实用类文本阅读</div><ul><li><strong>文体类型</strong>：<em>新闻通讯、人物传记、科普文章、报告文学、访谈</em>。</li><li><strong>新闻</strong>：<em>①基本特征——真实性、时效性、准确性；②要素——时间、地点、人物、事件、原因、结果（5W1H）；③结构——标题、导语、主体、背景、结语</em>。</li><li><strong>传记</strong>：<em>①真实性（史实准确）；②文学性（细节描写）；③选材典型、详略得当</em>。</li><li><strong>图表题</strong>：<em>①读标题、看坐标单位；②注意极值与变化趋势；③图文互证，警惕「数据与结论不符」</em>。</li><li><strong>答题模板</strong>：概括题=<em>分点陈述 + 原文依据</em>；作用题=<em>内容上（写了什么）+ 结构上（承上启下/铺垫/照应）+ 效果上（感染力/说服力）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>实用类文本的<strong>多材料比较题</strong>是近年热点：先各自概括每则材料的核心观点，再找<em>相同点与不同点</em>，最后落脚到「为什么不同」（立场、角度、目的不同）。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>现代文阅读Ⅱ · 文学类文本</h2><span class="tag">高考必考 · 16分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>小说阅读核心考点</div><ul><li><strong>三要素</strong>：<em>人物、情节、环境</em>。</li><li><strong>人物形象</strong>分析角度：<em>①正面描写（肖像、语言、动作、心理、神态、细节）；②侧面描写（他人衬托、环境烘托）；③身份地位、经历遭遇</em>。</li><li><strong>情节结构</strong>：<em>①线索（单线、双线、明暗线）；②顺序（顺叙、倒叙、插叙、补叙、平叙）；③技巧（伏笔、铺垫、照应、悬念、突转、欧·亨利式结尾）</em>。</li><li><strong>环境描写作用</strong>：<em>①交代时间地点背景；②渲染气氛，奠定基调；③烘托人物性格、暗示命运；④推动情节发展；⑤深化主题</em>。</li><li><strong>标题作用</strong>：<em>①概括情节/点明对象；②线索，贯穿全文；③暗示主题/象征意义；④吸引读者，引发思考</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>小说答题的<strong>万能逻辑</strong>：任何题都从<em>「人物、情节、环境、主题、读者」</em>五个维度去套。比如「某段的作用」→ 对人物（塑造形象）、对情节（推动/铺垫）、对环境（渲染）、对主题（深化）、对读者（悬念/感染）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>散文阅读核心考点</div><ul><li><strong>形散神聚</strong>：<em>「形散」指取材自由、笔法灵活；「神聚」指中心思想集中、线索贯穿</em>。</li><li><strong>常见线索</strong>：<em>①事物线索；②情感线索；③时间/空间线索；④人物线索</em>。</li><li><strong>表现手法</strong>：<em>①象征（托物言志）；②对比；③衬托（正衬、反衬）；④渲染；⑤欲扬先抑；⑥借景抒情；⑦虚实结合；⑧动静结合</em>。</li><li><strong>语言赏析</strong>：<em>①用词（动词、形容词、叠词）；②句式（长短句、整散句）；③修辞（比喻、拟人、排比、反复、通感）；④语言风格（质朴、华丽、幽默、冷峻）</em>。</li><li><strong>重要句子含义</strong>：<em>①表层义（字面）；②深层义（象征、隐喻）；③情感义（作者态度）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>散文句子含义题答题口诀：<strong>「先指代、后还原、再深挖」</strong>——把句中的代词指代明确，把修辞手法还原为本来意思，最后联系主旨谈情感和意蕴。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>鉴赏与探究题</div><ul><li><strong>探究题类型</strong>：<em>①主旨探究；②人物评价探究；③艺术手法探究；④启示感悟探究</em>。</li><li><strong>答题规范</strong>：<em>①亮明观点（明确态度）；②分点论证（结合文本具体内容）；③联系现实/自身体验；④总结升华</em>。</li><li><strong>「探究」不等于「随意」</strong>：<em>所有观点都必须有文本依据，脱离文本的发挥不给分</em>。</li><li><strong>比较阅读</strong>：<em>①比较内容（写了什么）；②比较手法（怎么写）；③比较情感（为什么写）；④比较效果（写得怎样）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>探究题最忌<strong>「只表态不分析」</strong>。正确结构是：<em>观点（1句）+ 文本依据（2-3处，必须引用原文细节）+ 分析阐释（3-4句）+ 总结（1句）</em>。少任何一环都会丢分。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>古代诗文阅读</h2><span class="tag">高考必考 · 35分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>文言文阅读</div><ul><li><strong>实词</strong>：<em>一词多义、古今异义（如「妻子」「中国」「几何」）、通假字、词类活用（名作动、名作状、形作名、使动、意动、为动）</em>。</li><li><strong>虚词18个</strong>：<em>而、何、乎、乃、其、且、若、所、为、焉、也、以、因、于、与、则、者、之</em>。</li><li><strong>特殊句式</strong>：<em>①判断句（……者……也）；②被动句（为……所、见……于）；③倒装句（宾语前置、状语后置、定语后置、主谓倒装）；④省略句</em>。</li><li><strong>断句方法</strong>：<em>①看虚词（夫、盖、故、则、矣、乎、也、焉、耳）；②看对话（曰、云、言）；③看句式（对偶、排比）；④看语法（主谓宾结构）</em>。</li><li><strong>翻译六字诀</strong>：<em>留（人名地名官名）、删（无义虚词）、换（古今异义）、调（倒装）、补（省略成分）、贯（通顺连贯）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>文言翻译评分采<strong>「关键点」</strong>给分：<em>实词含活用、虚词、特殊句式，每处1分</em>。所以翻译时要<strong>逐字落实</strong>，宁可直译，不要意译丢掉得分点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>古代诗歌鉴赏</div><ul><li><strong>意象与意境</strong>：<em>常见意境术语——雄浑壮阔、旷达豪迈、清新明丽、幽静闲适、萧瑟凄凉、孤寂冷清、恬静优美</em>。</li><li><strong>常见题材</strong>：<em>①送别怀人；②山水田园；③边塞征战；④咏史怀古；⑤咏物言志；⑥羁旅思乡；⑦闺怨宫怨</em>。</li><li><strong>表达技巧</strong>：<em>①修辞（比喻、拟人、夸张、对偶、借代、双关、用典）；②表现手法（对比、衬托、象征、用典、虚实、动静、抑扬、白描、细节）；③抒情方式（直接抒情/间接抒情——借景抒情、托物言志、寓情于事）</em>。</li><li><strong>答题三步骤</strong>：<em>①点明手法；②结合诗句阐释；③分析效果（情感、意境、作用）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>诗歌鉴赏答题<strong>「三要素」</strong>：<em>手法 + 诗句分析 + 情感效果</em>。这三者缺一不可，且顺序不能颠倒。只写「运用了比喻」而不引诗句、不析效果，几乎不得分。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>名篇名句默写</div><ul><li><strong>考查范围</strong>：<em>新课标推荐背诵篇目（高中14篇 + 初中50篇，高考常考重点篇目）</em>。</li><li><strong>高中必背重点</strong>：<em>《劝学》《师说》《赤壁赋》《琵琶行》《离骚》《登高》《锦瑟》《蜀道难》《琵琶行》《阿房宫赋》《游山西村》《念奴娇·赤壁怀古》《永遇乐·京口北固亭怀古》《声声慢》《静女》《涉江采芙蓉》</em>。</li><li><strong>易错字提示</strong>：<em>①《劝学》「跂」「臾」「跬」「镂」；②《赤壁赋》「冯虚御风」「舳舻」「匏樽」；③《师说》「庸」「谀」；④《阿房宫赋》「缦」「辘辘」「锱铢」</em>。</li><li><strong>做题要点</strong>：<em>①注意提示语（理解性默写）；②注意上下句逻辑；③字字落实，不可有错别字</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>默写<strong>「一字错，全句零分」</strong>。最常错的<em>通假字与生僻字</em>：如「则知明而行无过矣」的「知」（通「智」）、「君子生非异也」的「生」（通「性」）——必须按原文写，不能自作主张改成现代字。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>语言文字运用与写作</h2><span class="tag">高考必考 · 20分 + 60分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>语言文字运用</div><ul><li><strong>成语</strong>：<em>①望文生义（「万人空巷」「差强人意」）；②褒贬误用（「处心积虑」「无所不为」）；③对象误用（「相敬如宾」只用于夫妻、「豆蔻年华」指女子十三四岁）；④语义重复（「忍俊不禁地笑了」）</em>。</li><li><strong>病句六类</strong>：<em>①语序不当；②搭配不当；③成分残缺或赘余；④结构混乱（句式杂糅）；⑤表意不明；⑥不合逻辑</em>。</li><li><strong>语句补写</strong>：<em>①看位置（段首总起、段中过渡、段尾总结）；②看前后（照应、话题一致）；③看句式（与上下文保持一致）</em>。</li><li><strong>修辞手法</strong>：<em>比喻、比拟、借代、夸张、对偶、排比、反复、设问、反问、通感</em>。</li><li><strong>标点符号</strong>：<em>①引号（直接引用、强调、特殊含义、反语）；②破折号（解释、转折、递进、话语中断）；③省略号；④顿号与逗号的使用区别</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>语用题的<strong>新趋势</strong>是<em>「情境化」</em>——把成语、病句、修辞放进具体语段中考查。<strong>答题必须结合语境，不能脱离上下文孤立判断</strong>，这是近年失分的主要原因。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>作文（60分 · 重中之重）</div><ul><li><strong>审题立意</strong>：<em>①抓关键词句；②辨析材料层次关系（并列、递进、对立、因果）；③明确任务指令（文体、身份、情境、对象）；④确定核心论点</em>。</li><li><strong>结构模板（议论文）</strong>：<em>①引（引材料，亮观点）；②议（分析论证）；③联（联系现实/自身）；④结（总结升华）</em>。</li><li><strong>分论点设置</strong>：<em>①并列式（是什么/为什么/怎么办）；②递进式（由浅入深）；③对比式（正反对比）</em>。</li><li><strong>论据素材</strong>：<em>①古今中外名人事例；②经典名言；③社会热点（科技、文化、家国、青年担当）</em>。</li><li><strong>语言提升</strong>：<em>①善用排比、引用、比喻；②长短句结合；③适度使用「诚然/然而/因此」等逻辑连接词</em>。</li><li><strong>评分标准</strong>：<em>①基础等级（内容20分 + 表达20分）；②发展等级（深刻、丰富、有文采、有创意，20分）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>作文提分三招：<strong>①标题要有文采（引用化用诗文或对偶）；②开头要快（3句内亮出观点，别绕圈子）；③分论点要齐（三个分论点句式一致、字数相近，视觉上就赢一半）</strong>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>情境任务型写作</div><ul><li><strong>常见任务类型</strong>：<em>演讲稿、书信、倡议书、辩论稿、荐书稿、文学短评、公众号推文</em>。</li><li><strong>格式要求</strong>：<em>①演讲稿——称呼、开场问候、结尾致谢；②书信——称呼、问候语、正文、祝颂语、署名日期；③倡议书——标题、称呼、正文（背景+倡议内容）、结尾、署名日期</em>。</li><li><strong>身份与对象意识</strong>：<em>写作时必须明确「我是谁」「写给谁看」，语气与用词要匹配身份</em>。</li><li><strong>情境意识</strong>：<em>要在文中多次回扣情境（如「在今天的班会上」「作为一名高三学生」），这是得分点</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>情境任务型作文<strong>最容易丢的「冤枉分」是格式和身份</strong>：忘了写称呼、忘署日期、用了与身份不符的语气，都会直接扣分。动笔前先想清楚<em>「文体格式 + 身份 + 对象 + 场合」</em>四件事。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">现代文阅读Ⅰ · 信息类文本</a><a href="#sec2">现代文阅读Ⅱ · 文学类文本</a><a href="#sec3">古代诗文阅读</a><a href="#sec4">语言文字运用与写作</a></div>
+<div class="foot">高三语文 · 高考总复习知识点考点总览</div></div></body></html>

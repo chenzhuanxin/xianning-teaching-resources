@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高三生物 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高三<span class="em">生物</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>高考总复习</span><span>必修+选择性必修</span><span>遗传专题</span><span>实验探究</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>分子与细胞</h2><span class="tag">高考必考 · 约20分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>细胞的分子组成与结构</div><ul><li><strong>水</strong>：<em>①自由水（溶剂、运输、参与反应）；②结合水（结构组成）。自由水/结合水比值越大，代谢越旺盛</em>。</li><li><strong>无机盐</strong>：<em>①构成化合物（如 Fe 构成血红蛋白、Mg 构成叶绿素、P 构成 ATP 和膜）；②维持渗透压与酸碱平衡</em>。</li><li><strong>糖类/脂质/蛋白质/核酸</strong>：<em>①蛋白质基本单位氨基酸（约20种），由肽键连接；②核酸基本单位核苷酸（8种），DNA 含脱氧核糖、RNA 含核糖</em>。</li><li><strong>细胞器</strong>：<em>①线粒体（有氧呼吸主要场所，「动力车间」）；②叶绿体（光合作用场所）；③核糖体（蛋白质合成）；④内质网（加工运输）；⑤高尔基体（加工分类包装）；⑥溶酶体（「消化车间」）；⑦中心体（动物细胞有丝分裂）；⑧液泡（植物细胞）</em>。</li><li><strong>生物膜系统</strong>：<em>由细胞膜、核膜、细胞器膜构成，流动镶嵌模型</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「含 DNA 的结构」：<em>细胞核、线粒体、叶绿体（植物）</em>；「含 RNA 的结构」：<em>细胞核、线粒体、叶绿体、核糖体</em>。特别注意：<strong>核糖体含 rRNA，不含 DNA</strong>，这是最常见的丢分点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>细胞代谢</div><ul><li><strong>酶</strong>：<em>①高效性；②专一性；③作用条件温和（最适温度、pH）。本质——绝大多数是蛋白质，少数是 RNA</em>。</li><li><strong>ATP</strong>：<em>结构简式 A-P~P~P；远离腺苷的高能磷酸键易断裂供能；ATP ⇌ ADP + Pi + 能量</em>。</li><li><strong>有氧呼吸</strong>三阶段：<em>①细胞质基质——葡萄糖→丙酮酸 + [H] + 少量能量；②线粒体基质——丙酮酸 + H₂O → CO₂ + [H] + 少量能量；③线粒体内膜——[H] + O₂ → H₂O + 大量能量</em>。</li><li><strong>无氧呼吸</strong>：<em>①产酒精（酵母菌、植物）；②产乳酸（动物、乳酸菌、马铃薯块茎）</em>。</li><li><strong>光合作用</strong>：<em>①光反应（类囊体薄膜）——水的光解产生 [H] 和 O₂，ATP 生成；②暗反应（叶绿体基质）——CO₂ 固定（C₅ + CO₂ → 2C₃）与 C₃ 还原</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>光合作用与呼吸作用的<strong>「三个量」关系必背</strong>：<em>①总光合量（真光合）= 净光合 + 呼吸消耗；②O₂ 产生量 = 总光合，O₂ 释放量 = 净光合；③CO₂ 固定量 = 总光合，CO₂ 吸收量 = 净光合</em>。题目问的是哪个量，务必看清。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>细胞的生命历程</div><ul><li><strong>有丝分裂</strong>：<em>①间期（DNA 复制、蛋白质合成）；②前期（膜仁消失现两体）；③中期（染色体着丝点排列在赤道板，是观察染色体的最佳时期）；④后期（着丝点分裂，染色体数目暂时加倍）；⑤末期（膜仁重现显两体）</em>。</li><li><strong>细胞分化</strong>：<em>基因的选择性表达，细胞形态结构功能发生稳定性差异</em>。</li><li><strong>细胞衰老</strong>：<em>①水分减少，体积变小；②酶活性降低；③色素积累；④膜通透性改变</em>。</li><li><strong>细胞凋亡</strong>：<em>基因控制的程序性死亡（如蝌蚪尾巴消失），对生物体有利</em>。</li><li><strong>细胞癌变</strong>：<em>①原癌基因激活、抑癌基因失活；②特征——无限增殖、形态结构改变、膜表面糖蛋白减少（易扩散转移）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>「细胞凋亡」与「细胞坏死」<strong>必须区分</strong>：<em>凋亡是基因控制的程序性死亡（主动、有利）；坏死是外界因素导致的病理性死亡（被动、有害）</em>。这是高频易错点，题目常拿「细胞坏死」设错。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>遗传与进化</h2><span class="tag">高考必考 · 约25分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>遗传的基本规律</div><ul><li><strong>孟德尔实验方法</strong>：<em>假说—演绎法（观察 → 提出问题 → 作出假说 → 演绎推理 → 实验验证）</em>。</li><li><strong>分离定律</strong>：<em>F₁ 自交后代表现型比 3:1；测交比 1:1</em>。</li><li><strong>自由组合定律</strong>：<em>F₁ 自交 9:3:3:1；测交 1:1:1:1（适用于非同源染色体上的非等位基因）</em>。</li><li><strong>判断显隐性的方法</strong>：<em>①「有中生无」为显性（父母有病、子女有正常）；②「无中生有」为隐性</em>。</li><li><strong>概率计算</strong>：<em>①先求配子概率，再组合；②「患病概率 = 1 − 正常概率」；③「至少一个患病 = 1 − 全部正常」</em>。</li><li><strong>伴性遗传</strong>：<em>①伴 X 隐性（红绿色盲、血友病）——男性患者多于女性，具有隔代交叉遗传；②伴 X 显性——女性患者多于男性；③伴 Y——只有男性</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「无中生有为隐性，有中生无为显性」是判断遗传方式的<strong>第一把钥匙</strong>。进一步：「隐性遗传看女病，女病父子必有病 → 常染色体隐性」；「显性遗传看男病，男病母女必有病 → 常染色体显性」。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>基因的本质与表达</div><ul><li><strong>DNA 结构</strong>：<em>①双螺旋结构；②碱基互补配对（A—T、G—C）；③A+G = T+C</em>。</li><li><strong>DNA 复制</strong>：<em>①半保留复制；②边解旋边复制；③需要模板、原料、能量、酶</em>。</li><li><strong>转录</strong>：<em>以 DNA 一条链为模板合成 mRNA（主要场所——细胞核）</em>。</li><li><strong>翻译</strong>：<em>①场所——核糖体；②模板——mRNA；③运载工具——tRNA；④密码子（64个，3个终止密码子不编码氨基酸）</em>。</li><li><strong>中心法则</strong>：<em>DNA → RNA → 蛋白质（复制、转录、翻译）</em>。</li><li><strong>基因对性状的控制</strong>：<em>①直接控制（基因通过控制蛋白质结构控制性状——如镰刀型细胞贫血症）；②间接控制（通过控制酶的合成控制代谢过程）</em>。</li><li><strong>碱基与氨基酸数量关系</strong>：<em>DNA 碱基数 : mRNA 碱基数 : 氨基酸数 = 6 : 3 : 1</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>计算题必背比例：<strong>DNA 碱基数 : mRNA 碱基数 : 氨基酸数 = 6 : 3 : 1</strong>。但要注意：<em>实际氨基酸数要算上终止密码子不编码、以及 mRNA 上的非编码区</em>，题目若给了明确序列则严格按序列数。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>变异、育种与进化</div><ul><li><strong>基因突变</strong>：<em>①DNA 碱基对的替换、增添或缺失；②产生新基因（等位基因）；③是生物变异的根本来源</em>。</li><li><strong>基因重组</strong>：<em>①减数第一次分裂前期（交叉互换）；②减数第一次分裂后期（非同源染色体自由组合）</em>。</li><li><strong>染色体变异</strong>：<em>①结构变异（缺失、重复、倒位、易位）；②数目变异（个别增减——三体；成倍增减——多倍体）</em>。</li><li><strong>育种方法</strong>：<em>①杂交育种（操作简单，年限长）；②诱变育种（提高突变率，有利变异少）；③单倍体育种（明显缩短年限）；④多倍体育种（器官大、营养物质含量高）；⑤基因工程育种（定向改造）</em>。</li><li><strong>现代生物进化理论</strong>：<em>①种群是生物进化的基本单位；②突变和基因重组产生进化的原材料；③自然选择决定进化的方向；④隔离是物种形成的必要条件</em>。</li><li><strong>基因频率计算</strong>：<em>p² + 2pq + q² = 1（哈迪—温伯格定律，适用理想条件）</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>「物种形成」的标志是<strong>生殖隔离</strong>，不是地理隔离。<em>地理隔离可能导致生殖隔离，但两者不等同（如东北虎与华南虎有地理隔离但无生殖隔离，仍属同一物种）</em>。这是选择题经典陷阱。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>稳态与调节、生物与环境、生物技术</h2><span class="tag">高考必考 · 约30分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>生命活动的调节</div><ul><li><strong>内环境</strong>：<em>由血浆、组织液、淋巴构成。理化性质（温度、pH、渗透压）保持相对稳定</em>。</li><li><strong>血糖调节</strong>：<em>①胰岛 B 细胞分泌胰岛素（降血糖）；②胰岛 A 细胞分泌胰高血糖素（升血糖）；③拮抗关系</em>。</li><li><strong>体温调节</strong>：<em>①寒冷——产热增加（骨骼肌战栗、甲状腺激素分泌增多）、散热减少（皮肤血管收缩）；②炎热——散热增加</em>。</li><li><strong>水盐调节</strong>：<em>①渗透压升高 → 抗利尿激素分泌增多 → 肾小管集合管重吸收水增多 → 尿量减少</em>。</li><li><strong>神经调节</strong>：<em>①反射弧（感受器—传入神经—神经中枢—传出神经—效应器）；②兴奋在神经纤维上以电信号（动作电位）传导（双向）；③突触处单向传递（神经递质只能由突触前膜释放，作用于突触后膜）</em>。</li><li><strong>免疫调节</strong>：<em>①非特异性免疫（皮肤黏膜、吞噬细胞）；②特异性免疫（体液免疫——B 细胞产生抗体；细胞免疫——T 细胞）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「神经递质作用于突触后膜引起兴奋或抑制」——所以<strong>突触传递是单向的，且同一递质在不同部位可能产生相反效果</strong>。这是神经调节部分最常考的结论，也是判断传递方向的唯一依据。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>生物与环境、生态系统</div><ul><li><strong>种群特征</strong>：<em>①种群密度（最基本）；②出生率死亡率；③迁入率迁出率；④年龄组成（预测种群数量变化趋势）；⑤性别比例</em>。</li><li><strong>种群数量增长</strong>：<em>①「J」型增长——无环境阻力，Nt = N₀λ^t；②「S」型增长——有环境容纳量 K 值，K/2 时增长速率最大</em>。</li><li><strong>群落</strong>：<em>①丰富度；②空间结构（垂直分层、水平镶嵌）；③演替（初生演替、次生演替）</em>。</li><li><strong>生态系统组成</strong>：<em>①非生物物质和能量；②生产者（自养生物）；③消费者；④分解者</em>。</li><li><strong>能量流动</strong>：<em>①单向流动、逐级递减；②传递效率 10%~20%</em>。</li><li><strong>物质循环</strong>：<em>①碳循环（CO₂ 形式在生物群落与无机环境间循环）；②具有全球性</em>。</li><li><strong>信息传递</strong>：<em>①物理信息、化学信息、行为信息；②作用是调节种间关系，维持生态系统稳定</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>能量传递效率计算必背：<strong>10%~20%</strong>。求「至少消耗」用 20%，求「最多消耗」用 10%，方向不要搞反。另外「K/2 时种群增长速率最大」是捕捞（获取最大持续产量）的理论依据。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>生物技术实践与工程</div><ul><li><strong>微生物培养</strong>：<em>①培养基（选择培养基、鉴别培养基）；②无菌技术（消毒、灭菌）；③纯化方法（平板划线法、稀释涂布平板法）</em>。</li><li><strong>发酵工程</strong>：<em>①果酒（酵母菌，18~25℃）；②果醋（醋酸菌，30~35℃需氧）；③泡菜（乳酸菌，无氧）；④腐乳（毛霉）</em>。</li><li><strong>基因工程</strong>：<em>①工具——限制酶（「分子手术刀」）、DNA 连接酶（「分子缝合针」）、运载体（质粒、噬菌体）；②四步——提取目的基因 → 构建基因表达载体 → 导入受体细胞 → 目的基因的检测与鉴定</em>。</li><li><strong>细胞工程</strong>：<em>①植物组织培养（植物细胞全能性）；②植物体细胞杂交；③动物细胞培养；④动物细胞融合与单克隆抗体</em>。</li><li><strong>胚胎工程</strong>：<em>①体外受精；②胚胎移植（「借腹怀胎」）；③胚胎分割</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>基因工程的<strong>「四步流程」顺序不能颠倒</strong>，尤其「构建基因表达载体」必须在「导入受体细胞」之前。<em>表达载体的组成：目的基因 + 启动子 + 终止子 + 标记基因</em>，四者缺一不可，这是填空题的标准答案。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">分子与细胞</a><a href="#sec2">遗传与进化</a><a href="#sec3">稳态与调节、生物与环境、生物技术</a></div>
+<div class="foot">高三生物 · 高考总复习知识点考点总览</div></div></body></html>

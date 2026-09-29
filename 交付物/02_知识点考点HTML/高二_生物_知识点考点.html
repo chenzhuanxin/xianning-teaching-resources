@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>高二生物 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>高二<span class="em">生物</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>选择性必修1 稳态与调节</span><span>选择性必修2 生物与环境</span><span>人教版</span><span>5 大模块</span><span>科学思维</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>遗传因子的发现</h2><span class="tag">选择性必修2 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>孟德尔分离定律</div><ul><li><strong>孟德尔实验方法</strong>：<em>①正确选用实验材料（豌豆自花传粉、闭花受粉）；②从一对相对性状到多对；③应用统计学方法分析；④科学设计实验程序（假说—演绎法）</em>。</li><li><strong>假说—演绎法步骤</strong>：<em>观察现象 → 提出问题 → 作出假说 → 演绎推理 → 实验验证 → 得出结论</em>。</li><li><strong>分离定律</strong>：<em>在减数分裂形成配子时，等位基因随同源染色体的分开而分离，分别进入不同的配子中</em>。</li><li><strong>核心概念</strong>：<em>相对性状、显性性状、隐性性状、性状分离、等位基因、基因型、表现型</em>。</li><li><strong>测交</strong>：F₁ 与隐性纯合子杂交，用于<em>验证 F₁ 的基因型</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>孟德尔成功的原因中最重要的是<strong>「科学的方法——假说演绎法」</strong>和<strong>「合适的材料——豌豆」</strong>。这两个是高频考题，务必能完整表述。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>自由组合定律</div><ul><li><strong>自由组合定律</strong>：<em>位于非同源染色体上的非等位基因的分离或组合是互不干扰的</em>。</li><li><strong>F₂ 表现型比例</strong>：9:3:3:1（双杂合子自交）。</li><li><strong>解题方法——分解组合法</strong>：<em>把多对基因问题拆解为多个单对基因问题，分别计算后再组合</em>。</li><li><strong>常见变式比例</strong>：<em>9:7（互补）、9:6:1（累加）、15:1（重叠）、12:3:1（显性上位）、9:3:4（隐性上位）</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>遗传题的通用解法是<strong>「先分后合」</strong>：先单独分析每一对相对性状（用分离定律），再用乘法原理组合。这样能把复杂问题化为简单问题。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>基因和染色体的关系</h2><span class="tag">选择性必修2 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>减数分裂与受精作用</div><ul><li><strong>减数分裂</strong>：<em>染色体复制一次，细胞连续分裂两次，结果子细胞染色体数目减半</em>。</li><li><strong>减数第一次分裂</strong>：<em>同源染色体联会、形成四分体、非姐妹染色单体交叉互换、同源染色体分离（后期）</em>。</li><li><strong>减数第二次分裂</strong>：<em>无同源染色体，着丝粒分裂，姐妹染色单体分离</em>。</li><li><strong>关键区分</strong>：<em>有同源染色体的是减Ⅰ及之前；无同源染色体的是减Ⅱ</em>。</li><li><strong>受精作用</strong>：<em>精子和卵细胞融合，恢复染色体数目</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>判断细胞分裂时期的方法：<strong>①看是否有同源染色体；②看是否联会或有四分体；③看着丝粒是否分裂</strong>。三者结合即可准确判断。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>伴性遗传</div><ul><li><strong>伴 X 隐性遗传</strong>：<em>男性患者多于女性；交叉遗传（男→女→男）；女患者的父亲和儿子一定患病</em>。如<strong>红绿色盲、血友病</strong>。</li><li><strong>伴 X 显性遗传</strong>：<em>女性患者多于男性；男患者的母亲和女儿一定患病</em>。如<strong>抗维生素 D 佝偻病</strong>。</li><li><strong>伴 Y 遗传</strong>：<em>只有男性患病，父传子、子传孙（「传男不传女」）</em>。</li><li><strong>遗传系谱图判断口诀</strong>：<strong>「无中生有为隐性，隐性看女病，父子无病非伴性；有中生无为显性，显性看男病，母女无病非伴性」</strong>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>系谱图判断的两句口诀要背熟，但更重要的是<strong>「用隐性纯合子反推」</strong>。找到隐性个体（aa），其父母各提供一个 a，就能确定基因型。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>基因的本质与表达</h2><span class="tag">选择性必修2 · 必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>DNA 是主要的遗传物质</div><ul><li><strong>肺炎链球菌转化实验</strong>：<em>格里菲思（体内转化，发现「转化因子」）；艾弗里（体外转化，证明 DNA 是遗传物质）</em>。</li><li><strong>噬菌体侵染细菌实验</strong>：<em>赫尔希和蔡斯用 ³⁵S 标记蛋白质、³²P 标记 DNA，证明 DNA 是遗传物质</em>。</li><li><strong>结论</strong>：<em>DNA 是主要的遗传物质（绝大多数生物的遗传物质是 DNA，少数病毒是 RNA）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>噬菌体侵染实验的关键设计是<strong>「同位素标记法」</strong>：用 ³⁵S 标记蛋白质外壳、³²P 标记 DNA，分别检测放射性位置，从而区分二者谁进入了细菌。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>DNA 的结构与复制</div><ul><li><strong>DNA 双螺旋结构</strong>：<em>①两条链反向平行；②外侧是磷酸和脱氧核糖交替连接构成基本骨架；③内侧碱基对遵循「A-T、G-C」互补配对原则</em>。</li><li>碱基互补配对原则推论：<em>①A = T，G = C；②(A+G)/(T+C) = 1；③(A+T)/(G+C) 比值可变化</em>。</li><li><strong>DNA 复制</strong>：<em>①半保留复制；②边解旋边复制；③需要模板、原料、能量和酶</em>。</li><li>复制特点：<em>「半保留、边解旋边复制」</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>DNA 复制的计算题要牢记：<strong>n 次复制后共有 2ⁿ 个 DNA 分子，其中含亲代链的有 2 个</strong>。消耗的原料数为 (2ⁿ-1)×每个 DNA 中的碱基数。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>基因的表达</div><ul><li><strong>转录</strong>：<em>在细胞核中，以 DNA 一条链为模板合成 mRNA</em>，需要 RNA 聚合酶。</li><li><strong>翻译</strong>：<em>在核糖体上，以 mRNA 为模板合成蛋白质</em>。需要 mRNA、tRNA、rRNA、氨基酸、酶、ATP。</li><li><strong>密码子</strong>：mRNA 上决定一个氨基酸的 3 个相邻碱基。<em>共 64 种，其中 3 种是终止密码子</em>。</li><li><strong>反密码子</strong>：tRNA 上能与密码子互补配对的 3 个碱基。</li><li><strong>中心法则</strong>：<em>DNA → RNA → 蛋白质</em>（复制、转录、翻译）。</li><li><strong>基因对性状的控制</strong>：<em>①通过控制酶的合成来控制代谢过程；②通过控制蛋白质的结构直接控制性状</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>计算题核心公式：<strong>DNA 碱基数 : mRNA 碱基数 : 氨基酸数 = 6 : 3 : 1</strong>。因为 DNA 是双链，mRNA 是单链，而 3 个碱基决定 1 个氨基酸。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>生物的变异与进化</h2><span class="tag">选择性必修2 · 高频</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>基因突变与基因重组</div><ul><li><strong>基因突变</strong>：<em>DNA 分子中发生碱基的替换、增添或缺失，而引起的基因碱基序列的改变</em>。</li><li>基因突变的特点：<strong>普遍性、随机性、低频性、不定向性、多害少利性</strong>。</li><li>基因突变的意义：<em>是新基因产生的途径，是生物变异的根本来源，为生物进化提供原始材料</em>。</li><li><strong>基因重组</strong>：<em>①减数第一次分裂后期非同源染色体的自由组合；②减数第一次分裂前期同源染色体的非姐妹染色单体的交叉互换</em>。</li><li><strong>基因重组的意义</strong>：<em>是生物变异的来源之一，对生物的进化具有重要意义</em>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>区分基因突变与基因重组：<strong>基因突变产生新基因（改变基因结构），基因重组只重新组合现有基因（不产生新基因）</strong>。这是选择题高频考点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>染色体变异与育种</div><ul><li><strong>染色体结构变异</strong>：<em>缺失、重复、倒位、易位</em>。</li><li><strong>染色体数目变异</strong>：<em>个别染色体增减（如 21 三体综合征）和以染色体组的形式成倍增减</em>。</li><li><strong>染色体组</strong>：<em>细胞中的一组非同源染色体，形态和功能各不相同，携带着控制一种生物生长发育的全部遗传信息</em>。</li><li><strong>二倍体</strong>：由受精卵发育而来，含两个染色体组的个体。<strong>多倍体</strong>：含三个或三个以上染色体组的个体。</li><li><strong>单倍体</strong>：<em>由配子发育而来，含本物种配子染色体数目的个体</em>。</li><li><strong>育种方法</strong>：<em>①杂交育种（基因重组）；②诱变育种（基因突变）；③单倍体育种（明显缩短育种年限）；④多倍体育种（秋水仙素处理）；⑤基因工程育种（定向改造）</em>。</li></ul><div class="box box-key"><span class="ico">🔑</span><div>「单倍体」的定义关键是<strong>「由配子发育而来」</strong>，而不是看染色体组数。由配子发育的个体无论含几个染色体组都叫单倍体——这是典型易错点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>生物进化</div><ul><li><strong>达尔文的自然选择学说</strong>：<em>过度繁殖、生存斗争、遗传变异、适者生存</em>。</li><li><strong>现代生物进化理论</strong>：<em>①种群是生物进化的基本单位；②突变和基因重组产生进化的原材料；③自然选择决定生物进化的方向；④隔离导致物种形成</em>。</li><li><strong>基因频率</strong>：<em>某个基因占全部等位基因总数的比率</em>。</li><li><strong>哈迪-温伯格定律</strong>：<strong>p² + 2pq + q² = 1</strong>（p、q 为等位基因频率）。</li><li><strong>物种形成的标志</strong>：<em>生殖隔离</em>。</li><li><strong>共同进化与生物多样性</strong>：<em>不同物种之间、生物与无机环境之间在相互影响中不断进化和发展</em>。</li></ul><div class="box box-warn"><span class="ico">⚠️</span><div>「<strong>隔离是新物种形成的必要条件</strong>」而非「自然选择」。自然选择决定进化方向，隔离（生殖隔离）导致物种形成。这两个表述经常被混淆。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">遗传因子的发现</a><a href="#sec2">基因和染色体的关系</a><a href="#sec3">基因的本质与表达</a><a href="#sec4">生物的变异与进化</a></div>
+<div class="foot">本资料依据《普通高中生物学课程标准（2017年版2020年修订）》与人教版选择性必修教材编写 · 高二上下学期适用</div></div></body></html>
