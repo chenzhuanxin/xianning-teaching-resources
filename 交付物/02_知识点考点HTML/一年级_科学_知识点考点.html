@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>一年级科学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>一年级<span class="em">科学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教·鄂教版 2024秋版</span><span>观察+实验双主线</span><span>满分100分 · 60分钟</span><span>含实验探究题型</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>走进科学</h2><span class="tag">上册起始单元</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">科</span>科学就在身边</div><ul><li><strong>观察</strong>：用眼睛看（颜色、形状）、用耳朵听（声音）、用鼻子闻（气味）、用手摸（软硬、冷热）。<em>不能随便用嘴尝</em>。</li><li><strong>比较</strong>：比长短、比大小、比轻重、比多少。</li><li><strong>简单工具</strong>：放大镜（看清细节）、尺子（量长度）。</li><li><strong>科学态度</strong>：认真观察、如实记录、大胆提问。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>考点：</b>选择正确的观察方法；说明放大镜的用途；安全提示「不用嘴尝不明物体」。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>植物与动物</h2><span class="tag">生命世界</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">植</span>认识身边的植物</div><ul><li><strong>植物的组成部分</strong>：根、茎、叶、花、果实、种子（一年级只需认识根、茎、叶）。</li><li><strong>常见植物</strong>：银杏、松树、月季、菊花、绿萝、狗尾草。</li><li><strong>植物需要什么</strong>：阳光、水、空气、土壤。</li><li><strong>植物的共同特征</strong>：都有生命，会生长、需要水和阳光。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">动</span>认识身边的动物</div><ul><li><strong>常见动物</strong>：猫、狗、金鱼、蚂蚁、蜗牛、蝴蝶、青蛙。</li><li><strong>动物的特征</strong>：会运动、要吃东西、会呼吸、会繁殖。</li><li><strong>金鱼的特点</strong>：用<em>鳃</em>呼吸、用<em>鳍</em>游泳、有鳞片。</li><li><strong>蜗牛的特点</strong>：有壳、用腹足爬行、喜欢吃菜叶、怕干燥。</li><li><strong>爱护动物</strong>：不捕捉、不伤害，给它们合适的生存环境。</li></ul></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>我们周围的物质</h2><span class="tag">下册重点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">物</span>水 · 空气 · 石头</div><ul><li><strong>水的特征</strong>：无色、无味、透明、会流动，没有固定形状（装进什么容器就是什么形状）。</li><li><strong>空气的特征</strong>：无色、无味、透明、看不见摸不着，但我们离不开它；空气会<em>流动</em>（风就是流动的空气）。</li><li><strong>石头的特征</strong>：坚硬、有颜色花纹、形状各异；可用于建筑、铺路。</li><li><strong>溶解现象</strong>：糖、盐放进水中会「消失」（溶解），沙子不会溶解。</li><li><strong>沉与浮</strong>：木块、塑料浮在水面；石头、铁钉沉入水底。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>实验提示：</b>做沉浮实验要用「同一种水、同时放入」，才能比较出结果。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>天气与四季</h2><span class="tag">自然现象</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">天</span>天气与季节</div><ul><li><strong>天气</strong>：晴、阴、雨、雪、风、云、雾。要学会看天气符号。</li><li><strong>四季的特征</strong>：春天温暖花开放；夏天炎热蝉鸣叫；秋天凉爽叶变黄；冬天寒冷雪花飘。</li><li><strong>四季的顺序</strong>：春→夏→秋→冬→春，循环往复。</li><li><strong>天气与我们</strong>：雨天带伞、冷天加衣、热天防暑、雾天注意安全。</li><li><strong>记录天气</strong>：学会用符号记录一周的天气变化。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>考点：</b>判断季节特征；选择适合某天气的衣着与活动；认识常见天气符号。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>考点分值分布</h2><span class="tag">复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">观察与描述</div><div class="track"><div class="fill" style="width:30%"></div></div><div class="pct">30%</div></div><div class="bar"><div class="name">动植物特征</div><div class="track"><div class="fill" style="width:28%"></div></div><div class="pct">28%</div></div><div class="bar"><div class="name">物质特征</div><div class="track"><div class="fill" style="width:22%"></div></div><div class="pct">22%</div></div><div class="bar"><div class="name">天气四季</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">选择题</td><td class="c">8-10题</td><td class="c">20分</td><td class="c">科学常识判断</td></tr><tr><td class="c">判断题</td><td class="c">5-6题</td><td class="c">10分</td><td class="c">特征辨析</td></tr><tr><td class="c">连线题</td><td class="c">2-3题</td><td class="c">10分</td><td class="c">动物—特征、季节—现象</td></tr><tr><td class="c">填空</td><td class="c">6-8题</td><td class="c">16分</td><td class="c">植物结构、动物特征</td></tr><tr><td class="c">实验探究</td><td class="c">2-3题</td><td class="c">24分</td><td class="c">沉浮/溶解实验设计</td></tr><tr><td class="c">简答题</td><td class="c">2-3题</td><td class="c">20分</td><td class="c">说明理由、描述现象</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>科学重在<b>观察与描述</b>。答题要用「先观察→再比较→后结论」的思路，描述要具体（如「树叶是椭圆形、绿色、边缘有锯齿」）。</div></div></div></div>
+<div class="nav"><a href="#sec1">走进科学</a><a href="#sec2">植物与动物</a><a href="#sec3">我们周围的物质</a><a href="#sec4">天气与四季</a><a href="#sec5">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育科学课程标准（2022年版）》及人教·鄂教版一年级教材编写 · 供咸宁市学生期末复习使用</div></div></body></html>

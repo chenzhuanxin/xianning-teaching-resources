@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>四年级科学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>四年级<span class="em">科学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>2025—2026学年</span><span>四年级</span><span>科学</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>天气与云</h2><span class="tag">地球家园</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">天</span>天气的观察</div><ul><li><strong>天气要素</strong>：气温、云量、降水量、风向和风速。</li><li><strong>测量工具</strong>：温度计测气温，雨量器测降水量，风向标测风向。</li><li><strong>云的分类</strong>：积云（像棉花团，晴天）、层云（像毯子，阴天）、卷云（像羽毛，晴天）。</li><li><strong>天气预报</strong>：帮助人们安排生产生活、防灾减灾。</li><li><strong>天气与生活</strong>：天气影响出行、农事、衣着、健康。</li></ul></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>声音与光</h2><span class="tag">物质世界</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">声</span>声音的奥秘</div><ul><li><strong>声音的产生</strong>：声音是由物体振动产生的，振动停止，声音消失。</li><li><strong>声音的传播</strong>：声音靠气体、液体、固体传播，真空不能传声。</li><li><strong>声音的高低与强弱</strong>：音高与物体振动快慢（频率）有关；音量与振动幅度有关。</li><li><strong>噪声与防治</strong>：在声源处、传播过程中、人耳处减弱噪声。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>声音产生的条件（振动）、探究声音高低与什么有关（振动的快慢）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">光</span>光的世界</div><ul><li><strong>光源</strong>：自身能发光的物体（太阳、蜡烛、电灯）；月亮不是光源。</li><li><strong>光的传播</strong>：光沿直线传播（影子、小孔成像、日食）。</li><li><strong>光的反射</strong>：光遇到物体会反射（镜子、水中倒影）。</li><li><strong>光的折射</strong>：光从一种介质斜射入另一种介质时会偏折（筷子在水里「折断」）。</li><li><strong>光的色散</strong>：白光可以分解成七色光（彩虹）。</li></ul></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>植物的生长</h2><span class="tag">生命世界</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">植</span>植物的一生</div><ul><li><strong>种子结构</strong>：种皮和胚（胚芽、胚轴、胚根、子叶）；胚是新植物的幼体。</li><li><strong>萌发条件</strong>：适宜的温度、一定的水分、充足的空气。</li><li><strong>根的作用</strong>：吸收水分和养分、固定植物（有直根、须根）。</li><li><strong>茎的作用</strong>：运输水分和养分、支持（有直立茎、缠绕茎、攀缘茎、匍匐茎）。</li><li><strong>叶的作用</strong>：光合作用制造养分、蒸腾作用。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">繁</span>植物的繁殖</div><ul><li><strong>有性繁殖</strong>：开花→传粉→受精→结果→产生种子。</li><li><strong>无性繁殖</strong>：扦插、嫁接、压条、分株（如土豆用块茎繁殖）。</li><li><strong>种子传播</strong>：风力传播（蒲公英）、动物传播（苍耳）、弹射传播（凤仙花）、水力传播（椰子）。</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>动物与生命</h2><span class="tag">生命世界</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">动</span>动物的特征</div><ul><li><strong>脊椎动物与无脊椎动物</strong>：有无脊柱。</li><li><strong>动物的分类</strong>：鱼类、两栖类、爬行类、鸟类、哺乳类及其特征。</li><li><strong>动物适应环境</strong>：身体结构、行为（冬眠、迁徙）、保护色。</li><li><strong>动物的繁殖</strong>：卵生（鸟、鱼、蛙）、胎生（哺乳动物）。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>观察方法：</b>观察动物的外形、运动、进食、繁殖等；用表格记录，注意比较异同。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">天气与云</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">声音与光</div><div class="track"><div class="fill" style="width:26%"></div></div><div class="pct">26%</div></div><div class="bar"><div class="name">植物的生长</div><div class="track"><div class="fill" style="width:28%"></div></div><div class="pct">28%</div></div><div class="bar"><div class="name">动物与生命</div><div class="track"><div class="fill" style="width:16%"></div></div><div class="pct">16%</div></div><div class="bar"><div class="name">实验探究</div><div class="track"><div class="fill" style="width:10%"></div></div><div class="pct">10%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">选择</td><td class="c">10题</td><td class="c">20分</td><td class="c">概念识记</td></tr><tr><td class="c">判断</td><td class="c">10题</td><td class="c">20分</td><td class="c">性质辨析</td></tr><tr><td class="c">连线/分类</td><td class="c">2题</td><td class="c">10分</td><td class="c">结构功能匹配</td></tr><tr><td class="c">简答</td><td class="c">3题</td><td class="c">24分</td><td class="c">解释与表达</td></tr><tr><td class="c">实验探究</td><td class="c">2题</td><td class="c">26分</td><td class="c">变量控制、结论</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>「植物生长」与「声音与光」是本册重点。实验探究题要背熟「对比实验」套路：只改变一个条件，其余相同，并如实记录。</div></div></div></div>
+<div class="nav"><a href="#sec1">天气与云</a><a href="#sec2">声音与光</a><a href="#sec3">植物的生长</a><a href="#sec4">动物与生命</a><a href="#sec5">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》与咸宁市现行教材编写，供四年级学生系统复习使用。教材版本：语文/道法·统编人教版，数学·人教版，英语·人教版PEP（三年级起点），科学·人教·鄂教版。</div></div></body></html>

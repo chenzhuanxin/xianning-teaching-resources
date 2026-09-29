@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>六年级数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>六年级<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>2025—2026学年</span><span>六年级</span><span>数学</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>分数乘除法</h2><span class="tag">计算核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">分1</span>分数乘法</div><ul><li><strong>分数乘整数</strong>：分子与整数相乘，分母不变，能约分的先约分。</li><li><strong>分数乘分数</strong>：分子相乘作分子，分母相乘作分母，能约分的先约分。</li><li><strong>乘法运算定律</strong>：交换律、结合律、分配律同样适用于分数。</li><li><strong>求一个数的几分之几</strong>：用乘法，即「一个数×几分之几」。</li><li><strong>倒数</strong>：乘积是1的两个数互为倒数；1的倒数是1，0没有倒数。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">分2</span>分数除法</div><ul><li><strong>除法法则</strong>：除以一个不为0的数，等于乘这个数的倒数。</li><li><strong>已知一个数的几分之几是多少，求这个数</strong>：用除法（或列方程）。</li><li><strong>比与比值</strong>：比的前项和后项同时乘或除以相同的数（0除外），比值不变。</li><li><strong>化简比</strong>：把比化成最简整数比；比值是一个数。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>分数四则混合运算、简算、单位「1」的判断、比的应用。计算要细心，注意约分。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>百分数与比</h2><span class="tag">高频考点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">百</span>百分数</div><ul><li><strong>意义</strong>：表示一个数是另一个数的百分之几，也叫百分率或百分比。</li><li><strong>与分数、小数互化</strong>：百分数→小数去掉「%」并左移两位；小数→百分数右移两位并加「%」。</li><li><strong>常见应用</strong>：出勤率、发芽率、合格率、成活率、利率、折扣、成数、税率。</li><li><strong>求百分率</strong>：部分量÷总量×100%。</li><li><strong>解决问题</strong>：求一个数比另一个数多（少）百分之几；已知比一个数多（少）百分之几，求这个数。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">比</span>比与比例</div><ul><li><strong>比的意义</strong>：两个数相除又叫两个数的比；比表示两个数的倍比关系。</li><li><strong>按比分配</strong>：先求总份数，再求各部分占总量的几分之几，最后用乘法计算。</li><li><strong>正比例与反比例</strong>：两种相关联的量，比值一定成正比例，乘积一定成反比例。</li><li><strong>比例的基本性质</strong>：在比例里，两个外项的积等于两个内项的积。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>解题关键：</b>找准单位「1」，画线段图分析数量关系；百分数应用常与「多百分之几」「少百分之几」结合考查。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>圆与图形</h2><span class="tag">重点突破</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">圆</span>圆的认识与计算</div><ul><li><strong>圆的认识</strong>：圆心（O）、半径（r）、直径（d），d=2r；圆是轴对称图形，有无数条对称轴。</li><li><strong>圆的周长</strong>：C=πd=2πr（π≈3.14）。</li><li><strong>圆的面积</strong>：S=πr²；圆环面积=π(R²−r²)。</li><li><strong>扇形</strong>：圆心角、弧、扇形面积=πr²×(圆心角/360°)。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">体</span>立体图形</div><ul><li><strong>圆柱</strong>：侧面积=底面周长×高（S侧=2πr·h）；表面积=侧面积+2个底面积；体积=底面积×高（V=πr²h）。</li><li><strong>圆锥</strong>：体积=1/3×底面积×高（V=1/3πr²h）。</li><li><strong>关系</strong>：等底等高的圆柱体积是圆锥体积的3倍。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>圆的周长与面积、圆柱表面积和体积、圆锥体积、组合图形面积。注意单位统一，π取3.14。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>式与方程、比例</h2><span class="tag">代数初步</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">代</span>式与方程</div><ul><li><strong>用字母表示数</strong>：数量关系、运算定律、计算公式都可以用字母表示。</li><li><strong>方程的意义</strong>：含有未知数的等式叫方程。</li><li><strong>等式性质</strong>：等式两边同时加、减、乘、除同一个数（除数不为0），等式仍成立。</li><li><strong>解方程</strong>：去分母、去括号、移项、合并同类项、系数化为1。</li><li><strong>列方程解决问题</strong>：找等量关系→设未知数→列方程→解方程→检验作答。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">量</span>常见的量</div><ul><li><strong>长度</strong>：1km=1000m，1m=10dm=100cm。</li><li><strong>面积</strong>：1公顷=10000平方米，1平方千米=100公顷。</li><li><strong>体积（容积）</strong>：1升=1000毫升，1立方米=1000立方分米，1立方分米=1升。</li><li><strong>质量</strong>：1吨=1000千克；<strong>时间</strong>：1时=60分，1分=60秒。</li><li><strong>常用的数</strong>：质数、合数、奇数、偶数、公因数、公倍数、最大公因数、最小公倍数。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>复习策略：</b>用字母表示数和方程是初中代数的衔接点，要做到「会设、会列、会解、会验」。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>统计与数学广角</h2><span class="tag">综合应用</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">统</span>统计与概率</div><ul><li><strong>扇形统计图</strong>：能清楚地表示各部分数量与总数之间的关系；各扇形百分比之和为100%。</li><li><strong>三种统计图对比</strong>：条形（清楚数量多少）、折线（清楚增减变化）、扇形（清楚部分与整体关系）。</li><li><strong>平均数、中位数、众数</strong>：平均数受极端值影响；中位数是排序后中间的数；众数是出现次数最多的数。</li><li><strong>可能性</strong>：用分数表示可能性大小；简单事件发生的可能性计算。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">广</span>数学广角（数与形）</div><ul><li><strong>数与形</strong>：从1开始的连续奇数之和是一个完全平方数，1+3+5+…+(2n−1)=n²。</li><li><strong>鸡兔同笼（假设法）</strong>：假设全是鸡，则多（少）出的脚数÷2=兔（鸡）的只数。</li><li><strong>抽屉原理</strong>：把n个物体放进m个抽屉（n>m），则至少有一个抽屉里放有不少于2个物体。</li><li><strong>找次品</strong>：用天平称量，每次尽量平均分成3份，可最快找出次品。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>备考提示：</b>数学广角题重在体会思想方法（数形结合、假设、推理），考试多以选择、填空和解决问题形式出现。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">分数乘除法</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">百分数与比</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><div class="bar"><div class="name">圆与几何</div><div class="track"><div class="fill" style="width:16%"></div></div><div class="pct">16%</div></div><div class="bar"><div class="name">式与方程</div><div class="track"><div class="fill" style="width:14%"></div></div><div class="pct">14%</div></div><div class="bar"><div class="name">统计与概率</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><div class="bar"><div class="name">综合应用</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">填空</td><td class="c">8-10题</td><td class="c">20分</td><td class="c">概念、单位换算、计算</td></tr><tr><td class="c">选择</td><td class="c">5题</td><td class="c">10分</td><td class="c">概念辨析、推理</td></tr><tr><td class="c">判断</td><td class="c">5题</td><td class="c">8分</td><td class="c">易错点辨析</td></tr><tr><td class="c">计算</td><td class="c">4-5题</td><td class="c">26分</td><td class="c">分数四则、简算、解方程</td></tr><tr><td class="c">操作与统计</td><td class="c">2题</td><td class="c">10分</td><td class="c">画圆、扇形统计图</td></tr><tr><td class="c">解决问题</td><td class="c">5-6题</td><td class="c">26分</td><td class="c">百分数、比、圆、方程</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>分数与百分数的混合运算是计算核心（约40分），务必天天练；圆、圆柱、圆锥是几何难点，公式要熟记；比例与方程是解决问题的利器；考试时先易后难，注意单位与作答规范。</div></div></div></div>
+<div class="nav"><a href="#sec1">分数乘除法</a><a href="#sec2">百分数与比</a><a href="#sec3">圆与图形</a><a href="#sec4">式与方程、比例</a><a href="#sec5">统计与数学广角</a><a href="#sec6">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》与咸宁市现行教材编写，供六年级学生系统复习使用。教材版本：语文/道法·统编人教版，数学·人教版，英语·人教版PEP（三年级起点），科学·人教·鄂教版。</div></div></body></html>

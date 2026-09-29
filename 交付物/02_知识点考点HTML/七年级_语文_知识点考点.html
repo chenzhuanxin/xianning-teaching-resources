@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>七年级语文 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>七年级<span class="em">语文</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教版（统编版）</span><span>七上 + 七下</span><span>2024秋新修订</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>一、字音字形</h2><span class="tag">基础必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 七上重点字音字形</div><ul><li><strong>朗润</strong>（rùn）　<strong>酝酿</strong>（yùn niàng）　<strong>卖弄</strong>（nòng）　<strong>喉咙</strong>（hóu lóng）</li><li><strong>应和</strong>（yìng hè）　<strong>嘹亮</strong>（liáo）　<strong>烘托</strong>（hōng）　<strong>抖擞</strong>（dǒu sǒu）</li><li><strong>瘫痪</strong>（tān huàn）　<strong>暴怒无常</strong>　<strong>侍弄</strong>（shì nòng）　<strong>捶打</strong>（chuí）</li><li><strong>烂漫</strong>（làn màn）　<strong>翻来覆去</strong>　<strong>喜出望外</strong>　<strong>絮絮叨叨</strong>（xù dāo）</li><li><strong>匿笑</strong>（nì）　<strong>沐浴</strong>（mù yù）　<strong>祷告</strong>（dǎo）　<strong>荫蔽</strong>（yīn bì）</li><li><strong>分歧</strong>（qí）　<strong>各得其所</strong>　<strong>粼粼</strong>（lín）　<strong>一霎</strong>（shà）</li><li><strong>攲斜</strong>（qī xié）　<strong>恍然大悟</strong>　<strong>花团锦簇</strong>（cù）　<strong>感慨</strong>（kǎi）</li><li>易错字：<strong>「诀别」</strong>不写「决别」；<strong>「粗犷」</strong>（guǎng）不读 kuàng；<strong>「静谧」</strong>（mì）；<strong>「咄咄逼人」</strong>（duō）</li></ul><div class="box box-warn"><span class="ico">✍</span><div>七年级字词量骤增，必须建立<strong>错字本</strong>。重点辨析<strong>形近字</strong>（诀/决、蔽/弊、嘹/缭）和<strong>多音字</strong>（和、薄、落、载）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 七下重点字音字形</div><ul><li><strong>元勋</strong>（xūn）　<strong>奠基</strong>（diàn）　<strong>选聘</strong>（pìn）　<strong>谣言</strong>（yáo）</li><li><strong>昼夜</strong>（zhòu）　<strong>昆仑</strong>（lún）　<strong>挚友</strong>（zhì）　<strong>可歌可泣</strong></li><li><strong>鲜为人知</strong>（xiǎn）　<strong>至死不懈</strong>（xiè）　<strong>鞠躬尽瘁</strong>（cuì）　<strong>当之无愧</strong></li><li><strong>梳头</strong>　<strong>抱歉</strong>　<strong>秩序</strong>　<strong>深恶痛绝</strong>（wù）</li><li><strong>疙瘩</strong>（gē da）　<strong>粗拙</strong>（zhuō）　<strong>守寡</strong>（guǎ）　<strong>震悚</strong>（sǒng）</li><li><strong>憎恶</strong>（zēng wù）　<strong>烦琐</strong>（suǒ）　<strong>诘问</strong>（jié）　<strong>霹雳</strong>（pī lì）</li><li><strong>孤孀</strong>（shuāng）　<strong>伛</strong>（yǔ）　<strong>滞笨</strong>（zhì bèn）　<strong>愧怍</strong>（kuì zuò）</li><li><strong>修葺</strong>（qì）　<strong>折损</strong>　<strong>陡峭</strong>　<strong>妥帖</strong>（tiē）</li></ul><div class="box box-tip"><span class="ico">💡</span><div>注意<strong>「载」</strong>字：装载（zài）/ 记载（zǎi）；<strong>「强」</strong>：强壮（qiáng）/ 勉强（qiǎng）/ 倔强（jiàng）。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>二、古诗文默写与鉴赏</h2><span class="tag">必考｜高频</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 七上古诗词（必背）</div><ul><li><em>《观沧海》曹操</em>：日月之行，若出其中；星汉灿烂，若出其里。</li><li><em>《闻王昌龄左迁龙标遥有此寄》李白</em>：我寄愁心与明月，随君直到夜郎西。</li><li><em>《次北固山下》王湾</em>：海日生残夜，江春入旧年。乡书何处达？归雁洛阳边。</li><li><em>《天净沙·秋思》马致远</em>：枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。</li><li><em>《峨眉山月歌》李白</em>：峨眉山月半轮秋，影入平羌江水流。</li><li><em>《江南逢李龟年》杜甫</em>：正是江南好风景，落花时节又逢君。</li><li><em>《行军九日思长安故园》岑参</em>：遥怜故园菊，应傍战场开。</li><li><em>《夜上受降城闻笛》李益</em>：不知何处吹芦管，一夜征人尽望乡。</li><li><em>《秋词》刘禹锡</em>：自古逢秋悲寂寥，我言秋日胜春朝。</li><li><em>《夜雨寄北》李商隐</em>：何当共剪西窗烛，却话巴山夜雨时。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 七下古诗词（必背）</div><ul><li><em>《木兰诗》</em>：万里赴戎机，关山度若飞。朔气传金柝，寒光照铁衣。</li><li>将军百战死，壮士十年归。……雄兔脚扑朔，雌兔眼迷离；双兔傍地走，安能辨我是雄雌？</li><li><em>《竹里馆》王维</em>：深林人不知，明月来相照。</li><li><em>《春夜洛城闻笛》李白</em>：此夜曲中闻折柳，何人不起故园情。</li><li><em>《逢入京使》岑参</em>：马上相逢无纸笔，凭君传语报平安。</li><li><em>《晚春》韩愈</em>：杨花榆荚无才思，惟解漫天作雪飞。</li><li><em>《登幽州台歌》陈子昂</em>：念天地之悠悠，独怆然而涕下。</li><li><em>《望岳》杜甫</em>：会当凌绝顶，一览众山小。</li><li><em>《登飞来峰》王安石</em>：不畏浮云遮望眼，自缘身在最高层。</li><li><em>《游山西村》陆游</em>：山重水复疑无路，柳暗花明又一村。</li><li><em>《己亥杂诗》龚自珍</em>：落红不是无情物，化作春泥更护花。</li><li><em>《泊秦淮》杜牧</em>：商女不知亡国恨，隔江犹唱后庭花。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 文言文（七上）</div><ul><li><em>《世说新语》二则</em>：《咏雪》——「未若柳絮因风起」；《陈太丘与友期行》——「日中不至，则是无信；对子骂父，则是无礼」。</li><li><em>《论语》十二章</em>：学而时习之；有朋自远方来；人不知而不愠；温故而知新；学而不思则罔，思而不学则殆；三人行必有我师焉；逝者如斯夫，不舍昼夜。</li><li><em>《诫子书》诸葛亮</em>：静以修身，俭以养德。非淡泊无以明志，非宁静无以致远。</li><li><em>《狼》蒲松龄</em>：一狼得骨止，一狼仍从……乃悟前狼假寐，盖以诱敌。狼亦黠矣，而顷刻两毙，禽兽之变诈几何哉？止增笑耳。</li><li><strong>重点实词</strong>：说（通假「悦」，yuè）　愠（yùn，生气）　罔（wǎng，迷惑）　殆（dài，疑惑）　笃（dǔ，坚定）　黠（xiá，狡猾）</li></ul><div class="box box-key"><span class="ico">★</span><div>《<strong>论语</strong>》十二章是七年级文言文重中之重，<strong>逐句默写+翻译</strong>必须过关。</div></div></div><div class="kp"><div class="kp-title"><span class="n">4</span>4. 文言文（七下）</div><ul><li><em>《孙权劝学》</em>：卿今当涂掌事，不可不学！士别三日，即更刮目相待。（成语：吴下阿蒙、刮目相待）</li><li><em>《卖油翁》欧阳修</em>：无他，但手熟尔。我亦无他，惟手熟尔。（道理：熟能生巧）</li><li><em>《陋室铭》刘禹锡</em>：斯是陋室，惟吾德馨。苔痕上阶绿，草色入帘青。</li><li><em>《爱莲说》周敦颐</em>：予独爱莲之出淤泥而不染，濯清涟而不妖。（托物言志，象征君子）</li><li><em>《活板》沈括</em>：活字印刷术（毕昇）流程：刻字—排版—印刷—拆版。</li><li><strong>一词多义</strong>：为（wéi/wèi）、之（助词/代词/动词）、而（并列/转折/修饰）</li></ul></div><div class="kp"><div class="kp-title"><span class="n">5</span>5. 古诗文鉴赏高频考点</div><ul><li><strong>炼字题</strong>：先解字义→描绘画面→点明情感/作用。（如「海日<em>生</em>残夜，江春<em>入</em>旧年」中「生」「入」的妙处）</li><li><strong>意境分析</strong>：<em>《天净沙·秋思》</em>用「枯藤/老树/昏鸦」等意象渲染萧瑟凄凉，抒游子思乡之悲。</li><li><strong>情感把握</strong>：思乡怀人（次北固山下、春夜洛城闻笛）、壮志豪情（观沧海、望岳、登飞来峰）、离愁别绪（闻王昌龄左迁龙标遥有此寄）。</li><li><strong>手法辨析</strong>：借景抒情、托物言志（爱莲说）、虚实结合、以小见大、用典（闻王昌龄左迁龙标遥有此寄）。</li></ul></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>三、现代文阅读</h2><span class="tag">重难点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 记叙文阅读核心考点</div><ul><li><strong>概括事件</strong>：谁 + 在什么情况下 + 做了什么 + 结果如何（找准「时间、地点、人物、起因、经过、结果」）</li><li><strong>品味语言</strong>：修辞角度（比喻/拟人/夸张/排比）+ 内容 + 效果 + 情感</li><li><strong>人物形象</strong>：结合描写方法（外貌/语言/动作/神态/心理）与具体事件分析性格品质</li><li><strong>环境描写作用</strong>：交代背景、渲染气氛、烘托心情、推动情节、突出主题</li><li><strong>句段作用</strong>：开头（总领全文、设置悬念、引出下文）；中间（承上启下）；结尾（总结全文、深化主题、首尾呼应）</li><li><strong>标题作用</strong>：概括内容、点明中心、设置悬念、吸引读者、贯穿全文线索</li></ul><div class="box box-tip"><span class="ico">💡</span><div>答题模板：<strong>手法 + 内容 + 效果（情感）</strong>　例如：「运用比喻，把××比作××，生动形象地写出了××的特点，表达了作者××的感情。」</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 说明文阅读核心考点</div><ul><li><strong>说明方法及作用</strong>：举例子（具体真切）｜列数字（准确具体）｜作比较（突出强调）｜打比方（生动形象）｜分类别（条理清楚）｜下定义（准确严密）｜列图表（直观明了）</li><li><strong>说明顺序</strong>：时间顺序、空间顺序、逻辑顺序（由主到次、由现象到本质、由概括到具体）</li><li><strong>语言准确性</strong>：如「大约」「左右」「基本上」「之一」等词不能删，因为体现了说明文语言的准确性、严密性。</li><li><strong>找中心句</strong>：多在段首（总起）或段尾（总结）</li><li>七下典型篇目：《大自然的语言》《恐龙无处不有》《被压扁的沙子》《阿西莫夫短文两篇》</li></ul></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 散文阅读核心考点</div><ul><li><strong>线索梳理</strong>：时间线、空间线、情感线、事物线（如《紫藤萝瀑布》以「花」为线索）</li><li><strong>情感把握</strong>：抓议论抒情句，如《紫藤萝瀑布》——「花和人都会遇到各种各样的不幸，但是生命的长河是无止境的」</li><li><strong>手法赏析</strong>：借景抒情、托物言志、欲扬先抑、以小见大、首尾呼应</li><li><strong>主旨概括</strong>：通过写……表达了……（的思想感情/人生感悟）</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>四、名著阅读</h2><span class="tag">必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>七年级必读名著</div><ul><li><strong>《朝花夕拾》（鲁迅）</strong>：回忆性散文集，共10篇。代表作《从百草园到三味书屋》《阿长与〈山海经〉》《藤野先生》《范爱农》《父亲的病》。主题：回忆往事、批判封建、怀念亲友。</li><li><strong>《西游记》（吴承恩）</strong>：四大名著之一，共100回。主要人物：孙悟空（机智勇敢、桀骜不驯）、猪八戒（憨厚贪吃）、唐僧（善良执着）、沙僧（忠厚老实）。经典情节：三打白骨精、大闹天宫、真假美猴王、三借芭蕉扇、车迟国斗法。</li><li><strong>《骆驼祥子》（老舍）</strong>：七下重点。主人公祥子——从勤劳要强到堕落自私。三起三落。虎妞、小福子。主题：旧社会不让好人有出路。</li><li><strong>《海底两万里》（凡尔纳）</strong>：七下重点。尼摩船长、阿龙纳斯教授、康塞尔、尼德·兰。「诺第留斯号」潜艇。科学幻想与人文精神。</li></ul><div class="box box-key"><span class="ico">★</span><div>名著阅读常考：<strong>人物形象+性格</strong>、<strong>典型情节</strong>、<strong>主题思想</strong>。建议整理「人物—情节—性格」三栏表。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>五、写作与综合性学习</h2><span class="tag">提分项</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 作文评分与提分策略</div><ul><li><strong>审题立意</strong>：抓关键词、抓限制词、化大为小。如「这也是一种美」——重点在「也」字。</li><li><strong>选材</strong>：真实、新颖、从小事入手，「以小见大」。避免老套（送伞、让座、考试失利）。</li><li><strong>结构</strong>：凤头（开门见山/设悬念）—猪肚（详略得当，2~3个详写）—豹尾（点题升华，首尾呼应）</li><li><strong>语言</strong>：多用修辞（比喻、拟人、排比）、紧扣细节描写、活用成语诗句。</li><li><strong>卷面</strong>：字迹工整、不涂改、不少于600字。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>七年级作文常见题型：<strong>命题作文</strong>（《那一次，我真××》）、<strong>半命题作文</strong>（《××的力量》）、<strong>材料作文</strong>、<strong>话题作文</strong>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 综合性学习与口语交际</div><ul><li><strong>七上</strong>：有朋自远方来（交友之道）｜少年正是读书时（阅读现状调查、制定计划）｜文学部落（创办班刊）</li><li><strong>七下</strong>：天下国家（爱国人物故事）｜孝亲敬老（孝道）｜我的语文生活（正眼看招牌、我来写广告词）</li><li><strong>图表分析</strong>：读标题—看要素—比数据—得结论</li><li><strong>拟写标语/广告词</strong>：简洁、有针对性、有文采（可运用对偶、比喻、谐音）</li></ul></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 语法与修辞知识</div><ul><li><strong>词性</strong>：名词、动词、形容词、数词、量词、代词、副词、介词、连词、助词、叹词、拟声词</li><li><strong>短语结构</strong>：并列（雄伟壮丽）、偏正（我的老师）、动宾（热爱祖国）、主谓（精力充沛）、补充（跑得快）</li><li><strong>句子成分</strong>：主语 / 谓语 / 宾语 / 定语 / 状语 / 补语</li><li><strong>修辞</strong>：比喻（明喻/暗喻/借喻）、比拟（拟人/拟物）、夸张、排比、对偶、反复、设问、反问</li><li><strong>病句类型</strong>：成分残缺、搭配不当、语序不当、重复啰嗦、前后矛盾、滥用否定</li></ul></div></div></div>
+<div class="nav"><a href="#sec1">一、字音字形</a><a href="#sec2">二、古诗文默写与鉴赏</a><a href="#sec3">三、现代文阅读</a><a href="#sec4">四、名著阅读</a><a href="#sec5">五、写作与综合性学习</a></div>
+<div class="foot">资料依据：人教版（统编版）七年级语文 2024年秋新修订教材 · 《义务教育语文课程标准（2022年版）》<br>湖北省咸宁市 2025—2026 学年 · 知识点考点全解</div></div></body></html>

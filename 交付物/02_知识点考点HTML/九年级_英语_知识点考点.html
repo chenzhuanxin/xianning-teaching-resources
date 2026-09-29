@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>九年级英语 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>九年级<span class="em">英语</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>中考复习·仁爱版</span><span>7 大板块</span><span>13 个核心考点</span><span>满分 120 分</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>中考试卷结构（仁爱版·咸宁卷）</h2><span class="tag">命题依据</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">考点</span>题型与分值</div><ul><li>满分 <strong>120 分</strong>，时间 <strong>120 分钟</strong>（含听力 25 分）。</li><li>一、听力：25 分（听句子选图、听对话选择、听短文填空）。</li><li>二、单项选择：15 分。</li><li>三、完形填空：15 分。</li><li>四、阅读理解：30 分（含任务型阅读）。</li><li>五、词汇与句型：约 20 分（单词拼写、句型转换、完成句子）。</li><li>六、书面表达：15 分。</li></ul><div class="box box-key"><span class="ico">★</span><div>听力要在播放前快速读题，圈画关键词；书面表达留 20 分钟以上，必须打草稿。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>核心语法（上册）</h2><span class="tag">语法体系</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">01</span>时态四连击</div><ul><li><strong>现在完成时</strong>：have/has + 过去分词；标志词 already, yet, ever, never, just, since, for。</li><li>区别：have been to（去过已回）/ have gone to（去了未回）/ have been in（待了多久）。</li><li><strong>一般过去时</strong>：与具体过去时间连用（last week, in 2020, ago）。</li><li><strong>过去进行时</strong>：was/were + doing，表示过去某时正在做。</li><li><strong>一般将来时</strong>：will do / be going to do。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">02</span>被动语态</div><ul><li>构成：be + 过去分词；一般现在时 am/is/are done；一般过去时 was/were done。</li><li>含情态动词：can/must/should + be done。</li><li>现在完成时被动：have/has been done。</li><li>只考主动的动词：happen, take place, appear, last, belong to。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>see/hear/make/let 的被动要加 to：be made <strong>to</strong> do。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>核心语法（下册 九年级重点）</h2><span class="tag">语法体系</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">03</span>宾语从句</div><ul><li>三要素：<em>引导词、语序、时态</em>。</li><li>引导词：that（陈述句）、if/whether（一般疑问句）、特殊疑问词（特殊疑问句）。</li><li>语序：<strong>一律用陈述语序</strong>（主语在前，谓语在后）。</li><li>时态：主句现在时 → 从句按需；主句过去时 → 从句用相应过去时；客观真理用一般现在时。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>「Could you tell me where he lives?」中 could 表委婉，从句仍用现在时；语序错是最高频失分点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">04</span>定语从句</div><ul><li>先行词是人：who（作主语/宾语）、whom（作宾语）、that。</li><li>先行词是物：which、that。</li><li>关系副词：where（地点）、when（时间）、why（原因）。</li><li>只用 that 的情况：先行词为 all/everything/nothing、有序数词或最高级修饰、先行词既有人又有物。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">05</span>非谓语动词</div><ul><li>to do：want, hope, decide, plan, would like, ask sb. to do。</li><li>doing：enjoy, finish, mind, keep, practice, be busy, look forward to, be used to。</li><li>do：make/let/have sb. do, had better do, why not do。</li><li>动词不定式作目的状语、作宾语、作宾补是高频考点。</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>情态动词与易混词辨析</h2><span class="tag">选择填空</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">06</span>情态动词</div><ul><li>must（必须/肯定推测）、can't（不可能）、may/might（可能，语气弱）、could（礼貌请求）。</li><li>needn't（不必）与 mustn't（禁止）区别。</li><li>反意疑问句：must 表推测时，反问用 be 动词或助动词与前面一致。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">07</span>高频易混词</div><ul><li>used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。</li><li>too much（修饰不可数名词）/ too many（修饰可数复数）/ much too（修饰形容词）。</li><li>already（肯定句）/ yet（否定、疑问句）；sometime / sometimes / some time / some times。</li><li>how often（频率）/ how long（时长）/ how soon（多久以后）/ how far（多远）。</li><li>borrow（借入）/ lend（借出）；bring（带来）/ take（带走）。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>把这些成对词写在一张「易混卡」上，每天读两遍，选择题正确率立刻上升。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>完形填空与阅读理解技巧</h2><span class="tag">大分值</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">08</span>完形填空</div><ul><li>第一步：<em>通读全文</em>，抓大意，不急着填。</li><li>第二步：<em>逐句填空</em>，关注上下文暗示（同义复现、反义复现、逻辑转折）。</li><li>第三步：<em>复读检查</em>，看语法是否正确（时态、单复数、介词搭配）。</li><li>高频考查：动词短语辨析、名词辨析、连词逻辑（but/so/although）、副词修饰。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">09</span>阅读理解三题型</div><ul><li><strong>细节理解题</strong>：定位关键词 → 回到原文找原句 → 比对选项。</li><li><strong>推理判断题</strong>：不选原文直述句，选需推断的结论。</li><li><strong>主旨大意题</strong>：看首尾段、每段首句，用「文章主要讲了……」。</li><li><strong>任务型阅读</strong>：回答问题要成句，注意疑问词对应（why → because）。</li></ul><div class="box box-key"><span class="ico">★</span><div>题干中的时间、地点、人名是最好的定位钥匙，先读题干再读文章效率更高。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>词汇与句型（重点短语）</h2><span class="tag">默写得分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">10</span>九年级核心短语</div><ul><li>make a difference（有影响/起作用）、take pride in（以……为傲）、be proud of。</li><li>deal with / do with（处理）、come up with（想出）、get along with（相处）。</li><li>give up（放弃）、try one's best、make up one's mind（下定决心）。</li><li>be interested in、be good at / do well in、be afraid of、be fond of。</li><li>as soon as（一……就）、as long as（只要）、even though / even if（即使）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">11</span>句型转换必考</div><ul><li>同义句改写：so…that → too…to / enough to；not…until 转换；because → because of + 名词。</li><li>反意疑问句：前肯后否，前否后肯，注意 never/hardly/few 视为否定。</li><li>感叹句：What a/an + 单数可数名词！/ How + 形容词/副词！</li><li>被动改写：主动句宾语变主语，动词变 be + 过去分词。</li></ul></div></div></div><div class="section" id="sec7">
+<div class="sec-head"><div class="sec-no">7</div><h2>书面表达 15 分 满分模板</h2><span class="tag">输出能力</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">12</span>评分标准</div><ul><li>内容完整（要点齐全）、语言准确（语法/拼写）、行文连贯（连接词）、书写规范。</li><li>字数要求一般 80—100 词；少于 60 词扣分。</li><li>先审题（人称、时态、文体）→ 列要点 → 写初稿 → 检查（时态、单复数、大小写、标点）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">13</span>万能句式</div><ul><li><em>开头</em>：I'm writing to tell you something about… / As we all know, … / It's my honor to…</li><li><em>过渡</em>：First of all, … Besides, … What's more, … Last but not least, …</li><li><em>表达观点</em>：In my opinion, … / I think it's necessary for us to… / It's important that we should…</li><li><em>结尾</em>：I hope my advice is helpful. / Let's take action right now. / Thanks for your listening.</li></ul><div class="box box-tip"><span class="ico">💡</span><div>背 5 篇不同话题的范文（校园活动、环境保护、健康生活、传统文化、感恩），考场直接迁移改写。</div></div></div></div></div><div class="section" id="sec8">
+<div class="sec-head"><div class="sec-no">8</div><h2>复习优先级与得分分布</h2><span class="tag">备考导航</span></div>
+<div class="sec-body"><div class="bar"><div class="name">听力</div><div class="track"><div class="fill" style="width:95%"></div></div><div class="pct">95%</div></div><div class="bar"><div class="name">单项选择</div><div class="track"><div class="fill" style="width:90%"></div></div><div class="pct">90%</div></div><div class="bar"><div class="name">完形填空</div><div class="track"><div class="fill" style="width:82%"></div></div><div class="pct">82%</div></div><div class="bar"><div class="name">阅读理解</div><div class="track"><div class="fill" style="width:88%"></div></div><div class="pct">88%</div></div><div class="bar"><div class="name">词汇句型</div><div class="track"><div class="fill" style="width:85%"></div></div><div class="pct">85%</div></div><div class="bar"><div class="name">书面表达</div><div class="track"><div class="fill" style="width:75%"></div></div><div class="pct">75%</div></div><table><thead><tr><th>模块</th><th>分值</th><th>提分策略</th></tr></thead><tbody><tr><td class="c">听力</td><td class="c">25</td><td class="c">每天 10 分钟精听真题，跟读模仿</td></tr><tr><td class="c">单选</td><td class="c">15</td><td class="c">语法专项＋错题本反复过</td></tr><tr><td class="c">完形</td><td class="c">15</td><td class="c">上下文逻辑＋固定搭配积累</td></tr><tr><td class="c">阅读</td><td class="c">30</td><td class="c">每天 2 篇限时训练，扩大词汇量</td></tr><tr><td class="c">词汇句型</td><td class="c">20</td><td class="c">背默核心短语与句型转换套路</td></tr><tr><td class="c">写作</td><td class="c">15</td><td class="c">背范文＋万能句式＋限时成篇</td></tr></tbody></table></div></div>
+<div class="nav"><a href="#sec1">中考试卷结构（仁爱版·咸宁卷）</a><a href="#sec2">核心语法（上册）</a><a href="#sec3">核心语法（下册 九年级重点）</a><a href="#sec4">情态动词与易混词辨析</a><a href="#sec5">完形填空与阅读理解技巧</a><a href="#sec6">词汇与句型（重点短语）</a><a href="#sec7">书面表达 15 分 满分模板</a><a href="#sec8">复习优先级与得分分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》及统编版 / 人教版 / 仁爱版教材编写整理，可打印复习使用。</div></div></body></html>

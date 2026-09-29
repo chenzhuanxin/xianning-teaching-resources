@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>七年级生物 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>七年级<span class="em">生物</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>2025—2026学年</span><span>七年级</span><span>生物</span><span>初中</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>一、认识生物与科学探究</h2><span class="tag">七上｜基础</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 生物的特征</div><ul><li><strong>生物的共同特征</strong>：①需要营养；②能进行呼吸；③能排出废物；④能对外界刺激作出反应；⑤能生长和繁殖；⑥有遗传和变异的特性；⑦由<strong>细胞</strong>构成（除病毒外）。</li><li><strong>科学探究方法</strong>：观察法、调查法、实验法。</li><li><strong>探究实验步骤</strong>：提出问题→作出假设→制定计划→实施计划→得出结论→表达交流。</li><li><strong>对照实验</strong>：<strong>单一变量原则</strong>，其他条件都要相同。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>生物的共同特征</b>是必背。注意：<strong>生石花、钟乳石不是生物</strong>，判断依据是「能否生长、繁殖、新陈代谢」。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>二、生物体的结构层次</h2><span class="tag">七上｜核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 细胞</div><ul><li><strong>显微镜的使用</strong>：取镜安放→对光→放置玻片→观察→整理。放大倍数 = 目镜 × 物镜。</li><li><strong>显微镜成像</strong>：<strong>倒立放大的虚像</strong>；物像移动方向与玻片移动方向<strong>相反</strong>。</li><li><strong>植物细胞</strong>：细胞壁、细胞膜、细胞质、细胞核、液泡、叶绿体。</li><li><strong>动物细胞</strong>：细胞膜、细胞质、细胞核（无细胞壁、液泡、叶绿体）。</li><li><strong>细胞的生活</strong>：需要物质和能量；<strong>细胞核是控制中心</strong>（含遗传物质 DNA）。</li><li><strong>细胞分裂</strong>：染色体先复制后均分，保证新细胞与原细胞遗传物质相同。</li></ul><div class="box box-warn"><span class="ico">✍</span><div><b>易错：</b>显微镜下物像移动方向与玻片<strong>相反</strong>——物像偏左上方，玻片就往左上方移。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 组织、器官、系统</div><ul><li><strong>动物组织</strong>：上皮组织、结缔组织、肌肉组织、神经组织。</li><li><strong>植物组织</strong>：保护组织、营养组织、输导组织、机械组织、分生组织。</li><li><strong>器官</strong>：不同的组织按一定次序结合（如<strong>心脏、胃、叶、根</strong>）。</li><li><strong>系统</strong>：不同的器官按一定次序结合起来（如消化系统、循环系统）。</li><li><strong>结构层次</strong>：细胞 → 组织 → 器官 → 系统（动物有）→ 个体。植物无「系统」这一层次。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 单细胞生物与生物圈</div><ul><li><strong>单细胞生物</strong>：草履虫、衣藻、酵母菌、变形虫。</li><li><strong>生物圈</strong>：地球上所有生物与其环境的总和，是最大的生态系统。范围：大气圈的底部、水圈的大部、岩石圈的表面。</li></ul></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>三、生物圈中的绿色植物</h2><span class="tag">七上｜重难点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 孢子植物与种子植物</div><ul><li><strong>藻类植物</strong>：无根茎叶分化（海带、水绵）。</li><li><strong>苔藓植物</strong>：有茎叶，无真正的根，可作空气污染指示植物（葫芦藓）。</li><li><strong>蕨类植物</strong>：有根茎叶，有输导组织（蕨、满江红）。</li><li><strong>种子植物</strong>：<strong>裸子植物</strong>（种子裸露，如松、杉、柏）和<strong>被子植物</strong>（种子有果皮包被，是最高等、种类最多的类群）。</li></ul><div class="box box-tip"><span class="ico">💡</span><div><b>进化顺序：</b>藻类 → 苔藓 → 蕨类 → 裸子 → 被子（由低等到高等、由水生到陆生）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 种子的萌发与植株的生长</div><ul><li><strong>种子萌发的条件</strong>：<em>内部</em>——胚是完整的、活的、度过休眠期；<em>外部</em>——适宜的温度、一定的水分、充足的空气。</li><li><strong>种子结构</strong>：种皮 + 胚（胚芽、胚轴、胚根、子叶）。</li><li><strong>根的生长</strong>：分生区细胞分裂 + 伸长区细胞伸长。</li><li><strong>芽的发育</strong>：芽原基→侧芽；幼叶→叶；芽轴→茎。</li><li><strong>需要量最多的无机盐</strong>：<strong>氮、磷、钾</strong>（氮—枝叶；磷—花果；钾—抗倒伏）。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>种子萌发的环境条件</b>常考探究实验，注意<strong>控制变量</strong>与<strong>设置对照组</strong>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 开花结果与蒸腾作用</div><ul><li><strong>花的结构</strong>：雄蕊（花药、花丝）+ 雌蕊（柱头、花柱、子房）是主要部分。</li><li><strong>传粉与受精</strong>：传粉 → 受精 → 子房发育成果实，胚珠发育成种子。</li><li><strong>蒸腾作用</strong>：通过叶片<strong>气孔</strong>散失水分，促进水分和无机盐的运输，降低叶片温度。</li><li><strong>光合作用</strong>：原料是<strong>二氧化碳和水</strong>，产物是<strong>有机物和氧气</strong>，条件是<strong>光和叶绿体</strong>。</li><li><strong>呼吸作用</strong>：消耗氧气，分解有机物，释放能量（场所：<strong>线粒体</strong>）。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>光合作用与呼吸作用</b>是核心：光合作用「储能量」，呼吸作用「放能量」；两者在碳氧循环中相互依存。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>四、生物圈中的人</h2><span class="tag">七下｜重点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 人的由来与营养</div><ul><li><strong>人类的起源</strong>：人类和类人猿的共同祖先是<strong>森林古猿</strong>。</li><li><strong>生殖系统</strong>：男性主要器官是<strong>睾丸</strong>（产生精子）和输精管；女性主要器官是<strong>卵巢</strong>（产生卵细胞）。</li><li><strong>受精部位</strong>：<strong>输卵管</strong>；胚胎发育的场所：<strong>子宫</strong>。</li><li><strong>营养物质</strong>：糖类（主要供能）、脂肪（储能）、蛋白质（建造修复）、水、无机盐、维生素。</li><li><strong>消化系统</strong>：<strong>小肠是消化和吸收的主要器官</strong>（长、面积大、含多种消化液）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 呼吸、循环与排泄</div><ul><li><strong>呼吸系统</strong>：呼吸道（鼻、咽、喉、气管、支气管）+ 肺。气体交换的主要场所是<strong>肺泡</strong>。</li><li><strong>血液成分</strong>：血浆、红细胞（运输氧气）、白细胞（吞噬病菌）、血小板（止血凝血）。</li><li><strong>血液循环</strong>：体循环（左心室→主动脉→全身→上下腔静脉→右心房）；肺循环（右心室→肺动脉→肺→肺静脉→左心房）。</li><li><strong>血管</strong>：动脉（离心）、静脉（回心）、毛细血管（物质交换）。</li><li><strong>排泄</strong>：泌尿系统（肾脏、输尿管、膀胱、尿道），<strong>肾脏是形成尿液的主要器官</strong>（肾小球滤过、肾小管重吸收）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 神经调节与健康生活</div><ul><li><strong>神经系统</strong>：由脑、脊髓和它们发出的神经组成。基本单位是<strong>神经元</strong>。</li><li><strong>反射</strong>：人体通过神经系统对刺激作出的有规律的反应。反射弧：感受器→传入神经→神经中枢→传出神经→效应器。</li><li><strong>激素调节</strong>：甲状腺激素、胰岛素（调节血糖）、生长激素。</li><li><strong>健康生活</strong>：合理膳食、适量运动、规律作息、拒绝烟酒毒品、注意用眼卫生。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>反射弧</b>五部分必须背熟，任何一环断裂，反射都不能完成。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">一、认识生物与科学探究</a><a href="#sec2">二、生物体的结构层次</a><a href="#sec3">三、生物圈中的绿色植物</a><a href="#sec4">四、生物圈中的人</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》与咸宁市现行教材编写。教材版本：语文/道法/历史·统编人教版，数学·人教版，英语·仁爱版（科普版），地理·人教版，生物·人教版。湖北省咸宁市 2025—2026 学年。</div></div></body></html>

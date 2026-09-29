@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>八年级数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>八年级<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教版</span><span>八上 + 八下</span><span>2024秋新修订</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>一、八上·三角形与全等</h2><span class="tag">几何核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 三角形</div><ul><li><strong>三边关系</strong>：任意两边之和大于第三边，任意两边之差小于第三边。</li><li><strong>内角和定理</strong>：三角形内角和为 180°；外角等于与它不相邻的两个内角之和。</li><li><strong>重要线段</strong>：高、中线、角平分线。中线把三角形分成面积相等的两部分。</li><li><strong>多边形</strong>：n 边形内角和 = (n−2)×180°；任意多边形外角和 = 360°。</li></ul><div class="box box-key"><span class="ico">★</span><div>求「等腰三角形周长」必须<strong>分类讨论</strong>：已知两边为 a、b，要分别讨论 a 为腰和 b 为腰，并检验是否满足三边关系。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 全等三角形</div><ul><li><strong>判定方法</strong>：SSS、SAS、ASA、AAS、HL（直角三角形专用）。</li><li><strong>注意</strong>：<strong>SSA 不能判定全等</strong>；AAA 只能判定相似，不能判定全等。</li><li><strong>性质</strong>：全等三角形的对应边相等、对应角相等、周长相等、面积相等。</li><li><strong>角平分线性质</strong>：角平分线上的点到角两边的距离相等；反之，到角两边距离相等的点在角平分线上。</li><li><strong>垂直平分线性质</strong>：线段垂直平分线上的点到线段两端点的距离相等。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>证明题书写要求：必须写「在△×××和△×××中」，按 SSS/SAS/ASA/AAS 顺序列出条件，最后注明依据。书写不规范是八年级几何失分主因。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 轴对称</div><ul><li><strong>轴对称图形</strong>：沿一条直线折叠，直线两旁部分能完全重合。</li><li><strong>坐标变换</strong>：点 (x, y) 关于 x 轴对称 → (x, −y)；关于 y 轴对称 → (−x, y)；关于原点对称 → (−x, −y)。</li><li><strong>等腰三角形</strong>：等边对等角；三线合一（顶角平分线、底边中线、底边高互相重合）。</li><li><strong>等边三角形</strong>：三边相等，三角均为 60°；有一个角是 60° 的等腰三角形是等边三角形。</li><li><strong>含 30° 角的直角三角形</strong>：30° 角所对的直角边等于斜边的一半。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>「三线合一」是八年级几何的<strong>超级工具</strong>：只要出现等腰三角形 + 一条线，就能推出另外两条性质。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>二、八上·整式乘法与因式分解</h2><span class="tag">代数核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 幂的运算</div><ul><li><strong>同底数幂相乘</strong>：aᵐ · aⁿ = aᵐ⁺ⁿ</li><li><strong>幂的乘方</strong>：(aᵐ)ⁿ = aᵐⁿ</li><li><strong>积的乘方</strong>：(ab)ⁿ = aⁿbⁿ</li><li><strong>同底数幂相除</strong>：aᵐ ÷ aⁿ = aᵐ⁻ⁿ（a≠0）</li><li><strong>零指数幂</strong>：a⁰ = 1（a≠0）；<strong>负整数指数幂</strong>：a⁻ⁿ = 1/aⁿ（a≠0）</li></ul><div class="box box-tip"><span class="ico">💡</span><div>易混：「aᵐ · aⁿ」是<strong>指数相加</strong>（乘法变加法），「(aᵐ)ⁿ」是<strong>指数相乘</strong>。做题前先圈出符号。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 乘法公式与因式分解</div><ul><li><strong>平方差公式</strong>：(a+b)(a−b) = a² − b²</li><li><strong>完全平方公式</strong>：(a±b)² = a² ± 2ab + b²</li><li><strong>因式分解三法</strong>：①提公因式；②公式法（平方差、完全平方）；③十字相乘法（拓展）。</li><li>因式分解<strong>必须分解到不能再分解为止</strong>，且结果必须是<strong>乘积形式</strong>。</li><li><strong>常用变形</strong>：a² + b² = (a+b)² − 2ab = (a−b)² + 2ab。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>「完全平方公式」中间项常漏掉 2 或漏符号：(a+b)² = a² + <strong>2</strong>ab + b²，不是 a² + ab + b²。这是八年级代数第一大坑。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>三、八上·分式与二次根式（八下）</h2><span class="tag">代数核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 分式</div><ul><li><strong>基本性质</strong>：分子分母同乘（除）以同一个不为零的整式，分式的值不变。</li><li><strong>运算顺序</strong>：先乘除后加减，有括号先算括号；除以一个分式等于乘以它的倒数。</li><li><strong>分式方程</strong>：去分母（两边同乘最简公分母）→ 解整式方程 → <strong>必须检验</strong>（验根）。</li><li><strong>增根</strong>：使最简公分母为零的根，必须舍去。</li></ul><div class="box box-key"><span class="ico">★</span><div>分式方程<strong>不检验必扣分</strong>。解分式方程的应用题还要注意「符合实际意义」。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 二次根式</div><ul><li><strong>性质</strong>：√a ≥ 0（a≥0）；(√a)² = a；√(a²) = |a|。</li><li><strong>乘除法则</strong>：√a · √b = √(ab)；√a ÷ √b = √(a/b)（a≥0, b>0）。</li><li><strong>化简</strong>：把根号内的完全平方因数移到根号外，如 √8 = 2√2。</li><li><strong>最简二次根式</strong>：被开方数不含分母，不含能开得尽方的因数。</li><li><strong>合并</strong>：只有<strong>同类二次根式</strong>（化简后被开方数相同）才能合并。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>√(a²) = |a| 而不是 a。当 a 的正负未知时，必须<strong>讨论</strong>结果，这是高频失分点。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>四、八下·勾股定理与四边形</h2><span class="tag">几何核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 勾股定理</div><ul><li><strong>勾股定理</strong>：直角三角形中 a² + b² = c²（c 为斜边）。</li><li><strong>逆定理</strong>：若三角形三边满足 a² + b² = c²，则它是直角三角形（c 为最长边）。</li><li><strong>常用勾股数</strong>：(3,4,5)、(5,12,13)、(6,8,10)、(8,15,17)、(7,24,25)。</li><li><strong>应用</strong>：求斜边、求直角边、判断直角三角形、实际问题（梯子、航海、折叠）。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>应用勾股定理必须先<strong>确认哪条边是斜边</strong>。题目没说直角在哪时，要分类讨论（最长边为斜边）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 平行四边形与特殊四边形</div><ul><li><strong>平行四边形</strong>：两组对边分别平行（定义）。性质-对边相等、对角相等、对角线互相平分。</li><li><strong>判定</strong>：①两组对边分别平行；②两组对边分别相等；③一组对边平行且相等；④对角线互相平分；⑤两组对角分别相等。</li><li><strong>矩形</strong>：四个角都是直角，对角线相等。判定：有一个角是直角的平行四边形 / 对角线相等的平行四边形 / 三个角是直角的四边形。</li><li><strong>菱形</strong>：四条边相等，对角线互相垂直且每条对角线平分一组对角。面积 = 对角线乘积的一半。</li><li><strong>正方形</strong>：既是矩形又是菱形。</li></ul><div class="box box-key"><span class="ico">★</span><div>特殊四边形判定是八年级<strong>压轴题常客</strong>。记忆口诀：<strong>「矩形看角、菱形看边、正方形全都要」</strong>。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>五、八下·一次函数与数据分析</h2><span class="tag">代数核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 一次函数</div><ul><li><strong>解析式</strong>：y = kx + b（k ≠ 0）。当 b = 0 时是正比例函数。</li><li><strong>图象</strong>：一条直线。k > 0 时 y 随 x 增大而增大；k < 0 时 y 随 x 增大而减小。</li><li><strong>与坐标轴交点</strong>：与 y 轴交于 (0, b)；与 x 轴交于 (−b/k, 0)。</li><li><strong>待定系数法</strong>：设 y = kx + b，代入两点坐标，解方程组求 k、b。</li><li><strong>平移规律</strong>：上加下减（对 b），左加右减（对 x）。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>一次函数与方程、不等式的关系是中考热点：kx + b > 0 的解集就是直线在 x 轴<strong>上方</strong>部分对应的 x 范围。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 数据的分析</div><ul><li><strong>平均数</strong>：算术平均数、加权平均数（权越大影响越大）。</li><li><strong>中位数</strong>：排序后中间的数（偶数个取中间两数平均）。</li><li><strong>众数</strong>：出现次数最多的数，可能不止一个。</li><li><strong>方差</strong>：s² = [(x₁−x̄)² + ... + (xₙ−x̄)²] ÷ n，<strong>方差越小数据越稳定</strong>。</li><li><strong>极差</strong>：最大值 − 最小值。</li></ul><div class="box box-key"><span class="ico">★</span><div>平均数、中位数、众数都描述<strong>集中趋势</strong>；方差描述<strong>离散程度（波动大小）</strong>。评价「谁的成绩更稳定」用方差。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">一、八上·三角形与全等</a><a href="#sec2">二、八上·整式乘法与因式分解</a><a href="#sec3">三、八上·分式与二次根式（八下）</a><a href="#sec4">四、八下·勾股定理与四边形</a><a href="#sec5">五、八下·一次函数与数据分析</a></div>
+<div class="foot">八年级数学是初中数学的「分水岭」：几何证明体系成型、函数思想登场。全等三角形与一次函数是全学年两大核心。</div></div></body></html>

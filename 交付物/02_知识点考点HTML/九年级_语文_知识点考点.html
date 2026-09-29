@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>九年级语文 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>九年级<span class="em">语文</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>中考复习·全一册</span><span>8 大板块</span><span>16 个核心考点</span><span>满分 120 分</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>中考语文试卷结构与分值（咸宁卷）</h2><span class="tag">命题依据</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">考点</span>试卷格局总览</div><ul><li>全卷满分 <strong>120 分</strong>，考试时间 <strong>150 分钟</strong>。</li><li>第一大题 <em>积累与运用</em>（约 26 分）：字音字形、词语运用、病句辨析、标点、文学文化常识、名著阅读、古诗文默写、综合性学习。</li><li>第二大题 <em>阅读理解</em>（约 44 分）：古诗文阅读（约 17 分）＋ 现代文阅读（约 27 分，含记叙文、说明文/议论文）。</li><li>第三大题 <em>写作</em>（50 分）：命题作文、半命题作文或材料作文。</li><li>名句默写与名著阅读为<strong>保分题</strong>，写作与阅读为<strong>拉分题</strong>。</li></ul><div class="box box-key"><span class="ico">★</span><div>默写与名著属确定考点，务必 100% 拿满；写作要练到「限时成篇、卷面工整」。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>积累与运用：字音字形</h2><span class="tag">基础保分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">01</span>易错字音字形清单</div><ul><li>多音字：<em>埋</em>（mái 埋没 / mán 埋怨）、<em>血</em>（xuè 血液 / xiě 血淋淋口语）、<em>载</em>（zài 载重 / zǎi 记载）、<em>供</em>（gōng 供给 / gòng 供电）、<em>横</em>（héng 横竖 / hèng 蛮横）。</li><li>易读错：名副其实（fù）、锲而不舍（qiè）、恪尽职守（kè）、鳞次栉比（zhì）、觥筹交错（gōng）。</li><li>易写错：再接再厉、变本加厉、迫不及待、川流不息、走投无路、再接再厉、黯然失色、铤而走险。</li><li>形近字：<strong>报</strong>酬 / <strong>抱</strong>负、<strong>泻</strong>千里 / 倾<strong>泻</strong> / 宣<strong>泄</strong>。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>把三年课本「读读写写」整理成错题本，每天听写 20 个，是最高性价比的提分方式。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>积累与运用：词语、病句、标点</h2><span class="tag">高频考点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">02</span>词语运用</div><ul><li>辨析角度：词义轻重、感情色彩（褒/贬/中性）、适用对象、搭配习惯、语体色彩（口语/书面）。</li><li>常见误用：<strong>炙手可热</strong>（贬义，指气焰盛）、<strong>首当其冲</strong>（最先受到攻击）、<strong>差强人意</strong>（大体令人满意）、<strong>不刊之论</strong>（不可修改的言论）、<strong>万人空巷</strong>（形容盛大场面）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">03</span>病句六种类型</div><ul><li>搭配不当：主谓、动宾、修饰语与中心语、一面与两面不搭配。</li><li>成分残缺：缺主语、缺谓语、缺宾语中心语。</li><li>语序不当：多层定语/状语顺序、关联词位置、并列成分逻辑顺序。</li><li>结构混乱：句式杂糅（「原因是……造成的」）。</li><li>表意不明：指代不清、歧义。</li><li>不合逻辑：自相矛盾、否定不当、主客颠倒。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>「防止不发生」这类多重否定要数清否定词个数；「通过……使……」必查主语残缺。</div></div></div><div class="kp"><div class="kp-title"><span class="n">04</span>标点符号</div><ul><li>顿号用于并列词语之间；并列短语作谓语或补语时用逗号。</li><li>引号内是完整引用且独立成句，句末点号放在引号内；否则放引号外。</li><li>书名号与引号不可混用；破折号、省略号不与「等」连用。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>概数之间不用顿号：「三四十人」不写成「三、四十人」。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>文学文化常识与名著阅读</h2><span class="tag">确定考点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">05</span>必背常识</div><ul><li>《诗经》是我国最早诗歌总集，分<em>风、雅、颂</em>，手法<em>赋、比、兴</em>。</li><li>「唐宋八大家」：韩愈、柳宗元、欧阳修、苏洵、苏轼、苏辙、王安石、曾巩。</li><li>古代年龄称：<em>垂髫</em>（儿童）、<em>加冠</em>（20 岁）、<em>而立</em>（30）、<em>不惑</em>（40）、<em>知天命</em>（50）、<em>花甲</em>（60）、<em>古稀</em>（70）。</li><li>「四书」：《大学》《中庸》《论语》《孟子》；「五经」：《诗》《书》《礼》《易》《春秋》。</li><li>谦敬词：<em>家</em>父（谦）、<em>令</em>郎（敬）、<em>舍</em>弟（谦）、<em>贤</em>弟（敬）、<em>拙</em>作（谦）、<em>惠</em>赠（敬）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">06</span>中考名著必考六部</div><ul><li><strong>《西游记》</strong>：孙悟空形象、三打白骨精、真假美猴王；主题与讽刺意味。</li><li><strong>《水浒传》</strong>：人物绰号（及时雨宋江、豹子头林冲、行者武松）、鲁提辖拳打镇关西、林教头风雪山神庙。</li><li><strong>《朝花夕拾》</strong>：《从百草园到三味书屋》《藤野先生》《阿长与〈山海经〉》，温馨回忆与理性批判并存。</li><li><strong>《骆驼祥子》</strong>：祥子三次买车三次失去，揭示旧社会对劳动者的摧残。</li><li><strong>《钢铁是怎样炼成的》</strong>：保尔·柯察金，生命意义名言，钢铁意志的形成。</li><li><strong>《简·爱》</strong>：追求人格独立与平等爱情，女性意识觉醒。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>名著题常考「人物＋情节＋性格＋启示」四要素，答题要成句，不要只写关键词。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>古诗文默写（必考篇目）</h2><span class="tag">背默满分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">07</span>九年级及中考高频名句</div><ul><li>《行路难》：<em>长风破浪会有时，直挂云帆济沧海。</em></li><li>《岳阳楼记》：<em>先天下之忧而忧，后天下之乐而乐。</em>「不以物喜，不以己悲。」</li><li>《醉翁亭记》：<em>醉翁之意不在酒，在乎山水之间也。</em></li><li>《茅屋为秋风所破歌》：<em>安得广厦千万间，大庇天下寒士俱欢颜！</em></li><li>《水调歌头》：<em>但愿人长久，千里共婵娟。</em></li><li>《渔家傲·秋思》：<em>浊酒一杯家万里，燕然未勒归无计。</em></li><li>《破阵子》：<em>了却君王天下事，赢得生前身后名。</em></li><li>《过零丁洋》：<em>人生自古谁无死？留取丹心照汗青。</em></li><li>《出师表》：<em>亲贤臣，远小人，此先汉所以兴隆也。</em>「受任于败军之际，奉命于危难之间。」</li><li>《送东阳马生序》：<em>以中有足乐者，不知口体之奉不若人也。</em></li><li>《爱莲说》：<em>出淤泥而不染，濯清涟而不妖。</em></li><li>《陋室铭》：<em>斯是陋室，惟吾德馨。</em></li></ul><div class="box box-warn"><span class="ico">⚠</span><div>默写只考「上下句＋理解性默写」，错一字即全句不得分，务必书写规范（「婵娟」「燕然未勒」「汗青」易错）。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>古诗文阅读答题模板</h2><span class="tag">方法套路</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">08</span>文言实词与虚词</div><ul><li>重点实词：<em>故</em>（所以/旧的）、<em>或</em>（有人/或许）、<em>自</em>（从/亲自）、<em>属</em>（类/嘱托）、<em>间</em>（暗中/参与）、<em>谢</em>（道歉/辞别）。</li><li>高频虚词：<strong>之</strong>（的/主谓之间/代词/提宾标志/动词「到」）；<strong>而</strong>（并列/承接/转折/修饰）；<strong>以</strong>（因为/用/凭借/来）；<strong>于</strong>（在/比/向/被）；<strong>其</strong>（他的/那/难道/大概）。</li><li>词类活用：名作动、名作状、形作动、使动、意动。</li><li>特殊句式：判断句、被动句、省略句、倒装句（宾语前置、状语后置、定语后置）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">09</span>句子翻译六字法</div><ul><li><em>留</em>（人名地名官名年号照录）、<em>删</em>（发语词、结构助词）、<em>替</em>（古今异义换今词）、<em>调</em>（倒装还原）、<em>补</em>（补出省略成分）、<em>贯</em>（语意通顺）。</li></ul><div class="box box-key"><span class="ico">★</span><div>翻译采分点必落：关键词实词、虚词用法、特殊句式，三者都要体现。</div></div></div><div class="kp"><div class="kp-title"><span class="n">10</span>诗歌鉴赏四大题型</div><ul><li><strong>炼字题</strong>：释字义 → 描画面 → 点效果（生动/传神）→ 表情感。</li><li><strong>画面题</strong>：找意象 → 加修饰 → 成画面 → 概括氛围（恬静/雄浑/凄清）。</li><li><strong>情感题</strong>：抓关键词＋知人论世＋意象色彩，答「表达了……之情」。</li><li><strong>手法题</strong>：点明手法（借景抒情/虚实结合/用典/对比/衬托）→ 结合诗句分析 → 说明效果与情感。</li></ul></div></div></div><div class="section" id="sec7">
+<div class="sec-head"><div class="sec-no">7</div><h2>现代文阅读答题模板</h2><span class="tag">拉分关键</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">11</span>记叙文（小说/散文）</div><ul><li><strong>概括情节</strong>：人物＋事件（起因→经过→结果），用「谁在什么情况下做了什么，结果怎样」。</li><li><strong>词句赏析</strong>：修辞/描写方法 → 写出了什么内容 → 表达了什么情感；比喻要指出本体喻体，拟人要指出赋予人的特征。</li><li><strong>人物形象</strong>：从事件、言行、他人评价中概括，用「他是一个……的人」句式，分点作答。</li><li><strong>标题作用</strong>：概括内容、点明主旨、线索贯穿、设置悬念、象征意义、激发兴趣。</li><li><strong>环境描写作用</strong>：交代时间地点背景、渲染气氛、烘托心情、推动情节、深化主题。</li><li><strong>结尾作用</strong>：卒章显志、呼应开头、戛然而止引发思考、出人意料又在情理之中。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">12</span>说明文</div><ul><li>说明方法及作用：<em>举例子</em>（具体真切）、<em>列数字</em>（准确）、<em>作比较</em>（突出）、<em>打比方</em>（生动形象）、<em>分类别</em>（条理清晰）、<em>下定义</em>（科学准确）、<em>摹状貌</em>（具体形象）。</li><li>说明顺序：时间顺序、空间顺序、逻辑顺序。</li><li>语言特点：准确性（「约」「左右」「大约」不可删）、科学性、严密性。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">13</span>议论文</div><ul><li>找中心论点：看标题、开头、结尾，注意「我认为」「由此可见」「因此」等标志词。</li><li>论证方法：<em>举例论证</em>（具体有力）、<em>道理论证</em>（权威有力）、<em>对比论证</em>（鲜明突出）、<em>比喻论证</em>（通俗易懂）。</li><li>论证思路：首先提出……观点，然后通过……论证，最后得出……结论。</li><li>开头作用：提出论点、引出论题、以事例/名言/设问激发兴趣。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>答题必须「术语＋文中具体内容」，只写术语不给分。</div></div></div></div></div><div class="section" id="sec8">
+<div class="sec-head"><div class="sec-no">8</div><h2>综合性学习与实践</h2><span class="tag">5分题</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">14</span>常考题型</div><ul><li><strong>拟写标语/广告语</strong>：紧扣主题、对仗押韵、简洁有力、富有感染力。</li><li><strong>口语交际</strong>：称呼得体 → 说明来意 → 陈述理由 → 语气委婉（劝说类要「委婉而不失立场」）。</li><li><strong>材料探究</strong>：逐则提炼 → 找共性/联系 → 用一句话概括结论。</li><li><strong>活动设计</strong>：活动名称＋活动目的＋活动步骤，命名如「诵读经典·涵养心灵」。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>开放性题务必写满，分点作答，语言得体有文采是加分项。</div></div></div></div></div><div class="section" id="sec9">
+<div class="sec-head"><div class="sec-no">9</div><h2>写作 50 分 高分指南</h2><span class="tag">核心大头</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">15</span>评分要点</div><ul><li><strong>一类文（45—50）</strong>：立意深刻、中心突出、材料新颖、结构清晰、语言有文采、卷面工整。</li><li><strong>二类文（38—44）</strong>：中心明确、内容具体、结构完整、语言通顺。</li><li><strong>三类文（30—37）</strong>：中心基本明确、内容较空、语言基本通顺。</li><li>字数不足、卷面潦草、无标题均要扣分。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">16</span>结构模板（五段式最稳）</div><ul><li>①<em>开篇点题</em>：名言/场景/比喻入题，100 字内亮出中心。</li><li>②<em>分论点一</em>＋事例＋分析（150—200 字）。</li><li>③<em>分论点二</em>＋事例＋分析（150—200 字），与上一段形成递进或对照。</li><li>④<em>联系现实/自我</em>，深化立意（120 字左右）。</li><li>⑤<em>结尾升华</em>：呼应开头、引用收束、发出号召（80—100 字）。</li></ul><div class="box box-key"><span class="ico">★</span><div>首尾段必须出现题目关键词，中间每段首句是分论点——阅卷老师 40 秒内要看懂你的框架。</div></div></div></div></div><div class="section" id="sec10">
+<div class="sec-head"><div class="sec-no">10</div><h2>重点篇目与复习优先级</h2><span class="tag">备考导航</span></div>
+<div class="sec-body"><div class="bar"><div class="name">古诗文默写</div><div class="track"><div class="fill" style="width:96%"></div></div><div class="pct">100%</div></div><div class="bar"><div class="name">名著阅读</div><div class="track"><div class="fill" style="width:90%"></div></div><div class="pct">90%</div></div><div class="bar"><div class="name">文言文阅读</div><div class="track"><div class="fill" style="width:88%"></div></div><div class="pct">88%</div></div><div class="bar"><div class="name">记叙文阅读</div><div class="track"><div class="fill" style="width:85%"></div></div><div class="pct">85%</div></div><div class="bar"><div class="name">写作</div><div class="track"><div class="fill" style="width:82%"></div></div><div class="pct">82%</div></div><div class="bar"><div class="name">说明/议论文</div><div class="track"><div class="fill" style="width:78%"></div></div><div class="pct">78%</div></div><div class="bar"><div class="name">综合性学习</div><div class="track"><div class="fill" style="width:70%"></div></div><div class="pct">70%</div></div><table><thead><tr><th>单元主题</th><th>代表篇目</th><th>核心考点</th></tr></thead><tbody><tr><td class="c">家国情怀</td><td class="c">《岳阳楼记》《醉翁亭记》</td><td class="c">默写、对比阅读、思想感情</td></tr><tr><td class="c">理想信念</td><td class="c">《行路难》《水调歌头》</td><td class="c">炼字、情感、手法</td></tr><tr><td class="c">长征精神</td><td class="c">《七律·长征》《老山界》</td><td class="c">词语赏析、情感体会</td></tr><tr><td class="c">思辨智慧</td><td class="c">《鱼我所欲也》《唐雎不辱使命》</td><td class="c">论证方法、人物形象</td></tr><tr><td class="c">青春成长</td><td class="c">《孤独之旅》《故乡》</td><td class="c">人物心理、主题探究</td></tr></tbody></table></div></div>
+<div class="nav"><a href="#sec1">中考语文试卷结构与分值（咸宁卷）</a><a href="#sec2">积累与运用：字音字形</a><a href="#sec3">积累与运用：词语、病句、标点</a><a href="#sec4">文学文化常识与名著阅读</a><a href="#sec5">古诗文默写（必考篇目）</a><a href="#sec6">古诗文阅读答题模板</a><a href="#sec7">现代文阅读答题模板</a><a href="#sec8">综合性学习与实践</a><a href="#sec9">写作 50 分 高分指南</a><a href="#sec10">重点篇目与复习优先级</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》及统编版 / 人教版 / 仁爱版教材编写整理，可打印复习使用。</div></div></body></html>

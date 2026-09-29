@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>二年级数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>二年级<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教版 2025秋版</span><span>乘除法+解决问题</span><span>满分100分 · 60分钟</span><span>含题型与分值分布</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>数与代数（一）：表内乘法</h2><span class="tag">上册核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">乘</span>乘法的意义与口诀</div><ul><li><strong>乘法意义</strong>：求<em>几个相同加数的和</em>的简便运算。3+3+3+3 表示 4个3，写作 4×3 或 3×4。</li><li><strong>乘法算式各部分</strong>：乘数 × 乘数 = 积。读作「4乘3等于12」。</li><li><strong>乘法口诀表</strong>：1~9的乘法口诀共45句，要<b>倒背如流</b>。如「三七二十一」「六八四十八」。</li><li><strong>口诀与算式</strong>：一句口诀能写2个乘法算式（如「三四十二」→3×4=12、4×3=12）；两个乘数相同时只能写1个（如「四四十六」）。</li><li><strong>乘加乘减</strong>：3×4+2、3×5-2，先算乘法再算加减。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>口算乘法、根据口诀写算式、填口诀、乘加乘减混合运算。乘法口诀是二年级最核心考点！</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>数与代数（二）：除法与有余数除法</h2><span class="tag">下册核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">除</span>除法的意义</div><ul><li><strong>平均分</strong>：把一些物品分成几份，每份<em>同样多</em>，叫平均分。</li><li><strong>除法两种含义</strong>：①按份数分（12个苹果平均放4盘，每盘几个？）②按每份数分（12个苹果每盘放3个，能放几盘？）</li><li><strong>除法算式</strong>：被除数 ÷ 除数 = 商。如 12÷4=3。</li><li><strong>用口诀求商</strong>：想乘法口诀，「( )×4=12」→商是3。</li><li><strong>有余数的除法</strong>：<em>被除数 = 除数 × 商 + 余数</em>；<b>余数一定要比除数小</b>。</li><li><strong>竖式计算</strong>：注意商的定位、余数的位置。</li></ul><div class="box box-warn"><span class="ico">!</span><div><b>易错提醒：</b>余数必须小于除数！如 17÷4=4……1（不是 17÷4=3……5，因为5比4大）。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>数与代数（三）：万以内数的认识</h2><span class="tag">下册重点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">数</span>数的认识与比较</div><ul><li><strong>计数单位</strong>：个、十、百、千、万。相邻两个单位间的进率是<em>10</em>。</li><li><strong>数位顺序</strong>：从右往左依次是个位、十位、百位、千位、万位。</li><li><strong>读写法</strong>：读数从高位起，中间有0要读（如305读三百零五），末尾0不读（如350读三百五十）。</li><li><strong>比较大小</strong>：位数多的数大；位数相同，从最高位比起。</li><li><strong>近似数</strong>：与准确数接近的整十、整百、整千数，如987≈1000。</li><li><strong>万以内加减法</strong>：相同数位对齐，从个位算起，注意进位与退位。</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>图形与几何 · 量与计量</h2><span class="tag">必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">形</span>图形与测量</div><ul><li><strong>角的初步认识</strong>：角有一个顶点、两条边。比直角小的是<em>锐角</em>，比直角大的是<em>钝角</em>。</li><li><strong>线段</strong>：直的、有两个端点、可以量出长度。</li><li><strong>长度单位</strong>：厘米(cm)、米(m)。1米=100厘米。用尺子量物体要「0刻度对齐」。</li><li><strong>平移与旋转</strong>：推拉窗是平移；风车转动、钟表指针是旋转。</li><li><strong>轴对称图形</strong>：沿一条直线对折后两边完全重合，如蝴蝶、五角星、长方形。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">时</span>时间与人民币</div><ul><li><strong>认识时间</strong>：时针走1大格是1小时，分针走1小格是1分，走1大格是5分。1时=60分。</li><li><strong>读时间</strong>：时针过几就是几时；分针指几，用几×5得分钟。</li><li><strong>人民币单位</strong>：元、角、分。1元=10角，1角=10分。</li><li><strong>购物计算</strong>：付钱、找零；元的加减与角的加减要分别计算。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>量线段长度、数角的个数、判断平移旋转、看钟面写时间、人民币换算与购物问题。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>解决问题</h2><span class="tag">应用题</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">解</span>常见数量关系</div><ul><li><strong>求几个几</strong>：用乘法。每份数 × 份数 = 总数。</li><li><strong>平均分</strong>：总数 ÷ 份数 = 每份数；总数 ÷ 每份数 = 份数。</li><li><strong>求一个数的几倍</strong>：用乘法。如「小明的3倍」→ 小明的数量 × 3。</li><li><strong>求一个数是另一个数的几倍</strong>：用除法。大数 ÷ 小数 = 倍数。</li><li><strong>有余数问题</strong>：如「最多装几袋」用除法；「至少需要几个箱子」要用进一法（余数也要1个）。</li><li><strong>两步计算</strong>：先算什么、再算什么要理清。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>解题步骤：</b>①读题找条件与问题 ②想数量关系 ③列式计算 ④写单位与答语 ⑤检验。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">表内乘除法</div><div class="track"><div class="fill" style="width:28%"></div></div><div class="pct">28%</div></div><div class="bar"><div class="name">万以内数的认识</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">图形与测量</div><div class="track"><div class="fill" style="width:14%"></div></div><div class="pct">14%</div></div><div class="bar"><div class="name">时间人民币</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><div class="bar"><div class="name">解决问题</div><div class="track"><div class="fill" style="width:26%"></div></div><div class="pct">26%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">直接写得数</td><td class="c">15-20题</td><td class="c">20分</td><td class="c">表内乘除法、口算</td></tr><tr><td class="c">填空</td><td class="c">8-10题</td><td class="c">20分</td><td class="c">数的认识、单位换算</td></tr><tr><td class="c">选择/判断</td><td class="c">6-8题</td><td class="c">12分</td><td class="c">概念辨析（角、平移）</td></tr><tr><td class="c">计算（竖式）</td><td class="c">4-6题</td><td class="c">12分</td><td class="c">万以内加减、有余数除法</td></tr><tr><td class="c">看图列式</td><td class="c">2-3题</td><td class="c">6分</td><td class="c">理解乘法含义</td></tr><tr><td class="c">解决问题</td><td class="c">5-6题</td><td class="c">30分</td><td class="c">两/三步应用题</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>表内乘除法（28%）+ 解决问题（26%）= 54%，是重中之重。乘法口诀必须<b>做到3秒内脱口而出</b>；应用题务必写单位、写答语。</div></div></div></div>
+<div class="nav"><a href="#sec1">数与代数（一）：表内乘法</a><a href="#sec2">数与代数（二）：除法与有余数除法</a><a href="#sec3">数与代数（三）：万以内数的认识</a><a href="#sec4">图形与几何 · 量与计量</a><a href="#sec5">解决问题</a><a href="#sec6">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育数学课程标准（2022年版）》及人教版二年级教材编写 · 供咸宁市学生期末复习使用</div></div></body></html>

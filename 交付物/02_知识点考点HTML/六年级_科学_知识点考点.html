@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>六年级科学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>六年级<span class="em">科学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>2025—2026学年</span><span>六年级</span><span>科学</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>微小世界</h2><span class="tag">生命科学</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">镜</span>放大镜与显微镜</div><ul><li><strong>放大镜</strong>：中间厚、边缘薄，能放大物体；放大镜放大倍数与镜片凸度有关。</li><li><strong>显微镜</strong>：由目镜、物镜、载物台、调节旋钮等组成；放大倍数=目镜×物镜。</li><li><strong>使用步骤</strong>：安放→对光→上片→调焦→观察。</li><li><strong>注意事项</strong>：物像移动方向与玻片移动方向相反；先用低倍镜观察。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">微</span>微生物与细胞</div><ul><li><strong>微生物</strong>：细菌、病毒、真菌（酵母菌、霉菌）等，要借助显微镜才能看清。</li><li><strong>微生物与人类的关系</strong>：有利（发酵、制酸奶、酿酒、分解垃圾）；有害（致病、使食物变质）。</li><li><strong>细胞</strong>：生物体都是由细胞组成的（病毒除外）；细胞是生物体最基本的结构和功能单位。</li><li><strong>洋葱表皮细胞</strong>：近似长方形，有细胞壁、细胞核等。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>显微镜的使用与放大倍数计算、微生物的利弊、细胞的基本结构。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>物质的变化</h2><span class="tag">物质科学</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">变</span>物理变化与化学变化</div><ul><li><strong>物理变化</strong>：没有产生新物质的变化，如形状改变、状态变化（水结冰、纸撕碎）。</li><li><strong>化学变化</strong>：产生了新物质的变化，常伴随发光、发热、颜色改变、产生气体或沉淀（铁生锈、燃烧、食物腐败）。</li><li><strong>判断依据</strong>：是否产生新物质。</li><li><strong>常见现象</strong>：小苏打与白醋混合产生气泡（二氧化碳）；蜡烛燃烧既有物理变化又有化学变化。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">能</span>能量与物质的变化</div><ul><li><strong>铁生锈的条件</strong>：铁与水和空气（氧气）同时接触；防锈方法：涂油、刷漆、镀层、保持干燥。</li><li><strong>燃烧的条件</strong>：可燃物、氧气（空气）、达到着火点；灭火即破坏其中一个条件。</li><li><strong>化学变化与能量</strong>：化学变化常伴随能量的转换（如燃烧放热）。</li><li><strong>实验方法</strong>：观察、对比实验、控制变量。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>探究要点：</b>做对比实验时只能改变一个条件（控制变量法），要如实记录现象，根据现象得出结论。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>宇宙与地球</h2><span class="tag">地球与宇宙</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">地</span>地球的运动</div><ul><li><strong>地球自转</strong>：自西向东，约24小时一周，产生昼夜交替。</li><li><strong>地球公转</strong>：自西向东，约365天一周，产生四季变化。</li><li><strong>地轴倾斜</strong>：地轴始终倾斜且方向不变，是形成四季变化的重要原因。</li><li><strong>昼夜与四季</strong>：极昼极夜现象与地轴倾斜有关。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">宇</span>太阳系与宇宙</div><ul><li><strong>太阳系</strong>：由太阳、八大行星（水金地火木土天海）、卫星、小行星等组成；太阳是太阳系的中心。</li><li><strong>月球</strong>：地球唯一的天然卫星，本身不发光，靠反射太阳光；月相变化周期约一个月。</li><li><strong>星座</strong>：如大熊座、小熊座、猎户座；北斗七星属大熊座。</li><li><strong>探索宇宙</strong>：人类通过望远镜、航天器、空间站等探索宇宙。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>地球自转与公转的区别、太阳系组成、月相变化、星座识别。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>能量</h2><span class="tag">物质科学</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">能</span>能量的形式与转换</div><ul><li><strong>能量的形式</strong>：机械能、热能、光能、电能、化学能、声能、核能等。</li><li><strong>能量的转换</strong>：各种形式的能量可以相互转换，如电灯（电能→光能和热能）、电风扇（电能→机械能）。</li><li><strong>能量守恒</strong>：能量既不会凭空产生，也不会凭空消失，只会从一种形式转换成另一种形式。</li><li><strong>能源</strong>：可再生能源（太阳能、风能、水能）与不可再生能源（煤、石油、天然气）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">机</span>简单机械</div><ul><li><strong>杠杆</strong>：分省力杠杆、费力杠杆、等臂杠杆；平衡条件：动力×动力臂=阻力×阻力臂。</li><li><strong>斜面</strong>：省力但费距离。</li><li><strong>滑轮</strong>：定滑轮不省力但改变方向；动滑轮省力但不改变方向；滑轮组既省力又改变方向。</li><li><strong>轮轴</strong>：由轮和轴组成，能省力，如方向盘、门把手。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>备考提示：</b>能量转换的分析要按「什么能→什么能」的顺序；简单机械重点掌握杠杆类型判断和省力情况。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>环境与我们</h2><span class="tag">综合应用</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">生</span>生物与环境</div><ul><li><strong>食物链与食物网</strong>：从绿色植物开始，到凶猛动物结束；多条食物链交织成食物网。</li><li><strong>生态系统</strong>：由生物和非生物环境组成；生产者、消费者、分解者相互依存。</li><li><strong>生态平衡</strong>：一种生物的数量变化会影响其他生物，甚至影响整个生态系统。</li><li><strong>生物多样性</strong>：保护生物多样性就要保护生物的栖息地。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">环</span>环境保护与可持续发展</div><ul><li><strong>主要环境问题</strong>：空气污染、水污染、土壤污染、垃圾污染、噪声污染。</li><li><strong>保护措施</strong>：节约用水用电、垃圾分类回收、植树造林、减少使用一次性用品、绿色出行。</li><li><strong>可持续发展</strong>：既满足当代人的需要，又不损害后代人满足其需要的能力。</li><li><strong>从我做起</strong>：从身边小事做起，做环境保护的践行者和宣传者。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>食物链的书写、生态平衡、环境污染与保护措施、可持续发展的含义。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">微小世界</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><div class="bar"><div class="name">物质的变化</div><div class="track"><div class="fill" style="width:22%"></div></div><div class="pct">22%</div></div><div class="bar"><div class="name">宇宙与地球</div><div class="track"><div class="fill" style="width:22%"></div></div><div class="pct">22%</div></div><div class="bar"><div class="name">能量</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">环境与我们</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">选择</td><td class="c">10题</td><td class="c">20分</td><td class="c">概念识记</td></tr><tr><td class="c">判断</td><td class="c">10题</td><td class="c">20分</td><td class="c">性质辨析</td></tr><tr><td class="c">连线/分类</td><td class="c">2题</td><td class="c">10分</td><td class="c">结构与功能匹配</td></tr><tr><td class="c">简答</td><td class="c">3题</td><td class="c">24分</td><td class="c">解释与表达</td></tr><tr><td class="c">实验探究</td><td class="c">2题</td><td class="c">26分</td><td class="c">变量控制、结论</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>「物质的变化」「宇宙与地球」是本册重点。物理变化与化学变化的判断、地球自转公转的区别、能量转换是高频考点；实验题要背熟「对比实验」套路，注意控制变量。</div></div></div></div>
+<div class="nav"><a href="#sec1">微小世界</a><a href="#sec2">物质的变化</a><a href="#sec3">宇宙与地球</a><a href="#sec4">能量</a><a href="#sec5">环境与我们</a><a href="#sec6">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》与咸宁市现行教材编写，供六年级学生系统复习使用。教材版本：语文/道法·统编人教版，数学·人教版，英语·人教版PEP（三年级起点），科学·人教·鄂教版。</div></div></body></html>

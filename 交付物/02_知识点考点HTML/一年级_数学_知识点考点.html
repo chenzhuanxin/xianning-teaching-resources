@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>一年级数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>一年级<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教版 2024秋版</span><span>口算+应用双主线</span><span>满分100分 · 60分钟</span><span>含题型与分值分布</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>数的认识</h2><span class="tag">上册核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">数</span>0—20各数的认识</div><ul><li><strong>数数</strong>：1个1个地数、2个2个地数、5个5个地数、10个10个地数（10、20、30…）。</li><li><strong>数的组成</strong>：如 15 由 1个十 和 5个一 组成；20 由 2个十 组成。<em>「十几」= 1个十 + 几个一</em>。</li><li><strong>数位</strong>：从右边起，第一位是<em>个位</em>，第二位是<em>十位</em>。15 中 5 在个位表示5个一，1 在十位表示1个十。</li><li><strong>0的意义</strong>：表示一个也没有；也表示起点（尺子上的0）。<b>0不能作除数</b>（了解）。</li><li><strong>比较大小</strong>：>（大于）、<（小于）、=（等于）。口诀：<em>开口朝大数，尖角朝小数</em>。</li><li><strong>序数与基数</strong>：第3个（序数，表示位置）；3个（基数，表示数量）。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>按顺序填数、数的组成填空、「比…多/少几」、用>、<、=比较大小。</div></div></div><div class="kp"><div class="kp-title"><span class="n">百</span>百以内数的认识（下册）</div><ul><li><strong>数位顺序</strong>：个位、十位、百位。100 是 10个十，也是 1个百。</li><li><strong>读写法</strong>：读作「三十五」，写作「35」；十位是几就读几十，个位是几就读几。</li><li><strong>数的顺序</strong>：从小到大排列、从大到小排列、找规律填数（+2、+5、+10）。</li><li><strong>单数与双数</strong>：个位是1、3、5、7、9的是单数；个位是0、2、4、6、8的是双数。</li></ul></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>数的运算</h2><span class="tag">分值最高</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">算</span>20以内加减法（上册）</div><ul><li><strong>加法的意义</strong>：把两部分<em>合起来</em>用加法（一共、总共、和）。</li><li><strong>减法的意义</strong>：从总数里<em>去掉</em>一部分用减法（还剩、剩下、少几）。</li><li><strong>10以内加减</strong>：凑十法的基础，要能<b>脱口而出</b>。</li><li><strong>20以内进位加法</strong>：<em>凑十法</em>——9+5，把5分成1和4，9+1=10，10+4=14。</li><li><strong>20以内退位减法</strong>：<em>破十法</em>——13-8，13分成10和3，10-8=2，2+3=5；或<em>想加算减</em>：8+( )=13。</li><li><strong>加减法关系</strong>：加数+加数=和；和-一个加数=另一个加数。被减数-减数=差。</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>凑十法口诀：</b>看大数，分小数，凑成十，加剩数。<b>破十法口诀：</b>看大数，分出十，减小数，加剩数。</div></div></div><div class="kp"><div class="kp-title"><span class="n">百</span>100以内加减法（下册）</div><ul><li><strong>整十数加减</strong>：30+20=50（3个十+2个十=5个十）；50-20=30。</li><li><strong>两位数加一位数</strong>：25+3=28（个位相加）；25+8=33（个位满十要向十位进1）。</li><li><strong>两位数减一位数</strong>：28-5=23；23-8=15（个位不够减，从十位退1）。</li><li><strong>连加连减</strong>：从左往右依次计算；有小括号先算括号里的。</li></ul></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>认识图形与位置</h2><span class="tag">空间观念</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">形</span>立体与平面图形</div><ul><li><strong>立体图形（上册）</strong>：长方体、正方体、圆柱、球。特征：长方体6个面（对面相同）；正方体6个面都是正方形；圆柱上下两个面是圆，能滚动；球任意方向都能滚。</li><li><strong>平面图形（下册）</strong>：长方形、正方形、三角形、圆、平行四边形。</li><li><strong>拼组</strong>：2个同样的正方形可拼成长方形；2个同样的三角形可拼成平行四边形；4个同样的正方形可拼成大正方形。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">位</span>位置与方向</div><ul><li><strong>上下、前后、左右</strong>：以「自己的位置」或「图中人物」为参照判断。</li><li><strong>第几</strong>：从左数第3个、从右数第2个——<em>先找起点，再数格子</em>。</li><li><strong>左右易错</strong>：图中人物与观察者面对面时，左右<b>相反</b>。</li></ul><div class="box box-warn"><span class="ico">!</span><div><b>易错提醒：</b>「小明在第3排第4列」这类题目，要先确认题目规定「从哪边开始数」。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>认识钟表与人民币</h2><span class="tag">生活数学</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">钟</span>钟表（上册）</div><ul><li><strong>认识钟面</strong>：分针（长针）、时针（短针）、12个数字、12个大格。</li><li><strong>整时</strong>：分针指12，时针指几就是<em>几时</em>（8时）。</li><li><strong>半时</strong>：分针指6，时针在两个数字中间，读作<em>几时半</em>（8时半=8:30）。</li><li><strong>快几时了 / 刚过几时</strong>：分针快到12是「快几时了」；分针刚过12是「几时刚过」。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">币</span>人民币（下册）</div><ul><li><strong>单位</strong>：元、角、分。1元=10角，1角=10分，1元=100分。</li><li><strong>换算</strong>：5角=50分；1元2角=12角。</li><li><strong>计算</strong>：3元5角+2元=5元5角；元的加减、角的加减要分别算，角满10要进1元。</li><li><strong>解决问题</strong>：买东西付钱、找钱（付出-价钱=找回）。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>看钟面写时间、人民币单位换算、购物找零应用题。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>解决问题与规律</h2><span class="tag">应用题</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">解</span>常见题型</div><ul><li><strong>求一共</strong>：a + b = ?（用加法）</li><li><strong>求还剩</strong>：a - b = ?（用减法）</li><li><strong>求比多/比少</strong>：谁比谁多几 → 大数-小数。</li><li><strong>求原来有多少</strong>：剩下的 + 用掉的 = 原来的。</li><li><strong>够不够问题</strong>：先算一共需要多少，再与现有数量比较。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">律</span>找规律</div><ul><li><strong>图形规律</strong>：○△○△○△…（循环出现）。</li><li><strong>数字规律</strong>：1、3、5、7、9（每次+2）；2、4、6、8（每次+2）；10、9、8、7（每次-1）。</li><li><strong>数列填空</strong>：先找相邻两数的差，再推出未知数。</li></ul></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">数的认识</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">20以内加减</div><div class="track"><div class="fill" style="width:26%"></div></div><div class="pct">26%</div></div><div class="bar"><div class="name">100以内加减</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><div class="bar"><div class="name">图形与位置</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><div class="bar"><div class="name">钟表人民币</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><div class="bar"><div class="name">解决问题</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">直接写得数</td><td class="c">15-20题</td><td class="c">20分</td><td class="c">20以内加减法熟练度</td></tr><tr><td class="c">填空</td><td class="c">8-10题</td><td class="c">20分</td><td class="c">数的组成、数位、比大小</td></tr><tr><td class="c">选择/判断</td><td class="c">6-8题</td><td class="c">12分</td><td class="c">概念辨析（图形、时间）</td></tr><tr><td class="c">看图列式</td><td class="c">2-3题</td><td class="c">8分</td><td class="c">理解加减法含义</td></tr><tr><td class="c">钟表/人民币</td><td class="c">3-4题</td><td class="c">10分</td><td class="c">认时间、单位换算</td></tr><tr><td class="c">找规律</td><td class="c">1-2题</td><td class="c">6分</td><td class="c">图形与数字规律</td></tr><tr><td class="c">解决问题</td><td class="c">4-5题</td><td class="c">24分</td><td class="c">读懂题意列式并作答</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>口算占20分，务必做到<b>5分钟100题全对</b>；解题时一定要<b>写单位、写答语</b>，否则扣分。</div></div></div></div>
+<div class="nav"><a href="#sec1">数的认识</a><a href="#sec2">数的运算</a><a href="#sec3">认识图形与位置</a><a href="#sec4">认识钟表与人民币</a><a href="#sec5">解决问题与规律</a><a href="#sec6">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育数学课程标准（2022年版）》及人教版一年级教材编写 · 供咸宁市学生期末复习使用</div></div></body></html>

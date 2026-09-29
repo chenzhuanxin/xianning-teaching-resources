@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>九年级物理 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>九年级<span class="em">物理</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>中考复习·北师大版</span><span>9 大板块</span><span>16 个核心考点</span><span>满分 100 分</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>中考物理试卷结构（咸宁卷）</h2><span class="tag">命题依据</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">考点</span>题型与分值</div><ul><li>满分 <strong>100 分</strong>（理化合卷 130 分，其中物理约 70 分折算），考试时间与化学合堂 <strong>120 分钟</strong>。</li><li>一、选择题：约 10 小题，<em>约 30 分</em>。</li><li>二、填空题：约 5 小题，<em>约 20 分</em>。</li><li>三、实验探究题：约 3 小题，<em>约 20 分</em>。</li><li>四、计算题：约 3 小题，<em>约 24 分</em>。</li><li>力学与电学各占约 <strong>35%</strong>，是绝对主体。</li></ul><div class="box box-key"><span class="ico">★</span><div>电学（欧姆定律、电功率）与力学（压强、浮力、功和机械能）是两大命脉，占总分七成。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>内能与热机</h2><span class="tag">九年级起始</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">01</span>分子热运动与内能</div><ul><li>分子动理论：物质由分子组成；分子永不停息做<strong>无规则运动</strong>；分子间同时存在引力和斥力。</li><li>扩散现象说明分子在运动，温度越高扩散越快。</li><li><em>内能</em>：物体内所有分子动能与势能的总和，任何物体在任何温度下都有内能。</li><li>改变内能两种方式：<strong>做功</strong>和<strong>热传递</strong>，二者在改变内能上等效。</li><li>热量 Q：热传递过程中传递能量的多少，单位焦耳（J）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">02</span>比热容与热量计算</div><ul><li>比热容 c：单位质量物质温度升高 1℃ 吸收的热量，是物质的一种<strong>特性</strong>。</li><li>水的比热容 c=4.2×10³ J/(kg·℃)，较大，故水常作冷却剂、暖气介质。</li><li>吸热公式：<em>Q吸 = cm(t−t₀)</em>；放热公式：<em>Q放 = cm(t₀−t)</em>。</li><li>热平衡方程：Q吸 = Q放（不计热损失）。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>计算温度变化一定要用 Δt = t−t₀（高温减低温），不要把「升高了」与「升高到」混用。</div></div></div><div class="kp"><div class="kp-title"><span class="n">03</span>热机与热机效率</div><ul><li>四冲程汽油机：吸气 → 压缩 → 做功 → 排气；只有<strong>做功冲程</strong>对外做功，靠飞轮惯性完成其余三冲程。</li><li>压缩冲程把机械能转化为内能；做功冲程把内能转化为机械能。</li><li>燃料完全燃烧放热：<em>Q放 = mq</em>（q 为热值）。</li><li>热机效率 η = W有用 / Q放 × 100%，永远小于 100%。</li><li>能量守恒定律：能量既不会凭空产生，也不会凭空消失，只会从一种形式转化为另一种形式，或从一个物体转移到另一个物体，总量保持不变。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>能量转化类题目先问「谁对谁做功」，再判断是机械能→内能还是内能→机械能。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>电流和电路</h2><span class="tag">电学基石</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">04</span>电荷与电路</div><ul><li>两种电荷：正电荷（丝绸摩擦玻璃棒）、负电荷（毛皮摩擦橡胶棒）；同种相斥，异种相吸。</li><li>电流方向规定为<strong>正电荷定向移动</strong>的方向；金属中电流方向与自由电子移动方向相反。</li><li>电路三种状态：通路、断路、短路。</li><li>串联：电流处处相等 I=I₁=I₂，总电压等于各部分电压之和 U=U₁+U₂，总电阻 R=R₁+R₂。</li><li>并联：干路电流等于各支路电流之和 I=I₁+I₂，各支路电压相等 U=U₁=U₂，1/R=1/R₁+1/R₂。</li></ul><div class="box box-key"><span class="ico">★</span><div>识别串联还是并联：拆掉一个元件，若另一个也不工作则是串联。这是电路题的第一步。</div></div></div><div class="kp"><div class="kp-title"><span class="n">05</span>电流表与电压表</div><ul><li><strong>电流表</strong>：串联接入，量程 0—0.6A（分度 0.02A）、0—3A（分度 0.1A）；不允许直接接到电源两极。</li><li><strong>电压表</strong>：并联在被测元件两端，量程 0—3V（分度 0.1V）、0—15V（分度 0.5V）。</li><li>「电流表相当于导线，电压表相当于断路」是分析电路的通法。</li><li>使用前必须校零，接线柱「正进负出」。</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>欧姆定律与电阻</h2><span class="tag">核心必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">06</span>欧姆定律</div><ul><li><em>I = U / R</em>：导体中电流与电压成正比，与电阻成反比。</li><li>变形：U = IR，R = U / I（R 由导体本身决定，与 U、I 无关）。</li><li>同一性：I、U、R 必须对应<strong>同一段电路、同一时刻</strong>。</li><li>伏安法测电阻：多次测量取平均值以减小误差。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">07</span>控制变量实验必考</div><ul><li>探究电流与电压关系：控制<strong>电阻不变</strong>，改变电压——结论「电阻一定时，电流与电压成正比」。</li><li>探究电流与电阻关系：控制<strong>电压不变</strong>，更换定值电阻——结论「电压一定时，电流与电阻成反比」。</li><li>滑动变阻器作用：①保护电路；②改变电路中的电流/调节被测电阻两端电压。</li><li>连接电路时开关必须<strong>断开</strong>，滑动变阻器滑片置于<strong>阻值最大端</strong>。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>「换接大电阻后，滑片应向阻值变大方向移动」——这是探究电流与电阻关系的经典考点，务必理解原理（分压增大）。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>电功率与电热</h2><span class="tag">重难点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">08</span>电功与电功率</div><ul><li>电功 W = UIt = Pt，单位焦耳（J）；1 kW·h = 3.6×10⁶ J。</li><li>电功率 P = W/t = <em>UI</em>，单位瓦特（W）。</li><li>纯电阻电路：P = UI = I²R = U²/R；W = Pt = I²Rt = U²t/R。</li><li><strong>额定功率</strong>：用电器在额定电压下的功率；实际电压不同，实际功率不同。</li></ul><div class="box box-key"><span class="ico">★</span><div>「220V 100W」的灯泡，实际电压只有 110V 时实际功率是 25W（P 与 U² 成正比），不是 50W——高频陷阱！</div></div></div><div class="kp"><div class="kp-title"><span class="n">09</span>焦耳定律</div><ul><li>Q = I²Rt（普适）；纯电阻电路 Q = W = UIt = U²t/R。</li><li>串联电路电流相同，电阻大的发热多；并联电路电压相同，电阻小的发热多。</li><li>家庭电路中电流过大的原因：①短路；②用电器总功率过大。</li><li>熔断器/空气开关：电流过大时自动切断电路；保险丝由电阻大、熔点低的铅锑合金制成。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">10</span>家庭电路与安全用电</div><ul><li>组成：进户线（火线与零线）→ 电能表 → 总开关 → 保险装置 → 用电器与开关（开关接火线）→ 三孔插座。</li><li>用<strong>测电笔</strong>辨别火线：手接触笔尾金属体，氖管发光的是火线。</li><li>三孔插座：左零右火上接地；三脚插头上面的脚接用电器金属外壳。</li><li>触电事故：单线触电（人站地上碰火线）、双线触电（同时接触火线与零线）。</li><li>安全原则：不接触低压带电体，不靠近高压带电体。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>人触电是因为有电流通过人体；电压高不一定危险，高压不接触也可能因电弧触电。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>磁与电磁</h2><span class="tag">联系实际</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">11</span>电生磁与磁生电</div><ul><li>奥斯特实验：通电导线周围存在磁场，磁场方向与电流方向有关。</li><li>通电螺线管外部磁场类似条形磁体；安培定则：右手握螺线管，四指指电流方向，大拇指指 N 极。</li><li>电磁铁磁性强弱：与<strong>电流大小</strong>和<strong>线圈匝数</strong>有关。</li><li>电磁感应：闭合电路的一部分导体在磁场中做<strong>切割磁感线</strong>运动时产生感应电流（法拉第），发电机原理。</li><li>通电导体在磁场中受力运动（电动机原理），受力方向与电流方向和磁场方向有关。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>口诀：「电生磁是奥斯特，磁生电是法拉第；电动机是电到动，发电机是动到电。」</div></div></div></div></div><div class="section" id="sec7">
+<div class="sec-head"><div class="sec-no">7</div><h2>信息、能源与材料</h2><span class="tag">易得分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">12</span>电磁波与现代通信</div><ul><li>电磁波在真空中传播速度 c=3×10⁸ m/s；波速=波长×频率（c=λf）。</li><li>移动电话既发射又接收电磁波；光纤通信利用激光在光纤中全反射传输。</li><li>能源分类：可再生能源（太阳能、水能、风能、生物质能）与不可再生能源（煤、石油、天然气、核能）。</li><li>核能：核裂变（原子弹、核电站）与核聚变（氢弹、太阳内部）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">13</span>能源与可持续发展</div><ul><li>能量转化和转移具有<strong>方向性</strong>，故能量虽然守恒但仍需节约能源。</li><li>新能源：太阳能、风能、地热能、潮汐能、氢能。</li><li>材料：导体、绝缘体、半导体（硅、锗，用于二极管、集成电路）、超导体（零电阻，用于输电）。</li></ul></div></div></div><div class="section" id="sec8">
+<div class="sec-head"><div class="sec-no">8</div><h2>力学综合复习（中考重点）</h2><span class="tag">跨年复习</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">14</span>压强与浮力</div><ul><li>固体压强 p = F/S；液体压强 p = ρgh。</li><li>大气压：标准大气压约 1.013×10⁵ Pa；海拔越高气压越低，沸点越低。</li><li>流体压强：流速大的地方压强小（机翼升力、两船并行危险）。</li><li>阿基米德原理：F浮 = ρ液 g V排。</li><li>浮沉条件：F浮＞G 上浮；F浮=G 悬浮/漂浮；F浮＜G 下沉。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">15</span>功、功率与机械效率</div><ul><li>功 W = Fs（力与在力方向上移动的距离）；W = Gh 为重力做功。</li><li>功率 P = W/t = Fv。</li><li>杠杆平衡条件：F₁L₁ = F₂L₂；省力杠杆（L₁＞L₂）、费力杠杆、等臂杠杆。</li><li>滑轮组：n 段绳子承担物重，F = G总/n（不计摩擦），s = nh。</li><li>机械效率 η = W有用/W总 × 100%；η 永远小于 1。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">16</span>实验探究高频题</div><ul><li>测物质密度：ρ = m/V，天平测质量、量筒测体积（注意「先测质量后测体积」或「溢出法」）。</li><li>测滑轮组机械效率：弹簧测力计<strong>竖直匀速</strong>拉动。</li><li>探究影响滑动摩擦力因素：弹簧测力计水平<strong>匀速</strong>拉动木块（二力平衡）。</li><li>测小灯泡电功率：电路连接、滑动变阻器调节、额定电压下的读数。</li><li>伏安法测电阻：多次测量求平均值。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>实验题答题必须写清「控制了什么变量」「观察什么现象」「得出什么结论」三要素。</div></div></div></div></div><div class="section" id="sec9">
+<div class="sec-head"><div class="sec-no">9</div><h2>复习优先级分布</h2><span class="tag">冲刺导航</span></div>
+<div class="sec-body"><div class="bar"><div class="name">欧姆定律与电路</div><div class="track"><div class="fill" style="width:95%"></div></div><div class="pct">95%</div></div><div class="bar"><div class="name">电功率与电热</div><div class="track"><div class="fill" style="width:94%"></div></div><div class="pct">94%</div></div><div class="bar"><div class="name">压强浮力</div><div class="track"><div class="fill" style="width:88%"></div></div><div class="pct">88%</div></div><div class="bar"><div class="name">功与机械效率</div><div class="track"><div class="fill" style="width:85%"></div></div><div class="pct">85%</div></div><div class="bar"><div class="name">内能与比热容</div><div class="track"><div class="fill" style="width:80%"></div></div><div class="pct">80%</div></div><div class="bar"><div class="name">磁与电磁</div><div class="track"><div class="fill" style="width:74%"></div></div><div class="pct">74%</div></div><div class="bar"><div class="name">信息能源材料</div><div class="track"><div class="fill" style="width:65%"></div></div><div class="pct">65%</div></div><div class="bar"><div class="name">实验探究</div><div class="track"><div class="fill" style="width:90%"></div></div><div class="pct">90%</div></div><table><thead><tr><th>模块</th><th>高频考点</th><th>分值占比</th></tr></thead><tbody><tr><td class="c">电学</td><td class="c">欧姆定律、电功率、伏安法、焦耳定律</td><td class="c">约 35%</td></tr><tr><td class="c">力学</td><td class="c">压强、浮力、功、机械效率、杠杆滑轮</td><td class="c">约 35%</td></tr><tr><td class="c">热学</td><td class="c">比热容计算、热机冲程、热值</td><td class="c">约 15%</td></tr><tr><td class="c">光与声</td><td class="c">光的反射折射、凸透镜成像</td><td class="c">约 8%</td></tr><tr><td class="c">电磁与能源</td><td class="c">电磁感应、安培定则、能源分类</td><td class="c">约 7%</td></tr></tbody></table></div></div>
+<div class="nav"><a href="#sec1">中考物理试卷结构（咸宁卷）</a><a href="#sec2">内能与热机</a><a href="#sec3">电流和电路</a><a href="#sec4">欧姆定律与电阻</a><a href="#sec5">电功率与电热</a><a href="#sec6">磁与电磁</a><a href="#sec7">信息、能源与材料</a><a href="#sec8">力学综合复习（中考重点）</a><a href="#sec9">复习优先级分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》及北师大版 / 人教版 / 统编版教材编写整理，可打印复习使用。</div></div></body></html>

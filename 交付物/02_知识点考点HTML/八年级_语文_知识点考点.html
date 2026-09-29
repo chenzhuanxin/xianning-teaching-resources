@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>八年级语文 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>八年级<span class="em">语文</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教版（统编版）</span><span>八上 + 八下</span><span>2024秋新修订</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>一、字音字形</h2><span class="tag">基础必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 八上重点字音字形</div><ul><li><strong>溃退</strong>（kuì）　<strong>锐不可当</strong>（dāng）　<strong>督战</strong>（dū）　<strong>业已</strong></li><li><strong>要塞</strong>（sài）　<strong>负隅顽抗</strong>（yú）　<strong>歼灭</strong>（jiān）　<strong>星宿</strong>（xiù）</li><li><strong>泄气</strong>　<strong>悄然</strong>（qiǎo）　<strong>屏息敛声</strong>（bǐng liǎn）　<strong>眼花缭乱</strong></li><li><strong>由衷</strong>（zhōng）　<strong>屏风</strong>（píng）　<strong>颁发</strong>（bān）　<strong>遗嘱</strong>（zhǔ）</li><li><strong>渗透</strong>（shèn）　<strong>摧枯拉朽</strong>　<strong>沸腾</strong>　<strong>仲裁</strong>（zhòng）</li><li><strong>胆怯</strong>（qiè）　<strong>浩瀚</strong>（hàn）　<strong>澎湃</strong>（péng pài）　<strong>凛冽</strong>（lǐn liè）</li><li><strong>娴熟</strong>（xián）　<strong>震耳欲聋</strong>　<strong>镌刻</strong>（juān）　<strong>惊心动魄</strong>（pò）</li><li><strong>篡改</strong>（cuàn）　<strong>抵赖</strong>　<strong>铭记</strong>（míng）　<strong>缅怀</strong>（miǎn）</li></ul><div class="box box-warn"><span class="ico">✍</span><div>八年级字词更强调<strong>词语运用</strong>。注意「悄然」读 qiǎo 不读 qiāo；「锐不可当」的「当」读 dāng；「屏息」读 bǐng。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 八下重点字音字形</div><ul><li><strong>怂恿</strong>（sǒng yǒng）　<strong>踊跃</strong>（yǒng yuè）　<strong>斡旋</strong>（wò xuán）　<strong>熙熙然</strong></li><li><strong>怅惘</strong>（chàng wǎng）　<strong>亢奋</strong>（kàng）　<strong>羁绊</strong>（jī bàn）　<strong>蓦然</strong>（mò）</li><li><strong>踊跃</strong>　<strong>晦暗</strong>（huì）　<strong>冗杂</strong>（rǒng）　<strong>震撼</strong>（hàn）</li><li><strong>归省</strong>（xǐng）　<strong>行辈</strong>（háng）　<strong>撺掇</strong>（cuān duo）　<strong>凫水</strong>（fú）</li><li><strong>潺潺</strong>（chán）　<strong>弥散</strong>（mí）　<strong>蕴藻</strong>（yùn zǎo）　<strong>踊跃</strong></li><li><strong>悄怆幽邃</strong>（qiǎo chuàng suì）　<strong>俶尔</strong>（chù）　<strong>翕忽</strong>（xī）</li><li><strong>溯洄</strong>（sù huí）　<strong>晞</strong>（xī）　<strong>跻</strong>（jī）　<strong>涘</strong>（sì）</li><li>易错：「蓦然」不读 mù；「斡旋」的「斡」读 wò；「行辈」的「行」读 háng。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>八下文言字词密度大，务必<strong>逐课过关</strong>。建议按「通假字+古今异义+词类活用+一词多义」四类整理。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>二、古诗文默写与鉴赏</h2><span class="tag">必考｜高频</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 八上古诗词（必背）</div><ul><li><em>《野望》王绩</em>：树树皆秋色，山山唯落晖。牧人驱犊返，猎马带禽归。</li><li><em>《黄鹤楼》崔颢</em>：日暮乡关何处是？烟波江上使人愁。</li><li><em>《使至塞上》王维</em>：大漠孤烟直，长河落日圆。</li><li><em>《渡荆门送别》李白</em>：山随平野尽，江入大荒流。月下飞天镜，云生结海楼。</li><li><em>《钱塘湖春行》白居易</em>：几处早莺争暖树，谁家新燕啄春泥。乱花渐欲迷人眼，浅草才能没马蹄。</li><li><em>《饮酒（其五）》陶渊明</em>：采菊东篱下，悠然见南山。山气日夕佳，飞鸟相与还。</li><li><em>《春望》杜甫</em>：感时花溅泪，恨别鸟惊心。烽火连三月，家书抵万金。</li><li><em>《雁门太守行》李贺</em>：黑云压城城欲摧，甲光向日金鳞开。报君黄金台上意，提携玉龙为君死。</li><li><em>《赤壁》杜牧</em>：东风不与周郎便，铜雀春深锁二乔。</li><li><em>《渔家傲》李清照</em>：九万里风鹏正举。风休住，蓬舟吹取三山去！</li></ul><div class="box box-key"><span class="ico">★</span><div><strong>《三峡》《答谢中书书》《记承天寺夜游》《与朱元思书》《富贵不能淫》《生于忧患，死于安乐》</strong>为八上文言必背篇目。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 八下古诗词（必背）</div><ul><li><em>《关雎》</em>：关关雎鸠，在河之洲。窈窕淑女，君子好逑。</li><li><em>《蒹葭》</em>：蒹葭苍苍，白露为霜。所谓伊人，在水一方。</li><li><em>《送杜少府之任蜀州》王勃</em>：海内存知己，天涯若比邻。</li><li><em>《茅屋为秋风所破歌》杜甫</em>：安得广厦千万间，大庇天下寒士俱欢颜！</li><li><em>《卖炭翁》白居易</em>：可怜身上衣正单，心忧炭贱愿天寒。</li><li><em>《题破山寺后禅院》常建</em>：曲径通幽处，禅房花木深。山光悦鸟性，潭影空人心。</li><li><em>《卜算子·黄州定慧院寓居作》苏轼</em>：拣尽寒枝不肯栖，寂寞沙洲冷。</li><li><em>《卜算子·咏梅》陆游</em>：零落成泥碾作尘，只有香如故。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>名句默写按<strong>「理解性默写」</strong>考核为主——会给情境，要求填写对应诗句。务必理解句意，不能死记顺序。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 文言文核心篇目考点</div><ul><li><strong>《桃花源记》</strong>：古今异义——「妻子」古指妻子和儿女；「无论」古指不要说，更不必说。「阡陌交通」中「交通」古指交错相通。</li><li><strong>《小石潭记》</strong>：移步换景的写法；「凄神寒骨，悄怆幽邃」借景抒情，抒发被贬的孤寂悲凉。</li><li><strong>《核舟记》</strong>：空间顺序（船舱→船头→船尾→船背）；「奇巧人」「因势象形」。</li><li><strong>《虽有嘉肴》</strong>：中心论点「教学相长」；「是故学然后知不足，教然后知困」。</li><li><strong>《大道之行也》</strong>：大同社会的基本特征——「天下为公，选贤与能，讲信修睦」。</li><li><strong>《马说》</strong>：托物寓意，以千里马喻人才，以食马者喻不识人才的统治者。</li><li><strong>《陋室铭》</strong>：主旨句「斯是陋室，惟吾德馨」；类比开头「山不在高，有仙则名」。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>文言文阅读必考<strong>「翻译题」</strong>。评分点=关键实词+句式+句意通顺，缺一扣分。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>三、现代文阅读</h2><span class="tag">重头戏｜44分</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 记叙文阅读四大题型</div><ul><li><strong>①概括题</strong>：公式＝谁 + 在什么情况下 + 做了什么 + 结果如何。注意限定字数时先提炼关键词。</li><li><strong>②赏析题</strong>：修辞角度＝「运用了××修辞，把××比作××（或赋予××人格），生动形象地写出了××的××特点，表达了作者××的情感」。</li><li><strong>③含义题</strong>：表层义（字面意思）+ 深层义（情感主旨/象征意义），必须结合上下文与文章主旨。</li><li><strong>④作用题</strong>：开头（开篇点题/总领全文/设置悬念/奠定情感基调）；中间（承上启下/为后文作铺垫）；结尾（总结全文/深化主旨/首尾呼应/戛然而止引人深思）。</li></ul><div class="box box-key"><span class="ico">★</span><div>答题必须<strong>「分点作答 + 结合原文」</strong>。只写术语不结合原文，得分通常不超过一半。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 说明文阅读</div><ul><li><strong>说明对象与特征</strong>：从标题、首段、中心句入手找。</li><li><strong>说明方法及作用</strong>：举例子（具体真切）、列数字（准确具体）、作比较（突出强调）、打比方（生动形象）、分类别（条理清晰）、下定义（准确严密）、摹状貌（形象直观）。</li><li>答题格式：<strong>运用了××的说明方法，××地说明了××（对象）的××特征</strong>。</li><li><strong>说明顺序</strong>：时间顺序、空间顺序、逻辑顺序（由主到次、由现象到本质、由概括到具体）。</li><li><strong>语言准确性</strong>：「大约」「可能」「左右」「基本」等词能否删去——不能，体现了说明文语言的准确性、严密性。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>八上《中国石拱桥》《苏州园林》《蝉》《梦回繁华》均为说明文经典篇目，重点练习<strong>说明方法辨析</strong>。</div></div></div><div class="kp"><div class="kp-title"><span class="n">3</span>3. 议论文阅读（八下重点）</div><ul><li><strong>找中心论点</strong>：看标题、开头、结尾，注意「我认为」「可见」「总之」等标志词。</li><li><strong>论证方法及作用</strong>：举例论证（具体有力）、道理论证（权威有力）、对比论证（突出强调）、比喻论证（生动形象）。</li><li>答题格式：<strong>运用了××论证方法，××地论证了××观点，使论证更××</strong>。</li><li><strong>论证思路</strong>：首先提出××观点 → 接着用××论证 → 最后得出××结论。</li></ul><div class="box box-key"><span class="ico">★</span><div>八下《最后一次讲演》《应有格物致知精神》《我一生中的重要抉择》《庆祝奥林匹克运动复兴25周年》为演讲词单元，重点考<strong>观点与材料的关系</strong>。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>四、写作（50分）</h2><span class="tag">分值最高</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">1</span>1. 八年级作文命题趋势</div><ul><li><strong>命题形式</strong>：命题作文、半命题作文、材料作文、话题作文。</li><li><strong>常见主题</strong>：成长感悟、亲情友情、责任担当、科技与人文、传统文化、家国情怀。</li><li><strong>文体要求</strong>：以记叙文为主，鼓励写真情实感的身边事；八下开始接触简单的议论文。</li></ul><div class="box box-key"><span class="ico">★</span><div>八年级作文评分看<strong>「内容（20分）+ 语言（20分）+ 结构（10分）」</strong>。内容分占比最高，切忌空洞说教。</div></div></div><div class="kp"><div class="kp-title"><span class="n">2</span>2. 高分技巧</div><ul><li><strong>拟题</strong>：新颖、有文采、能点明主旨。可用修辞（比喻/引用/对比）。</li><li><strong>开头</strong>：开门见山、环境渲染、倒叙设悬、引用名言，控制在 100 字以内。</li><li><strong>选材</strong>：<strong>以小见大</strong>，一个细节胜过十句抒情。写「妈妈的爱」不如写「妈妈把鱼肚上的肉夹给我，自己啃鱼头」这一细节。</li><li><strong>结构</strong>：一线串珠、片段组合（小标题式）、欲扬先抑、对比映衬。</li><li><strong>语言</strong>：多用修辞与描写（动作、神态、心理），适当引用诗句、运用长短句结合。</li><li><strong>结尾</strong>：回扣题目、升华主旨，忌画蛇添足。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>考场作文时间分配建议：<strong>审题 5 分钟 → 列提纲 5 分钟 → 写作 35 分钟 → 检查 5 分钟</strong>。字数要求 600 字以上，写到 700 字左右最佳。</div></div></div></div></div>
+<div class="nav"><a href="#sec1">一、字音字形</a><a href="#sec2">二、古诗文默写与鉴赏</a><a href="#sec3">三、现代文阅读</a><a href="#sec4">四、写作（50分）</a></div>
+<div class="foot">八年级语文重在「文言积累 + 阅读方法 + 真情写作」，八上是文言与说明文的爆发期，需提前规划背诵进度。</div></div></body></html>

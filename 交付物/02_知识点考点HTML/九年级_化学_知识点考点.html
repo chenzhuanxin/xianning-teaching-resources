@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>九年级化学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>九年级<span class="em">化学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>中考复习·人教版</span><span>9 大板块</span><span>20 个核心考点</span><span>满分 100 分</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>中考化学试卷结构（咸宁卷）</h2><span class="tag">命题依据</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">考点</span>题型与分值</div><ul><li>满分 <strong>100 分</strong>（与物理合堂 130 分中的化学部分约 60 分折算），时间 120 分钟合堂。</li><li>一、选择题：约 10 小题，<em>约 20 分</em>。</li><li>二、非选择题：填空题、实验探究题、计算题，<em>约 40—80 分</em>。</li><li>必考主线：<strong>化学用语（符号、化学式、方程式）</strong>＋<strong>实验探究</strong>＋<strong>基础计算</strong>。</li><li>金属、酸碱盐占分最高，约 <strong>45%</strong>。</li></ul><div class="box box-key"><span class="ico">★</span><div>化学方程式书写是「一错带一片」的考点，配平与条件、气体沉淀符号必须齐全。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>走进化学世界与基础实验</h2><span class="tag">入门基础</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">01</span>物质的变化与性质</div><ul><li><strong>物理变化</strong>：无新物质生成（状态、形状改变）；<strong>化学变化</strong>：有新物质生成（燃烧、生锈、变质）。</li><li>化学性质：可燃性、还原性、氧化性、酸性、碱性、稳定性。</li><li>蜡烛燃烧产物检验：干冷烧杯内壁出现水雾（有水）；澄清石灰水变浑浊（有二氧化碳）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">02</span>基本实验操作</div><ul><li>药品取用：固体用<strong>药匙</strong>或镊子；液体「一倒二向三斜靠」，取液量未说明时取 1—2 mL。</li><li>给液体加热：不超过试管容积的 <strong>1/3</strong>，试管口向着无人处，外焰加热。</li><li>量筒读数：视线与凹液面最低处<strong>水平相切</strong>（俯大仰小）。</li><li>过滤：「一贴二低三靠」，玻璃棒起<strong>引流</strong>作用。</li><li>装置气密性检查：手握试管外壁，管口有气泡冒出，松手后形成一段水柱。</li><li>氧气验满：带火星的木条放集气瓶口复燃；二氧化碳验满：燃着的木条放瓶口熄灭。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>量筒读数「俯大仰小」：俯视时读数偏大，实际取液偏少——选择题常考陷阱。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>我们周围的空气与氧气</h2><span class="tag">物质性质</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">03</span>空气组成与测定</div><ul><li>空气成分（体积分数）：氮气约 <strong>78%</strong>、氧气约 <strong>21%</strong>、稀有气体 0.94%、二氧化碳 0.03%、其他 0.03%。</li><li>测定空气中氧气含量（红磷燃烧法）：现象——产生大量白烟、放热、冷却后水位上升约 1/5 体积。</li><li>误差分析：红磷不足、装置漏气、未冷却就打开弹簧夹 → 进水偏少。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">04</span>氧气的性质与制取</div><ul><li>物理性质：无色无味气体，不易溶于水，密度比空气略大。</li><li>化学性质：助燃性（氧化性）；硫燃烧（蓝紫色火焰，生成刺激性气体 SO₂）；铁丝在氧气中燃烧（<strong>火星四射</strong>，生成黑色固体 Fe₃O₄，瓶底放水或细沙）。</li><li>实验室制取氧气三法：①分解过氧化氢（MnO₂ 催化）；②加热高锰酸钾；③加热氯酸钾（MnO₂ 催化）。</li><li>催化作用：改变反应速率而自身质量和化学性质在反应前后均不变。</li><li>收集方法：排水法（不易溶于水）、向上排空气法（密度比空气大）。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>高锰酸钾制氧气时试管口要放<strong>一团棉花</strong>，防止粉末堵塞导管——铁架台、酒精灯、棉花是三大细节分。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>物质构成的奥秘</h2><span class="tag">微观世界</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">05</span>分子、原子、离子</div><ul><li>分子是保持物质<strong>化学性质</strong>的最小粒子；原子是化学变化中的最小粒子。</li><li>原子结构：质子数 = 核电荷数 = 核外电子数（原子不带电）；相对原子质量 ≈ 质子数 + 中子数。</li><li>离子：带电荷的原子或原子团；阳离子（失电子，带正电）、阴离子（得电子，带负电）。</li><li>元素：具有相同<strong>质子数</strong>（核电荷数）的一类原子的总称。</li><li>地壳中元素含量前四位：<em>氧、硅、铝、铁</em>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">06</span>化学式与化合价</div><ul><li>常见化合价：H +1、O −2、Na +1、Mg +2、Al +3、Cl −1、S −2、Ca +2、Fe +2/+3、Cu +2。</li><li>化合物中正负化合价代数和为<strong>零</strong>；单质中元素化合价为 0。</li><li>化学式意义：表示一种物质、一个分子、构成原子的种类与个数比。</li><li>相对分子质量 = 各原子相对原子质量之和。</li></ul><div class="box box-key"><span class="ico">★</span><div>抓住「正价在前、负价在后，代数和为零」和「十字交叉法」即可快速书写化学式。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>化学方程式与质量守恒</h2><span class="tag">核心工具</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">07</span>质量守恒定律</div><ul><li>内容：参加化学反应的各物质质量总和等于反应后生成的各物质质量总和。</li><li>微观解释：反应前后<strong>原子的种类、数目、质量</strong>均不变。</li><li>常考推论：反应前后元素种类不变、元素质量不变。</li><li>适用范围：只适用于<strong>化学变化</strong>，不适用于物理变化。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">08</span>方程式书写与配平</div><ul><li>书写三步：<em>写</em>（正确写反应物与生成物）→ <em>配</em>（配平，使两边原子个数相等）→ <em>标</em>（标条件、气体↑、沉淀↓）。</li><li>常见条件：点燃、加热（Δ）、高温、催化剂。</li><li>配平方法：最小公倍数法、观察法、奇偶配平法。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>「Fe + O₂ 点燃 → Fe₃O₄」是化合反应，不要写「Fe₂O₃」；生成物状态符号只在溶液中反应时才标。</div></div></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>碳和碳的氧化物</h2><span class="tag">重点物质</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">09</span>碳单质与二氧化碳</div><ul><li>金刚石（最硬）、石墨（导电、润滑）、C₆₀（分子）。</li><li>CO₂ 性质：不燃烧不支持燃烧、不与水反应？——错！CO₂ + H₂O = H₂CO₃（使紫色石蕊变红）。</li><li>CO₂ + Ca(OH)₂ = CaCO₃↓ + H₂O（检验二氧化碳）。</li><li>CO₂ 用途：灭火、干冰人工降雨、温室气体肥料。</li><li>温室效应：主要气体 CO₂，来源是化石燃料燃烧。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">10</span>一氧化碳与还原反应</div><ul><li>CO 性质：无色无味、有毒（与血红蛋白结合）、有<strong>还原性</strong>和可燃性。</li><li>CO 还原氧化铜：CO + CuO <em>Δ</em>→ Cu + CO₂（黑色变红色，尾气要处理）。</li><li>C 还原氧化铜：C + 2CuO <em>高温</em>→ 2Cu + CO₂↑。</li><li>CO 燃烧：2CO + O₂ <em>点燃</em>→ 2CO₂（蓝色火焰）。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>「先通 CO 后加热，先停止加热后停通 CO」——这是 CO 还原实验的安全顺序，必考。</div></div></div><div class="kp"><div class="kp-title"><span class="n">11</span>实验室制取二氧化碳</div><ul><li>药品：<strong>大理石或石灰石</strong>与<strong>稀盐酸</strong>（不能用稀硫酸，因生成微溶的硫酸钙覆盖表面阻止反应；不能用碳酸钠，反应太快）。</li><li>方程式：CaCO₃ + 2HCl = CaCl₂ + H₂O + CO₂↑。</li><li>装置：固液常温型；收集：向上排空气法（密度比空气大且能溶于水）。</li></ul></div></div></div><div class="section" id="sec7">
+<div class="sec-head"><div class="sec-no">7</div><h2>金属和金属材料</h2><span class="tag">高频大题</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">12</span>金属活动性顺序</div><ul><li><em>K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au</em>。</li><li>排在<strong>氢前</strong>的金属能与稀盐酸/稀硫酸反应放出氢气；越靠前越活泼。</li><li>排在前面的金属能把排在后面的金属从其盐溶液中置换出来。</li><li>金属与酸反应：Mg、Al、Zn、Fe 都能与稀盐酸反应，产氢速率 Mg＞Al＞Zn＞Fe。</li></ul><div class="box box-key"><span class="ico">★</span><div>判断置换反应能否发生：前者活动性必须强于后者且后者非 K/Ca/Na（太活泼会先与水反应）。</div></div></div><div class="kp"><div class="kp-title"><span class="n">13</span>金属的化学性质</div><ul><li>金属 + 氧气 → 金属氧化物（铁生锈、铜变黑）。</li><li>金属 + 酸 → 盐 + 氢气（置换反应）。</li><li>金属 + 盐溶液 → 新金属 + 新盐。</li><li>铁生锈条件：与<strong>氧气</strong>和<strong>水</strong>同时接触；防锈方法：刷漆、涂油、镀锌、制成不锈钢。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">14</span>金属资源的利用</div><ul><li>炼铁原理：3CO + Fe₂O₃ <em>高温</em>→ 2Fe + 3CO₂。</li><li>铁矿石：赤铁矿（Fe₂O₃）、磁铁矿（Fe₃O₄）。</li><li>保护金属资源：防止腐蚀、回收利用、合理开采、寻找替代品。</li></ul></div></div></div><div class="section" id="sec8">
+<div class="sec-head"><div class="sec-no">8</div><h2>溶液与酸碱盐</h2><span class="tag">必考主线</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">15</span>溶液与溶解度</div><ul><li>溶液特征：均一、稳定的<strong>混合物</strong>。</li><li>饱和溶液与不饱和溶液的相互转化：加溶质、蒸发溶剂、降温（对多数固体）。</li><li>溶解度：一定温度下 100 g 溶剂中溶解溶质的最大质量。</li><li>多数固体溶解度随温度升高而增大（KNO₃ 显著）；Ca(OH)₂ 随温度升高而减小。</li><li>溶质质量分数 = 溶质质量/溶液质量 × 100%。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">16</span>常见的酸与碱</div><ul><li>盐酸 HCl、硫酸 H₂SO₄ 是常见酸；氢氧化钠 NaOH、氢氧化钙 Ca(OH)₂ 是常见碱。</li><li>酸的通性（5 条）：与指示剂、活泼金属、金属氧化物、碱、盐反应。</li><li>碱的通性（4 条）：与指示剂、非金属氧化物、酸、盐反应。</li><li>浓硫酸稀释：<strong>把浓硫酸沿器壁慢慢注入水中</strong>并不断搅拌（不能反过来）。</li><li>NaOH 固体易潮解，可作干燥剂；强腐蚀性，须密封保存。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>「酸中不一定有酸根，碱中不一定有金属离子」（如 NH₃·H₂O）——判断题里常见的陷阱。</div></div></div><div class="kp"><div class="kp-title"><span class="n">17</span>中和反应与 pH</div><ul><li>中和反应：酸 + 碱 → 盐 + 水（是复分解反应的特例）。</li><li>NaOH + HCl = NaCl + H₂O；Ca(OH)₂ + 2HCl = CaCl₂ + 2H₂O。</li><li>pH＜7 为酸性，＝7 为中性，＞7 为碱性；pH 越小酸性越强。</li><li>测定 pH：用<strong>玻璃棒</strong>蘸取待测液滴在 pH 试纸上，与标准比色卡对照（不能把试纸伸入溶液中）。</li><li>应用：改良酸性土壤、处理废水、治疗胃酸过多（Al(OH)₃）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">18</span>盐与复分解反应</div><ul><li>常见盐：NaCl、Na₂CO₃、NaHCO₃、CaCO₃、CuSO₄。</li><li>复分解反应条件：生成<strong>沉淀</strong>、<strong>气体</strong>或<strong>水</strong>，反应才能发生。</li><li>常见沉淀：AgCl、BaSO₄（不溶于酸）、CaCO₃、BaCO₃、Cu(OH)₂ 蓝色、Fe(OH)₃ 红褐色。</li><li>检验：CO₃²⁻ 用稀盐酸 + 澄清石灰水；Cl⁻ 用 AgNO₃ + 稀硝酸；SO₄²⁻ 用 BaCl₂ + 稀硝酸；NH₄⁺ 用 NaOH 加热产生刺激性气体。</li><li>化学肥料：氮肥（尿素、硫酸铵）、磷肥、钾肥、复合肥。</li></ul><div class="box box-key"><span class="ico">★</span><div>「离子的检验」是实验探究题的绝对主角，答题套路：取样 → 加试剂 → 描述现象 → 得出结论。</div></div></div></div></div><div class="section" id="sec9">
+<div class="sec-head"><div class="sec-no">9</div><h2>实验探究与计算</h2><span class="tag">拿分技巧</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">19</span>综合实验探究</div><ul><li>常见探究主题：物质的成分、变质情况（NaOH 是否变质为 Na₂CO₃）、反应后溶液中溶质、气体的制取与净化。</li><li>实验方案评价：从「是否可行、是否严密、是否环保、是否简便」四方面评价。</li><li>气体制备思路：制气（选药品）→ 净化（除杂）→ 干燥 → 收集 → 尾气处理。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">20</span>化学计算解题规范</div><ul><li>步骤：①设未知量；②写出正确的化学方程式；③写出相关物质的相对分子质量与已知量；④列比例式求解；⑤简明作答。</li><li>关键：只有<strong>纯净物</strong>的质量才能代入方程式计算；溶液质量要换算成溶质质量。</li><li>质量分数计算：溶质质量分数 = 溶质质量 ÷ 溶液质量 × 100%。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>计算题「解、设、写、列、算、答」六字诀，即使最后算错，正确的方程式和比例式也能拿步骤分。</div></div></div></div></div><div class="section" id="sec10">
+<div class="sec-head"><div class="sec-no">10</div><h2>复习优先级分布</h2><span class="tag">冲刺导航</span></div>
+<div class="sec-body"><div class="bar"><div class="name">酸碱盐性质</div><div class="track"><div class="fill" style="width:96%"></div></div><div class="pct">96%</div></div><div class="bar"><div class="name">化学方程式书写</div><div class="track"><div class="fill" style="width:95%"></div></div><div class="pct">95%</div></div><div class="bar"><div class="name">金属活动性</div><div class="track"><div class="fill" style="width:90%"></div></div><div class="pct">90%</div></div><div class="bar"><div class="name">溶液与溶解度</div><div class="track"><div class="fill" style="width:85%"></div></div><div class="pct">85%</div></div><div class="bar"><div class="name">碳与氧化物</div><div class="track"><div class="fill" style="width:82%"></div></div><div class="pct">82%</div></div><div class="bar"><div class="name">气体制取实验</div><div class="track"><div class="fill" style="width:88%"></div></div><div class="pct">88%</div></div><div class="bar"><div class="name">物质构成</div><div class="track"><div class="fill" style="width:80%"></div></div><div class="pct">80%</div></div><div class="bar"><div class="name">化学计算</div><div class="track"><div class="fill" style="width:86%"></div></div><div class="pct">86%</div></div><table><thead><tr><th>模块</th><th>高频考点</th><th>分值占比</th></tr></thead><tbody><tr><td class="c">酸碱盐</td><td class="c">酸的化学性质、中和反应、离子检验</td><td class="c">约 25%</td></tr><tr><td class="c">金属</td><td class="c">金属活动性顺序、置换反应、炼铁</td><td class="c">约 20%</td></tr><tr><td class="c">化学用语</td><td class="c">化学式、方程式、化合价</td><td class="c">约 20%</td></tr><tr><td class="c">气体制取</td><td class="c">O₂、CO₂ 的制备与收集</td><td class="c">约 15%</td></tr><tr><td class="c">溶液</td><td class="c">溶解度、溶质质量分数</td><td class="c">约 10%</td></tr><tr><td class="c">计算</td><td class="c">方程式计算、质量分数计算</td><td class="c">约 10%</td></tr></tbody></table></div></div>
+<div class="nav"><a href="#sec1">中考化学试卷结构（咸宁卷）</a><a href="#sec2">走进化学世界与基础实验</a><a href="#sec3">我们周围的空气与氧气</a><a href="#sec4">物质构成的奥秘</a><a href="#sec5">化学方程式与质量守恒</a><a href="#sec6">碳和碳的氧化物</a><a href="#sec7">金属和金属材料</a><a href="#sec8">溶液与酸碱盐</a><a href="#sec9">实验探究与计算</a><a href="#sec10">复习优先级分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》及北师大版 / 人教版 / 统编版教材编写整理，可打印复习使用。</div></div></body></html>

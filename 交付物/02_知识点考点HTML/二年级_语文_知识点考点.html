@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>二年级语文 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>二年级<span class="em">语文</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>人教版（统编版）2025秋版</span><span>识字+阅读双线</span><span>满分100分 · 60分钟</span><span>含必考题型与分值分布</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>识字与写字</h2><span class="tag">分值最高</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">字</span>汉字基础</div><ul><li><strong>笔画与笔顺</strong>：掌握28种基本笔画；遵循先横后竖、先撇后捺、从上到下、从左到右、先外后内、先中间后两边等规则。</li><li><strong>偏旁部首</strong>：亻（你·他）、彳（行·往）、氵（江·河）、忄（快·情）、讠（说·话）、艹（花·草）、宀（安·家）、辶（过·还）、月（朋·服）。</li><li><strong>形近字</strong>：未/末、己/已/巳、鸟/乌、弯/湾、晴/睛/清/情/请、燥/躁、辨/辩/辫。</li><li><strong>多音字</strong>：扇(shàn/shān)、担(dān/dàn)、好(hǎo/hào)、发(fā/fà)、数(shǔ/shù)、兴(xīng/xìng)。</li><li><strong>同音字</strong>：做/作、坐/座、话/画、在/再、飘/漂、级/极。</li><li><strong>识字方法</strong>：加一加、减一减、换一换、编字谜、形声字规律（如「青」加不同偏旁成 清、晴、情、请、睛）。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>看拼音写词语、形近字组词、给加点字选正确读音、判断笔顺。「清、晴、情、请、睛」是高频考点。</div></div></div><div class="kp"><div class="kp-title"><span class="n">词</span>词语积累</div><ul><li><strong>近义词</strong>：美丽—漂亮、仔细—认真、连忙—急忙、高兴—快乐、温暖—暖和。</li><li><strong>反义词</strong>：冷—热、厚—薄、宽—窄、轻—重、哭—笑、深—浅、稠—稀。</li><li><strong>AABB式</strong>：干干净净、高高兴兴、唧唧喳喳、花花绿绿。</li><li><strong>ABAB式</strong>：雪白雪白、火红火红、金黄金黄。</li><li><strong>ABCC式</strong>：生机勃勃、得意洋洋、白发苍苍。</li><li><strong>量词</strong>：一(片)草地、一(面)红旗、一(阵)掌声、一(束)鲜花。</li></ul></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>句子训练</h2><span class="tag">必考题型</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">句</span>句式与修辞</div><ul><li><strong>把字句/被字句</strong>：小明把窗户擦干净了。→ 窗户被小明擦干净了。</li><li><strong>比喻句</strong>：弯弯的月亮像小船。要抓住<em>本体与喻体的相似点</em>。</li><li><strong>拟人句</strong>：小鸟在枝头唱歌。把物当作人来写。</li><li><strong>反问句变陈述句</strong>：难道我们能不努力吗？→ 我们必须努力。</li><li><strong>扩写句子</strong>：花儿开了。→ 美丽的花儿在春天里竞相开放。</li><li><strong>用关联词造句</strong>：一边……一边……；因为……所以……；不但……而且……；如果……就……</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>标点符号：</b>句号、问号、感叹号、逗号、顿号、冒号、引号、省略号。冒号后常接引号（妈妈说：“……”）。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>阅读理解</h2><span class="tag">重点突破</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">读</span>答题方法</div><ul><li><strong>数句子/段落</strong>：句号、问号、感叹号、省略号都算一句；段落看首行缩进。</li><li><strong>找中心句</strong>：常在段首或段尾，概括本段主要内容。</li><li><strong>联系上下文解词</strong>：用近义词替换，或结合语境说明意思。</li><li><strong>概括内容</strong>：谁 + 什么时候 + 在哪里 + 做了什么 + 结果怎样。</li><li><strong>体会情感</strong>：从人物语言、动作、心理描写中体会心情与品质。</li></ul><div class="box box-warn"><span class="ico">!</span><div><b>答题规范：</b>简答题要<b>完整作答</b>，善用文中原句；回答「为什么」要说清原因，不能只写结果。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>写话与口语交际</h2><span class="tag">表达能力</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">写</span>写话要求</div><ul><li><strong>看图写话四要素</strong>：时间、地点、人物、事件（+结果/感受）。</li><li><strong>写好一段话</strong>：围绕一个中心，按一定顺序（时间顺序、事情发展顺序）写。</li><li><strong>用好标点</strong>：不同标点表达不同语气；对话要加引号。</li><li><strong>字数要求</strong>：二年级写话一般不少于100字。</li><li><strong>口语交际</strong>：注意说话的语气、用合适的音量、认真倾听、有礼貌地回应。</li></ul></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">识字写字</div><div class="track"><div class="fill" style="width:30%"></div></div><div class="pct">30%</div></div><div class="bar"><div class="name">词语积累</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><div class="bar"><div class="name">句子训练</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">阅读理解</div><div class="track"><div class="fill" style="width:17%"></div></div><div class="pct">17%</div></div><div class="bar"><div class="name">写话</div><div class="track"><div class="fill" style="width:15%"></div></div><div class="pct">15%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">看拼音写词语</td><td class="c">8-10题</td><td class="c">18分</td><td class="c">生字书写规范</td></tr><tr><td class="c">选择/判断读音</td><td class="c">4-6题</td><td class="c">8分</td><td class="c">多音字、前后鼻音</td></tr><tr><td class="c">形近字组词</td><td class="c">4-6题</td><td class="c">8分</td><td class="c">偏旁辨析</td></tr><tr><td class="c">词语搭配/近反义</td><td class="c">4-6题</td><td class="c">10分</td><td class="c">词语积累</td></tr><tr><td class="c">句子练习</td><td class="c">4-5题</td><td class="c">16分</td><td class="c">句式转换、造句</td></tr><tr><td class="c">课文填空</td><td class="c">4-6题</td><td class="c">12分</td><td class="c">必背古诗与课文</td></tr><tr><td class="c">阅读理解</td><td class="c">1-2篇</td><td class="c">16分</td><td class="c">提取信息、概括</td></tr><tr><td class="c">看图写话</td><td class="c">1题</td><td class="c">12分</td><td class="c">观察与表达</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>识字写字占30%，是基础中的基础；句子训练是拉分项，要熟练掌握把字句/被字句、比喻拟人句的改写。</div></div></div></div>
+<div class="nav"><a href="#sec1">识字与写字</a><a href="#sec2">句子训练</a><a href="#sec3">阅读理解</a><a href="#sec4">写话与口语交际</a><a href="#sec5">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育语文课程标准（2022年版）》及人教版（统编版）二年级教材编写 · 供咸宁市学生期末复习使用</div></div></body></html>

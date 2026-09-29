@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>九年级数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>九年级<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>中考复习·全一册</span><span>9 大板块</span><span>16 个核心考点</span><span>满分 120 分</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>中考试卷结构（咸宁卷）</h2><span class="tag">命题依据</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">考点</span>题型与分值</div><ul><li>满分 <strong>120 分</strong>，时间 <strong>120 分钟</strong>。</li><li>一、选择题：10 小题 × 3 分 = <em>30 分</em>。</li><li>二、填空题：5 小题 × 3 分 = <em>15 分</em>。</li><li>三、解答题：8 小题，共 <em>75 分</em>（含 1 道 10 分综合题）。</li><li>难度比约为 <strong>7:2:1</strong>（基础：中档：难）。</li></ul><div class="box box-key"><span class="ico">★</span><div>选择填空共 45 分，是「不失误就能拿满」的分，务必控制失误在 1 题以内。</div></div></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>数与代数：实数与代数式</h2><span class="tag">基础必考</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">01</span>实数</div><ul><li>有理数、无理数、实数分类；数轴、相反数、绝对值、倒数。</li><li>平方根与立方根：√a 有意义的条件 a≥0；√(a²)=|a|。</li><li>科学记数法 a×10ⁿ（1≤|a|<10）；有效数字。</li><li>实数的运算：零指数 a⁰=1(a≠0)、负整数指数 a⁻ⁿ=1/aⁿ。</li><li><strong>比较大小</strong>：作差法、平方法、数轴法、估算法。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">02</span>整式·分式·二次根式</div><ul><li>幂的运算：aᵐ·aⁿ=aᵐ⁺ⁿ、(aᵐ)ⁿ=aᵐⁿ、(ab)ⁿ=aⁿbⁿ、aᵐ÷aⁿ=aᵐ⁻ⁿ(a≠0)。</li><li>乘法公式：平方差 (a+b)(a−b)=a²−b²；完全平方 (a±b)²=a²±2ab+b²。</li><li>因式分解：提公因式 → 公式法 → 十字相乘；必须分解到不能再分。</li><li>分式：值为 0 需分子=0 且分母≠0；分式方程必<strong>验根</strong>。</li><li>二次根式：√(ab)=√a·√b(a,b≥0)；化简结果分母不含根号、被开方数不含分母。</li></ul><div class="box box-warn"><span class="ico">⚠</span><div>分式方程不验根直接扣该题全分，这是中考最常见的「冤枉分」。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>方程与不等式</h2><span class="tag">解法核心</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">03</span>一元二次方程 ax²+bx+c=0</div><ul><li>求根公式：x = [−b ± √(b²−4ac)] / (2a)。</li><li>判别式：Δ=b²−4ac ＞0 两不等实根；=0 两相等实根；＜0 无实根。</li><li>韦达定理：x₁+x₂ = −b/a，x₁·x₂ = c/a。</li><li>解法优先级：<em>直接开平方 → 因式分解 → 配方法 → 公式法</em>。</li><li>应用题模型：增长率 a(1+x)²=b、面积问题、销售利润问题。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">04</span>不等式（组）</div><ul><li>不等式两边同乘（除以）负数，不等号方向改变——<strong>最高频失分点</strong>。</li><li>数轴表示解集：实心点「≥、≤」，空心圈「＞、＜」。</li><li>解集取法口诀：「同大取大，同小取小，大小小大中间找，大大小小无解了」。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>解不等式组最后一定要画数轴，公共部分一目了然。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>函数：一次函数·反比例·二次函数</h2><span class="tag">重头戏</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">05</span>一次函数 y=kx+b</div><ul><li>k＞0 时 y 随 x 增大而增大；k＜0 时减小。</li><li>图象与 y 轴交于 (0, b)，与 x 轴交于 (−b/k, 0)。</li><li>待定系数法：设解析式 → 代入两点 → 解方程组。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">06</span>反比例函数 y=k/x</div><ul><li>k＞0：图象在一、三象限，每支上 y 随 x 增大而减小。</li><li>k＜0：图象在二、四象限。</li><li>|k| 的几何意义：图象上任意点向两轴作垂线，与坐标轴围成矩形面积为 <em>|k|</em>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">07</span>二次函数 y=ax²+bx+c</div><ul><li>开口方向由 a 决定；对称轴 x=−b/(2a)；顶点 (−b/(2a), (4ac−b²)/(4a))。</li><li>顶点式 y=a(x−h)²+k；交点式 y=a(x−x₁)(x−x₂)。</li><li>平移规律：<em>左加右减（对 x），上加下减（对 k）</em>。</li><li>与 x 轴交点个数由 Δ 决定；最值问题：a＞0 有最小值，a＜0 有最大值。</li><li>实际应用：面积最大、利润最大、抛物线运动、拱桥问题。</li></ul><div class="box box-key"><span class="ico">★</span><div>二次函数是压轴题的绝对主角，必须熟练「配方法求顶点＋分类讨论（对称轴与区间位置）」。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>几何：三角形与四边形</h2><span class="tag">推理基础</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">08</span>三角形</div><ul><li>内角和 180°；外角等于不相邻两内角和。</li><li>三边关系：任意两边之和大于第三边，之差小于第三边。</li><li>全等判定：SSS、SAS、ASA、AAS、HL（直角三角形）。</li><li>等腰三角形：等边对等角；三线合一（顶角平分线、底边中线、底边高）。</li><li>直角三角形：勾股定理 a²+b²=c²；斜边中线等于斜边一半；30° 角所对直角边等于斜边一半。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">09</span>相似三角形</div><ul><li>判定：两角对应相等（AA）、两边成比例且夹角相等、三边成比例。</li><li>性质：周长比=相似比；面积比=相似比的平方。</li><li>常见模型：<em>A 型、X 型、母子型、一线三等角</em>。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">10</span>特殊四边形</div><ul><li>平行四边形：对边平行且相等，对角线互相平分。</li><li>矩形：四个直角，对角线相等；菱形：四边相等，对角线互相垂直且平分内角；正方形兼具两者性质。</li><li>中位线：三角形中位线平行于第三边且等于其一半；梯形中位线等于上下底和的一半。</li></ul></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>圆</h2><span class="tag">必考大题</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">11</span>核心定理</div><ul><li>垂径定理：垂直于弦的直径平分弦及弦所对的弧。</li><li>圆周角定理：同弧所对圆周角等于圆心角的一半；直径所对圆周角是 90°。</li><li>切线的判定与性质：过半径外端且垂直于该半径的直线是切线；切线垂直于过切点的半径。</li><li>切线长定理：从圆外一点引两条切线长相等，且该点与圆心连线平分两切线夹角。</li><li>弧长 l = nπR/180；扇形面积 S = nπR²/360 = ½lR。</li><li>圆锥侧面展开为扇形，底面周长 = 扇形弧长。</li></ul><div class="box box-key"><span class="ico">★</span><div>圆的证明题标准套路：连半径 → 证垂直（或证垂直 → 得切线）；辅助线「有弦作弦心距，有切点连半径」。</div></div></div></div></div><div class="section" id="sec7">
+<div class="sec-head"><div class="sec-no">7</div><h2>统计与概率</h2><span class="tag">送分题</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">12</span>统计</div><ul><li>平均数（算术、加权）、中位数（排序后中间数）、众数（出现次数最多）、方差。</li><li>方差公式 s² = [(x₁−x̄)²+…+(xₙ−x̄)²]/n；方差越小越稳定。</li><li>统计图：条形图、折线图、扇形图、频数分布直方图。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">13</span>概率</div><ul><li>一步试验：简单概率 P = 目标数 / 总数。</li><li>两步试验：列表法或树状图法求所有等可能结果。</li><li>必然事件 P=1，不可能事件 P=0，随机事件 0＜P＜1。</li></ul><div class="box box-tip"><span class="ico">💡</span><div>树状图要写全每一种等可能结果，不重不漏；「同时抛两枚硬币」与「先后抛两次」结果数不同。</div></div></div></div></div><div class="section" id="sec8">
+<div class="sec-head"><div class="sec-no">8</div><h2>锐角三角函数与图形变换</h2><span class="tag">工具应用</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">14</span>锐角三角函数</div><ul><li>sinA=对边/斜边，cosA=邻边/斜边，tanA=对边/邻边。</li><li>特殊值：sin30°=1/2、sin45°=√2/2、sin60°=√3/2；cos 反之；tan30°=√3/3、tan45°=1、tan60°=√3。</li><li>解直角三角形应用：仰角俯角、坡度坡角、方位角问题。</li><li>常用技巧：作高构造直角三角形，遇到 30°、45°、60° 设未知数。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">15</span>图形变换</div><ul><li>平移：坐标「上加下减，左减右加」（对点坐标而言）。</li><li>轴对称：关于 x 轴对称 y 变号；关于 y 轴对称 x 变号；关于原点对称两者都变号。</li><li>旋转：对应点到旋转中心距离相等，对应点与中心连线夹角等于旋转角。</li><li>位似：对应边成比例，对应点连线交于一点。</li></ul></div></div></div><div class="section" id="sec9">
+<div class="sec-head"><div class="sec-no">9</div><h2>压轴题破解策略与分值分布</h2><span class="tag">冲刺</span></div>
+<div class="sec-body"><div class="bar"><div class="name">实数代数运算</div><div class="track"><div class="fill" style="width:96%"></div></div><div class="pct">100%</div></div><div class="bar"><div class="name">方程不等式</div><div class="track"><div class="fill" style="width:95%"></div></div><div class="pct">95%</div></div><div class="bar"><div class="name">函数综合</div><div class="track"><div class="fill" style="width:90%"></div></div><div class="pct">90%</div></div><div class="bar"><div class="name">三角形全等相似</div><div class="track"><div class="fill" style="width:88%"></div></div><div class="pct">88%</div></div><div class="bar"><div class="name">圆</div><div class="track"><div class="fill" style="width:86%"></div></div><div class="pct">86%</div></div><div class="bar"><div class="name">统计概率</div><div class="track"><div class="fill" style="width:92%"></div></div><div class="pct">92%</div></div><div class="bar"><div class="name">二次函数压轴</div><div class="track"><div class="fill" style="width:60%"></div></div><div class="pct">60%</div></div><div class="kp"><div class="kp-title"><span class="n">16</span>压轴题得分技巧</div><ul><li>第 (1) 问通常求解析式或证基本结论，<strong>必须拿满</strong>。</li><li>第 (2) 问为中等综合，善于「设点坐标 → 表示线段长 → 列方程」。</li><li>第 (3) 问可用「分类讨论」，写对一种情形就能得步骤分。</li><li>常见思想：数形结合、分类讨论、转化化归、方程思想、函数思想。</li></ul></div><table><thead><tr><th>解答题</th><th>高频考点</th><th>分值</th></tr></thead><tbody><tr><td class="c">17—18 题</td><td class="c">实数运算、分式化简求值</td><td class="c">6＋6</td></tr><tr><td class="c">19—20 题</td><td class="c">全等/相似证明、统计图</td><td class="c">8＋8</td></tr><tr><td class="c">21 题</td><td class="c">反比例与一次函数综合</td><td class="c">8</td></tr><tr><td class="c">22 题</td><td class="c">圆的证明与计算</td><td class="c">10</td></tr><tr><td class="c">23 题</td><td class="c">一次函数应用/方案设计</td><td class="c">10</td></tr><tr><td class="c">24 题</td><td class="c">二次函数综合（压轴）</td><td class="c">12</td></tr></tbody></table></div></div>
+<div class="nav"><a href="#sec1">中考试卷结构（咸宁卷）</a><a href="#sec2">数与代数：实数与代数式</a><a href="#sec3">方程与不等式</a><a href="#sec4">函数：一次函数·反比例·二次函数</a><a href="#sec5">几何：三角形与四边形</a><a href="#sec6">圆</a><a href="#sec7">统计与概率</a><a href="#sec8">锐角三角函数与图形变换</a><a href="#sec9">压轴题破解策略与分值分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》及统编版 / 人教版 / 仁爱版教材编写整理，可打印复习使用。</div></div></body></html>

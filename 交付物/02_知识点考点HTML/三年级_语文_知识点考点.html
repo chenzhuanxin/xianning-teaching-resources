@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>三年级语文 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>三年级<span class="em">语文</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>2025—2026学年</span><span>三年级</span><span>语文</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>识字与写字</h2><span class="tag">分值最高</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">字</span>汉字基础</div><ul><li><strong>笔画笔顺</strong>：三年级要求书写规范、端正、整洁；注意撇捺、横折钩、竖弯钩等笔画；笔顺规则：先横后竖、先撇后捺、从上到下、从左到右、先外后内再封口。</li><li><strong>偏旁部首</strong>：氵（浩瀚）、纟（纠缠）、礻（祈祷）、衤（衬衫）、贝（赏赐）、页（题目）、辶（遥远）、亻（伺候）。</li><li><strong>形近字辨析</strong>：辩/辨/辫、燥/躁/噪、密/蜜、幕/慕/墓、蜡/腊、拣/捡、蜜/秘。</li><li><strong>多音字</strong>：缝(féng/fèng)、假(jiǎ/jià)、累(lěi/lèi)、当(dāng/dàng)、薄(báo/bó)、露(lù/lòu)、铺(pū/pù)。</li><li><strong>易错字</strong>：毁（右上不是「臼」）、摔（右上是「率」）、戴、缺、敲、嚷、微、餐、舔、嫩。</li><li><strong>识字方法</strong>：形声字规律、字理识字、对比识字、加偏旁/换偏旁。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>看拼音写词语、形近字组词、多音字注音、改错别字。三年级生字量增大，字词基础占分高，务必坚持每日听写。</div></div></div><div class="kp"><div class="kp-title"><span class="n">词</span>词语积累</div><ul><li><strong>近义词</strong>：凝视—注视、焦急—着急、奇异—奇特、信赖—信任、偶尔—有时。</li><li><strong>反义词</strong>：崭新—陈旧、清晰—模糊、辽阔—狭窄、谦虚—骄傲、熟悉—陌生。</li><li><strong>成语</strong>：恍然大悟、目不转睛、欢天喜地、五光十色、争先恐后、同心协力、无影无踪、刻舟求剑（寓言）。</li><li><strong>特殊格式</strong>：ABAC（自言自语、无忧无虑）、AABC（恋恋不舍、彬彬有礼）、ABCC（神采奕奕、兴致勃勃）、又…又…。</li><li><strong>量词与搭配</strong>：一(缕)炊烟、一(座)石桥、一(口)井、一(阵)花香。</li><li><strong>关联词</strong>：因为……所以……、虽然……但是……、不但……而且……、只要……就……、一边……一边……。</li></ul></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>句子与修辞</h2><span class="tag">必考题型</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">句1</span>句式转换</div><ul><li><strong>把字句↔被字句</strong>：小明把作业做完了。→ 作业被小明做完了。</li><li><strong>陈述句↔反问句</strong>：这难道不是奇迹吗？→ 这就是奇迹。</li><li><strong>陈述句↔感叹句</strong>：大海很美。→ 大海多美啊！</li><li><strong>直接引语↔间接引语</strong>：妈妈说：“你去写作业。”→ 妈妈让我去写作业。</li><li><strong>扩句与缩句</strong>：缩句只留主干（谁+做什么/什么+怎么样）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">句2</span>修辞手法</div><ul><li><strong>比喻</strong>：弯弯的月亮像一只小船。本体、喻体要有相似点。</li><li><strong>拟人</strong>：鸟儿在枝头唱着欢快的歌。</li><li><strong>排比</strong>：春天来了，柳树绿了，桃花红了，燕子回来了。（三个或以上结构相似的句子）</li><li><strong>夸张</strong>：教室里静得连一根针掉在地上都能听见。</li><li><strong>设问</strong>：什么是幸福？幸福就是帮助别人。（自问自答）</li></ul><div class="box box-tip"><span class="ico">✎</span><div><b>标点符号：</b>句号、问号、感叹号、逗号、顿号、分号、冒号、引号、省略号、破折号、书名号。引号有引用、强调、特殊含义三种作用。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>阅读理解</h2><span class="tag">重点突破</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">读</span>答题方法</div><ul><li><strong>概括段意</strong>：用「谁+干什么」或「什么+怎么样」，也可摘录中心句。</li><li><strong>概括主要内容</strong>：时间+地点+人物+事件（起因·经过·结果）。</li><li><strong>理解词句</strong>：联系上下文、结合生活经验、抓关键词、换词比较。</li><li><strong>体会思想感情</strong>：从人物语言、动作、神态、心理描写入手。</li><li><strong>修辞与说明方法</strong>：比喻、拟人、排比、列数字、打比方、作比较。</li><li><strong>开放题</strong>：联系生活谈感受，言之有理即可，注意书写工整。</li></ul><div class="box box-warn"><span class="ico">!</span><div><b>答题规范：</b>简答题分点作答，用「①……②……」；概括内容要全面不遗漏；绝不能空题，不会也要写与题目相关的思路。</div></div></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>古诗文与积累</h2><span class="tag">必背内容</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">诗</span>古诗文背诵</div><ul><li><strong>《山行》</strong>杜牧：远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。</li><li><strong>《赠刘景文》</strong>苏轼：荷尽已无擎雨盖，菊残犹有傲霜枝。一年好景君须记，最是橙黄橘绿时。</li><li><strong>《夜书所见》</strong>叶绍翁：萧萧梧叶送寒声，江上秋风动客情。</li><li><strong>《望天门山》</strong>李白：天门中断楚江开，碧水东流至此回。两岸青山相对出，孤帆一片日边来。</li><li><strong>《饮湖上初晴后雨》</strong>苏轼：水光潋滟晴方好，山色空蒙雨亦奇。欲把西湖比西子，淡妆浓抹总相宜。</li><li><strong>《绝句》</strong>杜甫：迟日江山丽，春风花草香。泥融飞燕子，沙暖睡鸳鸯。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>古诗默写、名句填空、诗句意思理解、作者与朝代。注意「斜、擎、潋滟、空蒙」等易错字。</div></div></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>习作与口语交际</h2><span class="tag">表达能力</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">写</span>习作要求</div><ul><li><strong>写人</strong>：抓住外貌+一件具体事例，写出人物的特点与品质。</li><li><strong>写事</strong>：交代清楚时间、地点、人物、起因、经过、结果，重点写「经过」。</li><li><strong>写景</strong>：按一定顺序（空间、时间），抓特点，用比喻拟人。</li><li><strong>想象作文</strong>：编童话、写未来的事物，想象要合理、有趣。</li><li><strong>字数</strong>：三年级习作一般不少于250字，做到语句通顺、内容具体、分段清楚。</li><li><strong>口语交际</strong>：讲清楚、听明白、有礼貌；能针对不同对象说不同的话。</li></ul></div></div></div><div class="section" id="sec6">
+<div class="sec-head"><div class="sec-no">6</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">识字写字</div><div class="track"><div class="fill" style="width:28%"></div></div><div class="pct">28%</div></div><div class="bar"><div class="name">词语积累</div><div class="track"><div class="fill" style="width:16%"></div></div><div class="pct">16%</div></div><div class="bar"><div class="name">句子训练</div><div class="track"><div class="fill" style="width:16%"></div></div><div class="pct">16%</div></div><div class="bar"><div class="name">古诗文积累</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><div class="bar"><div class="name">阅读理解</div><div class="track"><div class="fill" style="width:16%"></div></div><div class="pct">16%</div></div><div class="bar"><div class="name">习作</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">看拼音写词语</td><td class="c">8-10题</td><td class="c">16分</td><td class="c">生字书写规范</td></tr><tr><td class="c">选择正确读音/字形</td><td class="c">5-6题</td><td class="c">8分</td><td class="c">多音字、形近字</td></tr><tr><td class="c">词语搭配/近反义</td><td class="c">5-6题</td><td class="c">10分</td><td class="c">词语积累与运用</td></tr><tr><td class="c">句子练习</td><td class="c">5-6题</td><td class="c">14分</td><td class="c">句式转换、修辞、修改病句</td></tr><tr><td class="c">古诗文与课文填空</td><td class="c">5-6题</td><td class="c">12分</td><td class="c">必背内容</td></tr><tr><td class="c">阅读理解</td><td class="c">2篇</td><td class="c">16分</td><td class="c">概括、理解、感悟</td></tr><tr><td class="c">口语交际/语文实践</td><td class="c">1题</td><td class="c">4分</td><td class="c">语言运用</td></tr><tr><td class="c">习作</td><td class="c">1题</td><td class="c">20分</td><td class="c">内容具体、条理清楚</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>三年级是读写转折期，字词基础仍是根基（占28%），阅读从「读懂了」走向「会分析」，习作要过「成段→成篇」这一关。每天坚持听写+课外阅读30分钟。</div></div></div></div>
+<div class="nav"><a href="#sec1">识字与写字</a><a href="#sec2">句子与修辞</a><a href="#sec3">阅读理解</a><a href="#sec4">古诗文与积累</a><a href="#sec5">习作与口语交际</a><a href="#sec6">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》与咸宁市现行教材编写，供三年级学生系统复习使用。教材版本：语文/道法·统编人教版，数学·人教版，英语·人教版PEP（三年级起点），科学·人教·鄂教版。</div></div></body></html>

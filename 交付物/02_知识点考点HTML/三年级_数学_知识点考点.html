@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>三年级数学 知识点考点全解</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+background:linear-gradient(165deg,#f5f9ff 0%,#eef4fc 42%,#fdfaf3 100%);
+color:#1f2430;line-height:1.92;padding-bottom:56px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+
+.hero{background:linear-gradient(135deg,#1f3864 0%,#2e5c9a 55%,#4a7fc1 100%);
+color:#fff;padding:44px 22px 38px;position:relative;overflow:hidden;
+box-shadow:0 8px 28px rgba(31,56,100,.22);}
+.hero::after{content:"";position:absolute;right:-70px;top:-70px;width:300px;height:300px;
+background:radial-gradient(circle,rgba(255,255,255,.16),transparent 70%);border-radius:50%;}
+.hero .wrap{position:relative;z-index:2;}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.42);padding:5px 15px;border-radius:20px;
+font-size:13px;letter-spacing:1px;margin-bottom:14px;}
+.hero h1{font-size:31px;font-weight:800;letter-spacing:1px;margin-bottom:10px;}
+.hero h1 .em{color:#ffd966;}
+.hero .sub{font-size:14.5px;opacity:.93;}
+.hero .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;}
+.hero .meta span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:4px 13px;border-radius:14px;font-size:12.5px;}
+
+.section{background:#fff;border-radius:16px;margin-top:26px;overflow:hidden;
+box-shadow:0 4px 20px rgba(31,56,100,.09);border:1px solid #e3ecf8;}
+.sec-head{display:flex;align-items:center;gap:13px;padding:17px 24px;
+background:linear-gradient(90deg,#eaf1fa,#f7fbff);border-bottom:2px solid #dbe8f8;}
+.sec-no{width:40px;height:40px;border-radius:11px;flex:0 0 40px;
+background:linear-gradient(135deg,#2e5c9a,#4a7fc1);color:#fff;display:flex;
+align-items:center;justify-content:center;font-size:17px;font-weight:800;
+box-shadow:0 3px 10px rgba(46,92,154,.32);}
+.sec-head h2{font-size:19.5px;color:#1f3864;font-weight:800;letter-spacing:.5px;}
+.sec-head .tag{margin-left:auto;font-size:12px;color:#8a6d1f;background:#fff3cd;
+border:1px solid #ffe08a;padding:3px 11px;border-radius:12px;white-space:nowrap;}
+.sec-body{padding:22px 26px 26px;}
+
+.kp{margin-bottom:22px;}.kp:last-child{margin-bottom:0;}
+.kp-title{font-size:16px;font-weight:800;color:#22406e;margin-bottom:11px;
+padding-left:13px;border-left:5px solid #f0b429;line-height:1.5;}
+.kp-title .n{display:inline-block;background:#22406e;color:#fff;font-size:12px;
+padding:1px 8px;border-radius:8px;margin-right:8px;vertical-align:2px;}
+.kp ul{list-style:none;padding-left:4px;}
+.kp ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.6px;color:#333a48;}
+.kp ul li::before{content:"◆";position:absolute;left:2px;top:0;color:#4a7fc1;font-size:10px;}
+.kp ul li strong{color:#c0392b;font-weight:700;}
+.kp ul li em{font-style:normal;background:#fff8e1;padding:1px 5px;border-radius:4px;
+color:#8a6d1f;font-weight:600;}
+
+.box{border-radius:11px;padding:13px 18px;margin:12px 0 4px;font-size:14.2px;
+border-left:5px solid;display:flex;gap:10px;align-items:flex-start;}
+.box .ico{font-size:16px;flex:0 0 auto;}
+.box-tip{background:#eef7ff;border-color:#3d8bfd;color:#1c4f8f;}
+.box-warn{background:#fff6f5;border-color:#e74c3c;color:#a5322a;}
+.box-key{background:#f3fbf5;border-color:#27ae60;color:#1c7a44;}
+.box b{font-weight:800;}
+
+table{width:100%;border-collapse:collapse;margin:12px 0 6px;font-size:14px;}
+th{background:#2e5c9a;color:#fff;padding:10px 8px;font-weight:700;font-size:13.6px;}
+td{padding:9px 10px;border:1px solid #dbe8f8;vertical-align:top;color:#333a48;}
+tr:nth-child(even) td{background:#f6faff;}
+td.c{text-align:center;}
+
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:14px;}
+.bar .name{width:130px;flex:0 0 130px;color:#22406e;font-weight:600;}
+.bar .track{flex:1;height:19px;background:#eef3fa;border-radius:10px;overflow:hidden;}
+.bar .fill{height:100%;border-radius:10px;background:linear-gradient(90deg,#4a7fc1,#7fb0e8);}
+.bar .pct{width:56px;flex:0 0 56px;text-align:right;color:#c0392b;font-weight:700;font-size:13px;}
+
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;}
+.nav a{text-decoration:none;color:#2e5c9a;background:#fff;border:1px solid #cfe0f5;
+padding:8px 16px;border-radius:22px;font-size:13.6px;font-weight:600;transition:.2s;
+box-shadow:0 2px 6px rgba(46,92,154,.07);}
+.nav a:hover{background:#2e5c9a;color:#fff;transform:translateY(-2px);}
+.foot{margin-top:34px;text-align:center;font-size:12.6px;color:#8a94a6;line-height:2;
+border-top:1px dashed #d5e0ef;padding-top:18px;}
+@media print{body{background:#fff;}.section{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}}
+</style></head><body>
+<div class="hero"><div class="wrap">
+<div class="badge">湖北省咸宁市 · 2025—2026 学年</div>
+<h1>三年级<span class="em">数学</span> 知识点 · 考点全解</h1>
+<div class="sub">依据《义务教育课程标准（2022年版）》与教材编写 · 知识点逐条讲透 · 考点精准定位</div>
+<div class="meta"><span>2025—2026学年</span><span>三年级</span><span>数学</span></div></div></div>
+<div class="wrap"><div class="section" id="sec1">
+<div class="sec-head"><div class="sec-no">1</div><h2>数与代数（上）</h2><span class="tag">分值最高</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">数1</span>万以内的加减法</div><ul><li><strong>口算</strong>：整百整十数的加减、几百几十加减几十。</li><li><strong>笔算加法</strong>：相同数位对齐，从个位加起，<em>哪一位相加满十就向前一位进1</em>。</li><li><strong>笔算减法</strong>：相同数位对齐，从个位减起，<em>哪一位不够减就从前一位退1当10</em>。</li><li><strong>验算</strong>：加法用交换加数再算一遍，或用和−一个加数=另一个加数；减法用差+减数=被减数。</li><li><strong>估算</strong>：把数看成接近的整百整十数再计算，解决「够不够」「大约」类问题。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>连续进位加法（如 685+249）、连续退位减法（如 503−128），要注意「0」的退位。</div></div></div><div class="kp"><div class="kp-title"><span class="n">数2</span>测量</div><ul><li><strong>毫米、分米的认识</strong>：1厘米=10毫米，1分米=10厘米，1米=10分米；量较短物体用毫米，如硬币厚约2毫米。</li><li><strong>千米的认识</strong>：1千米=1000米；步行1千米约需15分钟。</li><li><strong>吨的认识</strong>：1吨=1000千克；一头大象约重3吨。</li><li><strong>单位换算</strong>：高级单位化低级单位×进率，低级单位化高级单位÷进率。</li><li><strong>选择合适的单位</strong>：量课本厚用毫米，量操场跑道用米，量两地距离用千米，量大宗货物用吨。</li></ul></div></div></div><div class="section" id="sec2">
+<div class="sec-head"><div class="sec-no">2</div><h2>数与代数（下）</h2><span class="tag">核心重点</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">数3</span>多位数乘一位数</div><ul><li><strong>口算乘法</strong>：整十整百数乘一位数（20×3=60，200×3=600）。</li><li><strong>笔算乘法</strong>：从个位乘起，用一位数依次乘每一位；<em>哪一位上的积满几十就向前一位进几</em>。</li><li><strong>0的乘法</strong>：0和任何数相乘都得0；中间有0的乘法（如 306×3=918）。</li><li><strong>估算</strong>：把因数看成整十整百数再乘。</li><li><strong>解决问题</strong>：求几个几用乘法；「归一问题」（先求单一量再求总量）。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">数4</span>分数的初步认识</div><ul><li><strong>认识几分之一</strong>：把单位「1」平均分成若干份，取其中一份就是几分之一。</li><li><strong>比较大小</strong>：分子相同时，分母越大分数越小；分母相同时，分子越大分数越大。</li><li><strong>同分母分数加减</strong>：分母不变，分子相加减（2/5+1/5=3/5）。</li><li><strong>1减几分之几</strong>：1−3/7=4/7（把1看成7/7）。</li></ul><div class="box box-warn"><span class="ico">!</span><div><b>易错点：</b>分数必须「平均分」才有意义；比大小不要只看分子分母数字大小，要理解分数的意义。</div></div></div></div></div><div class="section" id="sec3">
+<div class="sec-head"><div class="sec-no">3</div><h2>图形与几何</h2><span class="tag">重点突破</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">形1</span>四边形与周长</div><ul><li><strong>四边形的特征</strong>：有4条直的边、4个角、是封闭图形；长方形对边相等、4个直角；正方形4条边相等、4个直角。</li><li><strong>平行四边形</strong>：对边平行且相等，容易变形（不稳定性）。</li><li><strong>周长的意义</strong>：封闭图形一周的长度。</li><li><strong>长方形周长</strong>=(长+宽)×2；<strong>正方形周长</strong>=边长×4。</li><li><strong>解决问题</strong>：围篱笆、剪拼图形、靠墙围（少算一条边）等变式题。</li></ul><div class="box box-key"><span class="ico">★</span><div><b>必考：</b>长方形/正方形周长计算、求「剩下图形的周长」、拼组图形周长变化。画图分析是关键。</div></div></div><div class="kp"><div class="kp-title"><span class="n">形2</span>测量与图形运动</div><ul><li><strong>长度单位应用</strong>：结合周长计算，注意统一单位。</li><li><strong>平移</strong>：物体沿直线移动，方向和大小不变，位置变了。</li><li><strong>旋转</strong>：物体围绕一个点或轴转动（钟表指针、风车）。</li><li><strong>轴对称图形</strong>：沿一条直线对折，两边完全重合；长方形有2条对称轴，正方形有4条。</li></ul></div></div></div><div class="section" id="sec4">
+<div class="sec-head"><div class="sec-no">4</div><h2>常见的量与应用</h2><span class="tag">综合运用</span></div>
+<div class="sec-body"><div class="kp"><div class="kp-title"><span class="n">量1</span>时、分、秒</div><ul><li><strong>单位关系</strong>：1时=60分，1分=60秒。</li><li><strong>时间的计算</strong>：经过时间=结束时刻−开始时刻；跨时计算要借位（1时=60分）。</li><li><strong>合理估计</strong>：系红领巾约20秒，跑50米约10秒，一节课约40分。</li></ul></div><div class="kp"><div class="kp-title"><span class="n">量2</span>解决问题策略</div><ul><li><strong>估算与精算</strong>：根据问题需要选择。「大约」类用估算，「正好」类用精算。</li><li><strong>归一问题</strong>：先求出「1份是多少」，再求「几份是多少」。</li><li><strong>归总问题</strong>：先求总数，再按新的每份数分配。</li><li><strong>列表法</strong>：解决「搭配」「方案选择」类问题，用表格有序枚举。</li><li><strong>画图法</strong>：线段图、示意图帮助理解数量关系。</li></ul></div></div></div><div class="section" id="sec5">
+<div class="sec-head"><div class="sec-no">5</div><h2>考点分值分布</h2><span class="tag">冲刺复习重点</span></div>
+<div class="sec-body"><div class="bar"><div class="name">万以内加减法</div><div class="track"><div class="fill" style="width:20%"></div></div><div class="pct">20%</div></div><div class="bar"><div class="name">多位数乘一位数</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><div class="bar"><div class="name">测量</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><div class="bar"><div class="name">分数初步认识</div><div class="track"><div class="fill" style="width:10%"></div></div><div class="pct">10%</div></div><div class="bar"><div class="name">四边形与周长</div><div class="track"><div class="fill" style="width:18%"></div></div><div class="pct">18%</div></div><div class="bar"><div class="name">时·分·秒</div><div class="track"><div class="fill" style="width:10%"></div></div><div class="pct">10%</div></div><div class="bar"><div class="name">解决问题</div><div class="track"><div class="fill" style="width:12%"></div></div><div class="pct">12%</div></div><table><thead><tr><th>题型</th><th>题量</th><th>分值</th><th>考查重点</th></tr></thead><tbody><tr><td class="c">填空</td><td class="c">8-10题</td><td class="c">20分</td><td class="c">单位换算、概念理解</td></tr><tr><td class="c">选择</td><td class="c">5题</td><td class="c">10分</td><td class="c">概念辨析</td></tr><tr><td class="c">判断</td><td class="c">5题</td><td class="c">10分</td><td class="c">易错点</td></tr><tr><td class="c">计算</td><td class="c">4-5题</td><td class="c">24分</td><td class="c">加减乘、验算</td></tr><tr><td class="c">操作与作图</td><td class="c">2题</td><td class="c">8分</td><td class="c">画周长、对称图形</td></tr><tr><td class="c">解决问题</td><td class="c">5题</td><td class="c">28分</td><td class="c">两步应用题、周长</td></tr></tbody></table><div class="box box-key"><span class="ico">★</span><div><b>复习策略：</b>计算能力是三上数学的核心（加减乘合计约38分），务必天天练、限时算、会验算；周长问题要养成画图习惯；解决问题要「先想关系、再列式、最后检验」。</div></div></div></div>
+<div class="nav"><a href="#sec1">数与代数（上）</a><a href="#sec2">数与代数（下）</a><a href="#sec3">图形与几何</a><a href="#sec4">常见的量与应用</a><a href="#sec5">考点分值分布</a></div>
+<div class="foot">本资料依据《义务教育课程标准（2022年版）》与咸宁市现行教材编写，供三年级学生系统复习使用。教材版本：语文/道法·统编人教版，数学·人教版，英语·人教版PEP（三年级起点），科学·人教·鄂教版。</div></div></body></html>
