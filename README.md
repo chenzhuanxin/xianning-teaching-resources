@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.png" width="120" alt="xianning-teaching-resources"></p>
+
 # 湖北省咸宁市中小学教学资源库（小学—高中）
 
 面向湖北省咸宁市 2026 年中小学教学的成套资源，含 **教材版本总表**、**知识点/考点 HTML**、**期末真题试卷**。
